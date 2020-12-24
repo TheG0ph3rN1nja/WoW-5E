@@ -4,7 +4,7 @@
 		<name>Death Knight</name>
 		<description></description>
 		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
-		<update version="0.0.2">
+		<update version="0.0.4">
 			<file name="death-knight.xml" url="https://raw.githubusercontent.com/TheG0ph3rN1nja/WoW-5E/master/Classes/death-knight.xml" />
 		</update>
 	</info>
@@ -209,18 +209,18 @@
 			<stat name="death knight:spellcasting:slots:4" value="-3" level="9" />
 			<stat name="death knight:spellcasting:slots:5" value="3" level="9" />
 			<stat name="death knight:spellcasting:slots:5" value="1" level="12" />
-			<stat name="death knight:spellcasting:prepare" value="2" level="1" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="2" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="3" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="4" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="5" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="6" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="7" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="8" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="9" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="11" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="13" />
-			<stat name="death knight:spellcasting:prepare" value="1" level="15" />
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Death Knight"/>
+			<select type="Spell" name="Spellcasting (Death Knight)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Death Knight"/>
 		</rules>
   </element>
 
@@ -1179,6 +1179,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Rare</set>
+			<set name="slot">onehand</set>
 		</setters>
 		<rules>
 			<grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_ALTER_OF_POWER" />
