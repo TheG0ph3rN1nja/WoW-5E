@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Spellcasting List</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="spellcasting-list.xml" url="" />
+		</update>
+	</info>

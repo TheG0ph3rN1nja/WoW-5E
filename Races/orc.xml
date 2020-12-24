@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Orc</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="orc.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Orc" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_ORC">
+    <description>
+      <p><i>To pretend the demonic corruption did not exist is to forget how dreadful the impact was. To make ourselves into victims, rather than claiming our participation in our own destruction. We chose this path, we orcs. We chose it right up until it was too late to turn back. And having made that choice, we can, with the knowledge that we have of the end of that dark and shameful road, choose not to take it.</i></p>
+      <p align="right"><i>— Thrall, Son of Durotan</i></p>
+      <h3>INTRODUCTION</h3>
+      <p>When the orcs were freed from the Burning Legion, they experienced a spiritual revolution as the unnatural bloodlust left their bodies, connecting them with states of heart and mind that were common to their ancestors. This new generation of orcs for the most part followed Thrall as he forged to reform the Horde through shamanism and tribal tradition.</p>
+      <p class="indent">Though prone to fits of rage in warfare, orcs tend to display a curious feral grace that can rival even the finest fencing of an elven noble. The orcs of today continue to stand in drastic contrast to those that were enslaved by the Burning Legion, who embodied a bestial and diabolical force which was barely being controlled by warlock magic.</p>
+      <h3>MINDFUL RACE</h3>
+      <p>To orcs, prowess in battle bestows great personal honor on an individual. This notion of honor pervades every echelon of orcish culture, and the loss or gain of honor has equal consequence to all orcs regardless of their stature in society.</p>
+      <p class="indent">Even the naming of orcs is temporary until they have performed rites of passage; only when orcs bring honor to themselves and thus to their clan do elders grant them adult names based upon their deeds. Orcs may appear quick to anger but they are tempered by the wisdom of the shamans, who are revered across Horde society.</p>
+      <p class="indent">While many in the Alliance still perceive the orcs as brutish or even mindless, they have forged a complex culture embracing many occupations and many different races. No doubt Thrall's leadership aided in bringing this about, yet it is apparent that the Alliance has underestimated the orcs' ability to construct a society that is highly influential in world affairs.</p>
+      <h3>SPIRITUAL</h3>
+      <p>As far back as orcish history has been recorded, shaman have been mentioned, and learning to speak with the elemental spirits of Draenor was a pivotal achievement in destiny for the orc clans. The first orcs to learn the ways of shamanism hailed from the Shadowmoon clan, but many clans claim the mythical "First Shaman" arose from their ranks, even though the truth is that no one is sure of his or her allegiance.</p>
+      <p class="indent">Several orc shaman worship or at least acknowledge the Earth Mother, the benevolent creator deity primarily worshipped by the tauren.</p>
+      <h3>FRIGHTFUL APPEARANCE</h3>
+      <p>Orc males are massive and brutish looking creatures. Weighing in at 250 to 300 pounds and standing from 6 to 7 feet in height, they are not a small race. Even orc women tend to be only a half-foot or so shorter than most males, having broad shoulders and muscular, powerful bodies.</p>
+      <p class="indent">Orcs tend to have bristly hair and beards, often black or brown in color. Their skin ranges from a light green to a dark drab olive. Eyes range in color from a fierce red to a pale blue. Orcs have broad, flat noses, tusk-like teeth jutting from their lower and sometimes upper jaws, and large, pointed ears. They favor clothes of hide, and armor and arm themselves with a variety of gear.</p>
+      <h3>AFFILIATION</h3>
+      <p>Thrall formed the Horde with determination and sheer will, and created an alliance of races that has shaken the foundations of the world to its core. Having destroyed the legacy of Grom Hellscream by bringing the orcs out of the depths of demon worship and servitude to unseen powers.</p>
+      <h3>NAMES</h3>
+      <p>Most orcish names derive from words in their language that have some complex meaning or hidden significance to their families. Typically, this is the name of a favorite thing or relative. Family names don’t exist; most orcs have last names related to some great deed of heroism or honor.</p>
+      <p><strong>Male Names:</strong> Grom, Thrum, Drog, Gorrum, Harg, Thurg, Karg, Regg, Kavenk, Uketel, Thrarturg, Crurn</p>
+      <p><strong>Female Names:</strong> Groma, Hargu, Igrim, Agra, Dragga, Grima, Fehmo, Mohma, Sherge, Zuri, Orgis</p>
+      <p><strong>Deed Names:</strong> Cravensmile, Steelflame, Twinthunder, Gravepride, Aridfire, Coldbrass, Foebinder, Elfkiller</p>
+      <h3>ORC TRAITS</h3>
+      <p>Your orc character share certain traits no matter what clan you deriving from.</p>
+      <p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Strength increases by 1, and your Constitution increases by 1.</p>
+      <p class="indent"><strong><i>Age.</i></strong> Orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.</p>
+      <p class="indent"><strong><i>Alignment.</i></strong> Orcs might not have an innate tendency toward evil, but many end up there. Evil or not, many orcs lean toward a chaotic alignment.</p>
+      <p class="indent"><strong><i>Size.</i></strong> Orcs are muscularly built, only just towering above humans, with a height of 6 to 7 feet. Your size is Medium.</p>
+      <p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+      <p class="indent"><strong><i>Darkvision.</i></strong> Thanks to your blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+      <p class="indent"><strong><i>Relentless Endurance.</i></strong> When you are reduced to 0 hit points but not killed, you can drop to 1 hit point instead. You must then finish a long rest to use this feature again.</p>
+      <p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common and Orcish. Orcish is a harsh, grating language with hard consonants. It has no script of its own but is written in a mix of dwarven runes and common.</p>
+      <p class="indent"><strong><i>Orc Clan.</i></strong> Orcs come from many clans, these clans have been put into three categories: Hunter, Mystic, and Warrior clans. Choose one of these clans.</p>
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_HUNTER_CLANS" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_MYSTIC_CLANS" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_WARRIOR_CLANS" />
+    </description>
+    <sheet display="false" />
+		<setters>
+			<set name="names" type="male">Grom, Thrum, Drog, Gorrum, Harg, Thurg, Karg, Regg, Kavenk, Uketel, Thrarturg, Crurn</set>
+			<set name="names" type="female">Groma, Hargu, Igrim, Agra, Dragga, Grima, Fehmo, Mohma, Sherge, Zuri, Orgis</set>
+			<set name="names" type="surname">Cravensmile, Steelflame, Twinthunder, Gravepride, Aridfire, Coldbrass, Foebinder, Elfkiller</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" />
+      <stat name="strength" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_ORCISH"/>
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ORC_RELENTLESS_ENDURANCE" />
+      <select type="Sub Race" name="Orcish Subrace" supports="Orc" />
+    </rules>
+  </element>
+
+  <element name="Relentless Endurance" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ORC_RELENTLESS_ENDURANCE">
+		<description>
+			<p>When you are reduced to 0 hit points but not killed, you can drop to 1 hit point instead. You must then finish a long rest to use this feature again.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you are reduced to 0 hit points but not killed, you can drop to 1 hit point instead.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Hunter Clans" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_HUNTER_CLANS">
+		<supports>Orc</supports>
+		<requirements>ID_GMBINDER_WOW5E_RACE_ORC</requirements>
+		<description>
+			<p>Some orc clans, prefer a more stealth approach to things, hiding and waiting for the perfect time to ambush, such clans include The Shattered Hand, and Bleeding Hollow. Two large orc clans, that go in for a much more stealthy approach to things.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Dexterity increases by 1.</p>
+			<p><strong><i>Agility.</i></strong> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>
+			<p><strong><i>Ambusher.</i></strong> You gain proficiency in the Stealth skill.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HUNTER_CLANS_AGILITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+
+  <element name="Agility" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HUNTER_CLANS_AGILITYE">
+		<description>
+			<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>
+		</description>
+		<sheet>
+			<description>When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Mystic Clans" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_MYSTIC_CLANS">
+		<supports>Orc</supports>
+		<requirements>ID_GMBINDER_WOW5E_RACE_ORC</requirements>
+		<description>
+			<p>Not many orc clans go in for the use of magic, and those that do are usually more secretive than the rest. Generally less keen on working with other clans are spend their time as a nomadic folk rather than settling in a certain area. Such clans include The Shadowmoon, and Stormreaver.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Wisdom increases by 1.</p>
+			<p><strong><i>Ancestral Call.</i></strong> You can cast the <i>augury</i> spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</p>
+			<p><strong><i>Mystic Lore.</i></strong> You gain proficiency in the Arcana skill.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_MYSTIC_CLANS_ANCESTRAL_CALL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+		</rules>
+	</element>
+
+  <element name="Ancestral Call" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_MYSTIC_CLANS_ANCESTRAL_CALL">
+		<description>
+			<p>You can cast the <i>augury</i> spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the augury spell, requiring no material components. Wisdom is your spellcasting ability for this spell.</description>
+		</sheet>
+		<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_AUGURY" />
+    </rules>
+	</element>
+
+  <element name="Warrior Clans" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_WARRIOR_CLANS">
+		<supports>Orc</supports>
+		<requirements>ID_GMBINDER_WOW5E_RACE_ORC</requirements>
+		<description>
+			<p>Most known orc clans go for the brute forced approach, entering combat gladly with raised weapons, hammering down everything in their way. Some of the larger clans include Warsong, Burning Blade, and the Frostwolves.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Strength increases by 1.</p>
+			<p><strong><i>Powerful Build.</i></strong> You count as one size larger when determining your carrying capacity and weight you can push, drag, or lift.</p>
+			<p><strong><i>Savage Attacks.</i></strong> When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WARRIOR_CLANS_POWERFUL_BUILD" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WARRIOR_CLANS_SAVAGE_ATTACKS" />
+		</rules>
+	</element>
+
+  <element name="Powerful Build" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WARRIOR_CLANS_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Savage Attacks" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WARRIOR_CLANS_SAVAGE_ATTACKS">
+		<description>
+			<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p>
+		</description>
+		<sheet>
+			<description>When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</description>
+		</sheet>
+		<rules />
+	</element>
+
+</elements>

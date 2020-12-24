@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Death Knight</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="death-knight.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Death Knight" type="Class" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_DEATH_KNIGHT">
+		<prerequisite>Strength 13, Charisma 13, Level 5, Proficiency in Heavy Armor or Martial Weapons, Complete a special task.</prerequisite>
+		<requirements>[level:6],[str:13],[cha:13],(ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS||ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR)</requirements>
+		<description>
+			<p><i>A hero... that's what you once were. You stood against the shadow, and purchased another dawn for this world at the cost of your life. But the evil you fought is not so easily banished, the victory you claimed not so easily held. The specter of death looms over this world again, it has found new champions to bring about its final reign. Knights of darkness, this is the hour of your dark rebirth...</i></p>
+			<p align="right"><i>— A knight of the Ebon Blade</i></p>
+			<p class="indent">A human clad in heavy armor, wielding a greatsword with both hands, as he clutches it close, runes flash along its edge, leaving a stream of black smoke behind his swings.</p>
+			<p class="indent">An orc surrounded by kobolds, forces his axe into the ground as the earth around him wither and die, frightening the kobolds as they run for their life.</p>
+			<p class="indent">Biting cold rushes through the battle, as a lone blood elf walks forward, her armor clad in a layer of frost, she walks with firm steps, freezing the earth beneath her feet.</p>
+			<p class="indent">No matter their past calling, death knights serve the powers of death, wielding weapons infused with runes of power. They are ruthless and practical warriors resurrected by the powerful val'kyrs and granted the powers of the revered death knights of the Ebon Hold. Although these warriors seem dead at a glance, they are very much alive.</p>
+			<h3>OUTCAST FOR LIFE</h3>
+			<p>Although these death knights are not undead as the genera-tions before them, they carry much of the essence of the knights that came before them, and from a distance have the look of a dead person, their blank white stares peering at the world around them. Even though they are alive and not emotionless, it means little to most they meet who shun them because of what they have become. Death knights are bringers of death and destroy, a fact not easily forgotten.</p>
+			<p class="indent">This has lead most death knights down a solitary path, many keep to the outskirts of towns and cities, or hide their appearance well before entering.</p>
+			<h3>GRIM REVIVAL</h3>
+			<p>Being resurrected as a death knight is not a simple task, only complicated further by the scar it leaves on the newly resurrected, gaining the powers of the death knights weak-ens the soul for a tremendous time, a price that has to be paid. But not only does it drain the death knight, some scars are visible for all to see, their resurrection has filled their body with necrotic energy that will forever linger with-in them, a trait always shown through their eyes, which will forever sit as two white lights in their sockets.</p>
+			<h3>STEADFAST WARRIORS</h3>
+			<p>Death knights are exceptional warriors, and in many ways similar to paladins, being keen with various weapons and able to fight in any armor, aiding their combat with the use of magic. They wield their empowered runic weapons and shadow magic which enables them to overpower most foes that would dare to stand against them, making them fearful fighters able to stand in any situation.</p>
+			<h5 class="caption">THE DEATH KNIGHT</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Spells Known</td><td>Spell SLots</td><td>Slot Level</td><td>Runes Known</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Lingering Death, Rune Weapon, Shadow Magic</td><td>2</td><td>1</td><td>1st</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Presence, Runic Empowerments</td><td>3</td><td>2</td><td>1st</td><td>2</td></tr>
+				<tr><td> 3rd</td><td class="left">Ability Score Improvement</td><td>4</td><td>2</td><td>2nd</td><td>2</td></tr>
+				<tr><td> 4th</td><td class="left">—</td><td>5</td><td>2</td><td>2nd</td><td>2</td></tr>
+				<tr><td> 5th</td><td class="left">Presence feature</td><td>6</td><td>3</td><td>2nd</td><td>3</td></tr>
+				<tr><td> 6th</td><td class="left">Death Strikes</td><td>7</td><td>3</td><td>3rd</td><td>3</td></tr>
+				<tr><td> 7th</td><td class="left">Ability Score Improvement</td><td>8</td><td>3</td><td>3rd</td><td>3</td></tr>
+				<tr><td> 8th</td><td class="left">Undeath</td><td>9</td><td>3</td><td>4th</td><td>4</td></tr>
+				<tr><td> 9th</td><td class="left">Presence feature</td><td>10</td><td>3</td><td>4th</td><td>4</td></tr>
+				<tr><td>10th</td><td class="left">Antimagic Shell</td><td>10</td><td>3</td><td>5th</td><td>4</td></tr>
+				<tr><td>11th</td><td class="left">Ability Score Improvement</td><td>11</td><td>3</td><td>5th</td><td>5</td></tr>
+				<tr><td>12th</td><td class="left">—</td><td>11</td><td>4</td><td>5th</td><td>5</td></tr>
+				<tr><td>13th</td><td class="left">Presence feature</td><td>12</td><td>4</td><td>5th</td><td>5</td></tr>
+				<tr><td>14th</td><td class="left">Ability Score Improvement</td><td>12</td><td>4</td><td>5th</td><td>6</td></tr>
+				<tr><td>15th</td><td class="left">Master of Death</td><td>13</td><td>4</td><td>5th</td><td>6</td></tr>
+			</table>
+			<h3>BECOMING A DEATH KNIGHT</h3>
+			<p>For most, becoming a death knight was not a choice, the vast majority of death knights was raised by the Lich King and enslaved under his control, very few remain of the death knights that was freed from his control. Because of this very few new death knights are made, as death knights does not wish to give other their fates, living a live without feelings, in constant battle against the Lich King's ever present control. Necromancers cared little for what death knights wanted, and in secret studied incantations and rituals that would make them able to gain the powers of the revered death knights. Eventually they succeed and crafted a dark simulacrum, detailing complex spells that would allow them to gain the powers of a death knight, without the sacrifice of death, and outside the Lich King's control. To this day their efforts has been eliminated and their simulacrum lost to time.</p>
+			<p class="indent">As you choose to use the simulacrum to become a death knight, consider why you decided to undergo the transfor-mation. Did you seek greater power that what was offered in the living world? Were you seeking a means to end the scourge? Perhaps you were simply curious as to the tomes spells and did not know what you were entering? Perhaps you were sick of your previous life, and wished for a new beginning?</p>
+			<p class="indent">Think about what effect the transformation has done to you, becoming a death knight comes at a cost, it splits a fragment of your soul, forever changing part of you, while these death knights are still alive, the resurrection often changes how one acts, if not for the memory of having sacrificed yourself, then the necrotic energy now rushing through your body.</p>
+			<h2>PREREQUISITES</h2>
+			<p>In order to undergo the transformation required to advance as a death knight, you must meet the following prerequi-sites (in addition to the multiclassing prerequisites for your existing class):</p>
+			<ul>
+				<li><strong>Strength 13.</strong> Death Knights need to be able to wield weapons and strike hard upon their enemies.</li>
+				<li><strong>Charisma 13.</strong> Imbued with magic they need to be able to wield the magic within them into spells.</li>
+				<li><strong>Proficiency in Heavy Armor or Martial Weapons.</strong> Death knights learn much through their training, but some skills has to be known beforehand.</li>
+				<li><strong>Character Level 5th.</strong> Death knights are made out of the corpses of adventurers, imbued with magic, a simple process but straining for the imbuer, as such you must be a 5th-level character before you can gain levels in the death knight prestige class.</li>
+				<li><strong>Complete a Special Task.</strong> To become a death knight you must find the dark simulacrum and perform the ritual presented in it. At which point you will be reawaken as a weak death knight. See Appendix D for an indepth of the special task and the dark simulacrum.</li>
+			</ul>
+			<h2>CLASS FEATURES</h2>
+			<p>As a death knight, you gain the following class features.</p>
+			<h4>HIT POINTS</h4>
+      <ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d10 per death knight level</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d10 + your Constitution modifier per death knight level</li>
+			</ul>
+			<h4>PROFICIENCIES</h4>
+			<ul class="unstyled mb">
+        <li><strong>Armor:</strong> All armors</li>
+				<li><strong>Weapons:</strong> Simple Weapons, martial weapons</li>
+				<li><strong>Tools:</strong> None</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Strength</li>
+				<li><strong>Skills:</strong> None</li>
+			</ul>
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_WEAPON" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_SHADOW_MAGIC" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_PRESENCE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNIC_EMPOWERMENTS" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_DEATH_STRIKES" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_UNDEATH" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ANTIMAGIC_SHELL" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_MASTER_OF_DEATH" />
+		</description>
+		<sheet display="false">
+			<description>A knight of undeath, resurrected by dark powers, wielding sword and magic alike.</description>
+		</sheet>
+		<setters>
+			<set name="short">A knight of undeath, resurrected by dark powers, wielding sword and magic alike.</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH" level="1" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_WEAPON" level="1" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_SHADOW_MAGIC" level="1" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_PRESENCE" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNIC_EMPOWERMENTS" level="2" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI" level="3" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_DEATH_STRIKES" level="6" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_UNDEATH" level="8" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ANTIMAGIC_SHELL" level="10" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_MASTER_OF_DEATH" level="15" />
+		</rules>
+		<multiclass id="ID_GMBINDER_WOW5E_MULTICLASS_DEATH_KNIGHT">
+			<prerequisite>Strength 13, Charisma 13, Level 5, Proficiency in Heavy Armor or Martial Weapons, Complete a special task.</prerequisite>
+			<setters>
+				<set name="multiclass proficiencies">All armors, simple weapons, and martial weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+			</rules>
+		</multiclass>
+	</element>
+
+	<element name="Lingering Death" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH">
+    <description>
+      <p>You have been resurrected by a val'kyr in an unholy ritual, twisting your body and giving you the following benefits.</p>
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH_DEAD_GAZE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH_LOST_RADIANCE" />
+    </description>
+    <sheet>
+      <description>You gain the following benefits:</description>
+    </sheet>
+    <rules>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH_DEAD_GAZE" />
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH_LOST_RADIANCE" />
+    </rules>
+  </element>
+
+	<element name="Dead Gaze" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH_DEAD_GAZE">
+    <description>
+      <p>You gain darkvision to a range of 120 feet, if you already have darkvision it increases to that range and you are able to see normally in magical darkness.</p>
+    </description>
+    <sheet>
+      <description>You gain darkvision to a range of 120 feet, if you already have darkvision it increases to that range and you are able to see normally in magical darkness.</description>
+    </sheet>
+    <rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<stat name="darkvision:range" value="60" />
+    </rules>
+  </element>
+
+	<element name="Lost Radiance" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_LINGERING_DEATH_LOST_RADIANCE">
+    <description>
+      <p>Any traces of the holy light have left your body, replaced by unholy energies. Your divine spells becomes twisted if cast, changing the damage of any spell that deals radiant to necrotic damage. Talk with your DM about adjusting the spell visually to better implement this change.</p>
+    </description>
+    <sheet>
+      <description>Your divine spells becomes twisted if cast, changing the damage of any spell that deals radiant to necrotic damage.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Rune Weapon" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_WEAPON">
+    <description>
+      <p>You carve magical runic sockets onto a weapon, binding it to you and preparing it for your runic empowerments. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks. Your rune weapons power fades when not held by you, and its benefits can't be used by anyone other than yourself.</p>
+			<p class="indent">You can transform one two-handed weapon or two one-handed weapons into your rune weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon ceases to be your rune weapon if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond.</p>
+    </description>
+    <sheet>
+      <description>Your weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks. Your rune weapons power fades when not held by you, and its benefits can't be used by anyone other than yourself. &#13;&#10; You can transform one two-handed weapon or two one-handed weapons into your rune weapon by performing a special ritual over the course of 1 hour, which can be done during a short rest. The weapon ceases to be your rune weapon if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Shadow Magic" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_SHADOW_MAGIC">
+    <description>
+      <p>Your dark resurrection has filled you with necrotic energies that make you able to cast spells. See chapter 10 of the Player's Handbook for the general rules of spellcasting and chapter 6 of this book for for the death knight spell list.</p>
+			<h4>SPELL SLOTS</h4>
+			<p>The Death knight table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your death knight spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+			<p class="indent">For example. when you are 5th level, you have three 3rd-level spell slots. To cast the 1st-level spell cause fear, you must spend one of those slots, casting it as a 3rd-level spell.</p>
+			<h4>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h4>
+			<p>At 1st level, you know two 1st-level spells of your choice from the death knight spell list.</p>
+			<p class="indent">The Spells Known column of the Death Knight table shows when you learn more death knight spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. For example, when you reach 5th level, you learn a new death knight spell, which can be 1st, 2nd, or 3rd level.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the death knight spells you know and replace it with another spell from the death knight spell list, which also must be of a level for which you have spell slots.</p>
+			<h4>SPELLCASTING ABILITY</h4>
+			<p>Charisma is your spellcasting ability for your death knight spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, when you use your Charisma modifier when setting the saving throw DC for a cast death knight spell and when making an attack roll with one.</p>
+			<center>
+        <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+        <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+      </center>
+    </description>
+    <sheet>
+      <description>when you gain a Death Knight level, you can choose one of the death knight spells you know and replace it with another spell from the death knight spell list, which also must be of a level for which you have spell slots. You regain all expended spell slots when you finish a short or long rest. when you use your Charisma modifier when setting the saving throw DC for a cast death knight spell and when making an attack roll with one.</description>
+    </sheet>
+		<spellcasting name="Death Knight" ability="Charisma" prepare="true">
+			<list known="true">Death Knight</list>
+		</spellcasting>
+    <rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="death knight:spellcasting:slots:1" value="1" level="1" />
+			<stat name="death knight:spellcasting:slots:1" value="1" level="2" />
+			<stat name="death knight:spellcasting:slots:1" value="-2" level="3" />
+			<stat name="death knight:spellcasting:slots:2" value="2" level="3" />
+			<stat name="death knight:spellcasting:slots:2" value="-2" level="5" />
+			<stat name="death knight:spellcasting:slots:3" value="3" level="5" />
+			<stat name="death knight:spellcasting:slots:3" value="-3" level="7" />
+			<stat name="death knight:spellcasting:slots:4" value="3" level="7" />
+			<stat name="death knight:spellcasting:slots:4" value="-3" level="9" />
+			<stat name="death knight:spellcasting:slots:5" value="3" level="9" />
+			<stat name="death knight:spellcasting:slots:5" value="1" level="12" />
+			<stat name="death knight:spellcasting:prepare" value="2" level="1" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="2" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="3" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="4" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="5" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="6" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="7" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="8" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="9" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="11" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="13" />
+			<stat name="death knight:spellcasting:prepare" value="1" level="15" />
+		</rules>
+  </element>
+
+	<element name="Presence" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_PRESENCE">
+		<description>
+			<p>At 2nd level, you have gained powers in a presence of after-life, choosing between: the presence of Blood, Frost, or Unholy, each of which is detailed at the end of the class description. Your choice grants you features at 2nd level and again at 5th, 9th, and 13th level.</p>
+      <h5>CHANNEL NECROMANCY</h5>
+      <p>Your presence allows you to channel necrotic energy to fuel dark magics. Each Channel Necromancy option provided by your presence explains how to use it.</p>
+      <p class="indent">When you use your Channel Necromancy, you choose which option to use. You must then finish a short or long rest to use your Channel Necromancy again.</p>
+      <h5>PATH AFFINITIES</h5>
+      <p>Some Channel Necromancy effects require saving throws. When you use such an effect from this class, the DC equals your Death Knight spell save DC.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_DEATH_KNIGHT_BLOOD_PRESENCE" />
+      <!--<div element="ID_GMBINDER_WOW5E_ARCHETYPE_DEATH_KNIGHT_FROST_PRESENCE" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_DEATH_KNIGHT_UNHOLY_PRESENCE" />-->
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Presence" supports="Presence" level="2"/>
+		</rules>
+	</element>
+
+	<element name="Runic Empowerments" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNIC_EMPOWERMENTS">
+    <description>
+      <p>You have unearthed fragments of magic and learned how to shape them onto your blade in the form of runes to fill its empty sockets with power.</p>
+			<p class="indent">At 2nd level, you gain two runic empowerments of your choice. Your rune options are detailed at the end of the class description. When you gain certain levels in this class, you imbue additional runes of your choice, as shown in the Runes Known column of the Death Knight table.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the runes you know and replace it with another rune that you could learn at that level.</p>
+			<p class="indent">If a runic empowerment has prerequisites, you must meet them to learn it. You can learn a rune at the same time that you meet its prerequisites. A level prerequisite in a rune refers to your death knight level, not your character level.</p>
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFASPHYXIATE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFDREAD" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFFESTERING" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFFIVEFATES" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFINFLUENCE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFNECROMANCY" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFMISFORTUNE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFRAZORICE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFSHADOWARMOR" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEBLADECALLER" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHECALLER" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEFALLENCRUSADER" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEGRAVE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHELICH" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHESCOURGE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHESHADOWS" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHESTONESKINGARGOYLE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHETHIRSTINGBLADE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEVALKYR" />
+    </description>
+    <sheet>
+      <description>When you gain a level in this class, you can choose one of the runes you know and replace it with another rune that you could learn at that level.</description>
+    </sheet>
+    <rules>
+			<select type="Class Feature" name="Rune" supports="Rune" number="2" level="2"/>
+			<select type="Class Feature" name="Rune" supports="Rune" number="1" level="5"/>
+			<select type="Class Feature" name="Rune" supports="Rune" number="1" level="8"/>
+			<select type="Class Feature" name="Rune" supports="Rune" number="1" level="11"/>
+			<select type="Class Feature" name="Rune" supports="Rune" number="1" level="14"/>
+		</rules>
+  </element>
+
+<!--Runes-->
+	<element name="Rune of Asphyxiate" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFASPHYXIATE">
+		<supports>Rune</supports>
+		<prerequisites>9th Level</prerequisites>
+		<requirements>[level:death knight:9]</requirements>
+    <description>
+      <p>You can cast <i>hold monster</i> at will, without expending a spell slot or material components. You must finish a long rest before you can use this empowerment on the same creature again.</p>
+    </description>
+    <sheet action="1 Action" usage="1/Long Rest/Creature">
+      <description>You can cast hold monster at will, without expending a spell slot or material components.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" />
+		</rules>
+  </element>
+
+	<element name="Rune of Dread" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFDREAD">
+		<supports>Rune</supports>
+		<prerequisites>7th Level</prerequisites>
+		<requirements>[level:death knight:7]</requirements>
+    <description>
+      <p>You can cast <i>confusion</i> once using a death knight spell slot. You can't do so again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You can cast confusion once using a death knight spell slot.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" />
+		</rules>
+  </element>
+
+	<element name="Rune of Festering" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFFESTERING">
+		<supports>Rune</supports>
+    <description>
+      <p>You become immune to diseases and the poisoned condition.</p>
+    </description>
+    <sheet>
+      <description>You become immune to diseases and the poisoned condition.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Rune of Five Fates" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFFIVEFATES">
+		<supports>Rune</supports>
+    <description>
+      <p>You can cast <i>bane</i> once using a death knight spell slot. You can't do so again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You can cast bane once using a death knight spell slot.</description>
+    </sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BANE" />
+		</rules>
+  </element>
+
+	<element name="Rune of Influence" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFINFLUENCE">
+		<supports>Rune</supports>
+    <description>
+      <p>You gain proficiency in the Intimidation and Persuasion skills.</p>
+    </description>
+    <sheet>
+      <description>You gain proficiency in the Intimidation and Persuasion skills.</description>
+    </sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+  </element>
+
+	<element name="Rune of Necromancy" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFNECROMANCY">
+		<supports>Rune</supports>
+    <description>
+      <p>You learn two cantrips of your choice from the warlock spell list, charisma is your spellcasting ability for these spells.</p>
+    </description>
+    <sheet>
+      <description>You learn two cantrips of your choice from the warlock spell list, charisma is your spellcasting ability for these spells.</description>
+    </sheet>
+		<rules>
+			<select type="Proficiency"  name="Cantrip (Rune of Necromancy)" supports="Warlock, 0" number="2" spellcasting="Charisma" />
+		</rules>
+  </element>
+
+	<element name="Rune of Misfortune" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFMISFORTUNE">
+		<supports>Rune</supports>
+		<prerequisites>5th Level</prerequisites>
+		<requirements>[level:death knight:5]</requirements>
+    <description>
+      <p>You can cast <i>bestow curse</i> once using a death knight spell slot. You can't do so again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You can cast bestow curse once using a death knight spell slot.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE" />
+		</rules>
+  </element>
+
+	<element name="Rune of Razorice" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFRAZORICE">
+		<supports>Rune</supports>
+    <description>
+      <p>Your rune weapon gains a +1 bonus to attacks and damage rolls made with it.</p>
+    </description>
+    <sheet>
+      <description>Your rune weapon gains a +1 bonus to attacks and damage rolls made with it.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Rune of Shadow Armor" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFSHADOWARMOR">
+		<supports>Rune</supports>
+    <description>
+      <p>You can cast <i>mage armor</i> on yourself at will, without expending a spell slot or material components.</p>
+    </description>
+    <sheet>
+      <description>You can cast mage armor on yourself at will, without expending a spell slot or material components.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" />
+		</rules>
+  </element>
+
+	<element name="Rune of the Blade Caller" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEBLADECALLER">
+		<supports>Rune</supports>
+    <description>
+      <p>As long as your rune weapons are on the same plane of existence as you, you can summon them as a bonus action, causing them to teleport to your hands.</p>
+    </description>
+    <sheet>
+      <description>You can teleport your rune weapon to your hands, as long as both you and the weapons are on the same plane of existence.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Rune of the Caller" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHECALLER">
+		<supports>Rune</supports>
+		<prerequisites>5th Level</prerequisites>
+		<requirements>[level:death knight:5]</requirements>
+    <description>
+      <p>You can cast <i>animate dead</i> once using a death knight spell slot. You can't do so again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You can cast animate dead once using a death knight spell slot.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" />
+		</rules>
+  </element>
+
+	<element name="Rune of the Fallen Crusader" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEFALLENCRUSADER">
+		<supports>Rune</supports>
+    <description>
+      <p>Your weapon attacks score a critical hit on a roll of 19 or 20</p>
+    </description>
+    <sheet>
+      <description>Your weapon attacks score a critical hit on a roll of 19 or 20</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Rune of the Grave" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEGRAVE">
+		<supports>Rune</supports>
+		<prerequisites>9th Level</prerequisites>
+		<requirements>[level:death knight:9]</requirements>
+    <description>
+      <p>You can cast <i>speak with dead</i>, without expending a spell slot.</p>
+    </description>
+    <sheet>
+      <description>You can cast speak with dead at will, without expending a spell slot.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" />
+		</rules>
+  </element>
+
+	<element name="Rune of the Lich" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHELICH">
+		<supports>Rune</supports>
+    <description>
+      <p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Rune of the Scourge" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHESCOURGE">
+		<supports>Rune</supports>
+    <description>
+      <p>You can cast <i>false life</i> on yourself at will as a 1st-level spell, without expending a spell slot or material components.</p>
+    </description>
+    <sheet>
+      <description>You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" />
+		</rules>
+  </element>
+
+	<element name="Rune of the Shadows" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHESHADOWS">
+		<supports>Rune</supports>
+    <description>
+      <p>You can cast <i>darkness</i> at will once, without expending a spell slot or material components. You can't do so again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You can cast darkness at will once, without expending a spell slot or material components.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" />
+		</rules>
+  </element>
+
+	<element name="Rune of the Stoneskin Gargoyle" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHESTONESKINGARGOYLE">
+		<supports>Rune</supports>
+    <description>
+      <p>You gain a +1 bonus to your Armor class whilst wielding your rune weapon.</p>
+    </description>
+    <sheet>
+      <description>You gain a +1 bonus to your Armor class whilst wielding your rune weapon.</description>
+    </sheet>
+    <rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+  </element>
+
+	<element name="Rune of the Thirsting Blade" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHETHIRSTINGBLADE">
+		<supports>Rune</supports>
+    <description>
+      <p>You can attack with your rune weapon twice, instead of once, when you take the Attack action on your turn.</p>
+    </description>
+    <sheet>
+      <description>You can attack with your rune weapon twice, instead of once, when you take the Attack action on your turn.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Rune of the Val'kyr" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_RUNE_RUNEOFTHEVALKYR">
+		<supports>Rune</supports>
+    <description>
+      <p>You can cast <i>darkness</i> at will once, without expending a spell slot or material components. You can't do so again until you finish a long rest.</p>
+    </description>
+    <sheet>
+      <description>You can cast darkness at will once, without expending a spell slot or material components.</description>
+    </sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
+		</rules>
+  </element>
+<!--End of Runes-->
+	<element name="Ability Score Improvement" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 3rd level, and again at 7th, 11th, and 15th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Death Knight 3)" supports="Improvement Option,Death Knight,3" level="3" />
+			<select type="Class Feature" name="Improvement Option (Death Knight 7)" supports="Improvement Option,Death Knight,7" level="7" />
+			<select type="Class Feature" name="Improvement Option (Death Knight 11)" supports="Improvement Option,Death Knight,11" level="11" />
+			<select type="Class Feature" name="Improvement Option (Death Knight 15)" supports="Improvement Option,Death Knight,15" level="15" />
+		</rules>
+	</element>
+<!--ASI Workaround-->
+	<element name="Ability Score Improvement" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_ABILITY_3">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 3</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI</requirements>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 3)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+
+	<element name="Feat" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_FEAT_3">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 3</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 3)" type="Feat" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Improvement" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_ABILITY_7">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 7</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI</requirements>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 7)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+
+	<element name="Feat" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_FEAT_7">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 7</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 7)" type="Feat" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Improvement" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_ABILITY_11">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 11</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI</requirements>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 11)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+
+	<element name="Feat" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_FEAT_11">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 11</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 11)" type="Feat" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Improvement" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_ABILITY_15">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 15</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI</requirements>
+		<description>
+			<p>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Level 15)" supports="Ability Score Improvement,Class" number="2" />
+		</rules>
+	</element>
+
+	<element name="Feat" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_FEAT_15">
+		<compendium display="false" />
+		<supports>Improvement Option, Death Knight, 15</supports>
+		<requirements>ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ASI,ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+		<description>
+			<p>Select a feat of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<select name="Feat (Level 15)" type="Feat" />
+		</rules>
+	</element>
+<!--End of ASI workaround-->
+	<element name="Death Strikes" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_DEATH_STRIKES">
+    <description>
+      <p>By 6th level, you are so suffused with negative energy that all your melee weapon strikes carry necrotic power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 necrotic damage.</p>
+    </description>
+    <sheet>
+      <description>Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 necrotic damage.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Undeath" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_UNDEATH">
+    <description>
+      <p>Starting at 8th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.</p>
+			<p class="indent">In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</p>
+    </description>
+    <sheet>
+      <description>You can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests. &#13;&#10; In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Antimagic Shell" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_ANTIMAGIC_SHELL">
+    <description>
+      <p>Beginning at 10th level, you can use your bonus action to end one spell on yourself.</p>
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier (a minimum of 1). You regain expended uses when you finish a long rest.</p>
+    </description>
+    <sheet usage="{{antimagic-shell:usage}}/Long Rest">
+      <description>You can end one spell on yourself.</description>
+    </sheet>
+    <rules>
+			<stat name="antimagic-shell:usage" value="charisma:modifier" />
+		</rules>
+  </element>
+
+	<element name="Master of Death" type="Class Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DEATH_KNIGHT_MASTER_OF_DEATH">
+    <description>
+      <p>At 15th level, you bond with your runic weapons, parting with a fraction of your soul to imbue with in them. If you die, you return to life 24 hours after death, as the weapon resurrects you. IF your body is destroyed, you reform with-in 1 mile of the place of your death. If your equipment was destroyed you do not regain it.</p>
+			<p class="indent">If your rune weapon is broken or on another place of existence, you are not resurrected after 24 hours. If your weapon returns to your plane of existence after 24 hours has passed, you do not return to life as the magic of your weapon fades and vanishes.</p>
+    </description>
+    <sheet>
+      <description>If you die, you return to life 24 hours after death, as the weapon resurrects you. IF your body is destroyed, you reform with-in 1 mile of the place of your death. If your equipment was destroyed you do not regain it. &#13;&#10; If your rune weapon is broken or on another place of existence, you are not resurrected after 24 hours. If your weapon returns to your plane of existence after 24 hours has passed, you do not return to life as the magic of your weapon fades and vanishes.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<element name="Blood Presence" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_DEATH_KNIGHT_BLOOD_PRESENCE">
+		<supports>Presence</supports>
+		<description>
+      <p>Death knights of the blood presence enter delve into the shunned arts of blood magic, bolstering their own defenses by the use of blood from themselves and draining their enemies lifeforce for their own gain.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_RUNE_TAP" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_PURGATORY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_BLOOD_SHIELD" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_RUNE_TAP" level="5" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_PURGATORY" level="9" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_BLOOD_SHIELD" level="13" />
+    </rules>
+  </element>
+
+	<element name="Channel Necromancy (Blood)" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY">
+    <description>
+      <p>When you take this presence at 2nd level, you gain the following two Channel Necromancy options.</p>
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY_DANCINGRUNEWEAPON" />
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY_DEATHANDDECAY" />
+    </description>
+    <sheet display="false" />
+    <rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY_DANCINGRUNEWEAPON" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY_DEATHANDDECAY" />
+		</rules>
+  </element>
+
+	<element name="Dancing Rune Weapon" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY_DANCINGRUNEWEAPON">
+    <description>
+      <p>As a bonus action, you present your rune weapon and manifest an animated copy of your rune weapon. The weapon has the statistics of a flying sword, but deals damage equal to your rune weapon, and has hit points equal to twice your death knight level. It acts on your initiative, its actions determined by you.</p>
+			<p class="indent">The sword lasts for 1 minute, and you can end the effect early as a bonus action, making the the weapon fly back to you and fall to the ground in your space, if you have an empty hand you can instead make the weapon return to it rather than falling to the ground.</p>
+    </description>
+    <sheet action="Bonus Action">
+			<description>You present your rune weapon and manifest an animated copy of your rune weapon. The weapon has the statistics of a flying sword, but deals damage equal to your rune weapon, and has hit points equal to {{dancing-rune-weapon:hit-points}}. It acts on your initiative, its actions determined by you. &#13;&#10; The sword lasts for 1 minute, and you can end the effect early as a bonus action, making the the weapon fly back to you and fall to the ground in your space, if you have an empty hand you can instead make the weapon return to it rather than falling to the ground.</description>
+		</sheet>
+    <rules>
+			<stat name="dancing-rune-weapon:hit-points" value="level:death knight" />
+			<stat name="dancing-rune-weapon:hit-points" value="level:death knight" />
+		</rules>
+  </element>
+
+	<element name="Death and Decay" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_CHANNEL_NECROMANCY_DEATHANDDECAY">
+    <description>
+      <p>As an action, you can pierce your rune weapon into the ground and use your channel necromancy to desecrate the earth. Each creature of your choice within 20 feet of you must succeed on a Wisdom saving throw, or be frightened of you for 1 minute.</p>
+			<p class="indent">A frightened creature must spend its turn trying to move as far away from you as it can, and can't willingly move to a space within 20 feet of you. For its action, it can use only the Dash action or try to escape from effects that prevent it from moving. IF the creature ends its turn out of sight of you and the desecrated area, it may make another Wisdom saving throw, ending the frightened on a successful save.</p>
+    </description>
+    <sheet action="1 Action">
+			<description>Each creature of your choice within 20 feet of you must succeed on a Wisdom saving throw, or be frightened of you for 1 minute. &#13;&#10; A frightened creature must spend its turn trying to move as far away from you as it can, and can't willingly move to a space within 20 feet of you. For its action, it can use only the Dash action or try to escape from effects that prevent it from moving. IF the creature ends its turn out of sight of you and the desecrated area, it may make another Wisdom saving throw, ending the frightened on a successful save.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Rune Tap" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_RUNE_TAP">
+    <description>
+      <p>Upon reaching 5th level, you can tap your rune weapon's energy to bolster your own defense. As an action you tap your rune weapons power, briefly removing all benefits from your empowerments from it. For 1 minute, you gain resistance towards bludgeoning, piercing, and slashing damage. Once the duration ends, you regain the abilities granted by your runic empowerments.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+    </description>
+    <sheet action="1 Action" usage="1/Short Rest">
+			<description>For 1 Minute you gain resistance towards bludgeoning, piercing, and slashing damage. Once the duration ends, you regain the abilities granted by your runic empowerments.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Purgatory" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_PURGATORY">
+    <description>
+      <p>Beginning at 9th level, you don't fall unconscious when you are reduced to 0 hit points and not outright killed, but continue to fight on as normal, making death saving throws at the beginning of your turn.</p>
+    </description>
+    <sheet>
+			<description>You don't fall unconscious when you are reduced to 0 hit points and not outright killed, but continue to fight on as normal, making death saving throws at the beginning of your turn.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Blood Shield" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_BLOODPRESENCE_BLOOD_SHIELD">
+    <description>
+      <p>Starting at 13th level, whenever you deal necrotic damage to a creature through death strikes, you gain temporary hit points equal to the necrotic damage dealt.</p>
+    </description>
+    <sheet>
+			<description>Whenever you deal necrotic damage to a creature through death strikes, you gain temporary hit points equal to the necrotic damage dealt.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Frost Presence" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_DEATH_KNIGHT_FROST_PRESENCE">
+		<supports>Presence</supports>
+		<description>
+      <p>Death knights of the frost presence walk in the footsteps of those that came before them, using cold and ice in a way only matched by mages to do their bidding. They are exceptional combatants able to deliver devastating blows.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_REMORSELESS_WINTER" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_ICEBOUND" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_FROZEN_TOMB" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_REMORSELESS_WINTER" level="5" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_ICEBOUND" level="9" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_FROZEN_TOMB" level="13" />
+    </rules>
+  </element>
+
+	<element name="Channel Necromancy (Frost)" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY">
+    <description>
+      <p>When you take this presence at 2nd level, you gain the following two Channel Necromancy options.</p>
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY_OBLITERATE" />
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY_HOWLING_BLAST" />
+    </description>
+    <sheet display="false" />
+    <rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY_OBLITERATE" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY_HOWLING_BLAST" />
+		</rules>
+  </element>
+
+	<element name="Obliterate" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY_OBLITERATE">
+    <description>
+      <p>When you hit a creature with your rune weapon, you can use Channel Necromancy to deal extra necrotic damage equal to 5 + twice your death knight level.</p>
+    </description>
+    <sheet>
+			<description>When you hit a creature with your rune weapon, you can use Channel Necromancy to deal extra necrotic damage equal to {{obliterate:damage}}</description>
+		</sheet>
+    <rules>
+			<stat name="obliterate:damage" value="5" />
+			<stat name="obliterate:damage" value="level:death knight" />
+			<stat name="obliterate:damage" value="level:death knight" />
+		</rules>
+  </element>
+
+	<element name="Howling Blast" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_CHANNEL_NECROMANCY_HOWLING_BLAST">
+    <description>
+      <p>As an action, you present your rune weapon, and cause a frigid wind to howl past you. Each creature within a 60 feet long and 15 feet wide line from you in a direction you choose must make a Constitution saving throw, on a fail, the target gains one level of exhaustion and has disadvantage on attack rolls for 1 minute.</p>
+    </description>
+    <sheet action="1 Action">
+			<description>You present your rune weapon, and cause a frigid wind to howl past you. Each creature within a 60 feet long and 15 feet wide line from you in a direction you choose must make a Constitution saving throw, on a fail, the target gains one level of exhaustion and has disadvantage on attack rolls for 1 minute.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Remorseless Winter" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_REMORSELESS_WINTER">
+    <description>
+      <p>Starting at 5th level, you can use your bonus action to cast <i>armor of agathys</i> at 1st-level on yourself, the spell is cast on you again at the beginning of your turn as a free action until you use your bonus action to end its effect.</p>
+			<p class="indent">Additionally, you gain temporary hit points equal to your death knight level when you finish a short or long rest.</p>
+    </description>
+    <sheet action="Bonus Action">
+			<description>you can cast <i>armor of agathys</i> at 1st-level on yourself, the spell is cast on you again at the beginning of your turn as a free action until you use your bonus action to end its effect. &#13;&#10; Additionally, you gain temporary hit points equal to {{remorseless-winter:hit-points}}when you finish a short or long rest.</description>
+		</sheet>
+    <rules>
+			<stat name="remorseless-winter:hit-points" value="level:death knight" />
+			<grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+		</rules>
+  </element>
+
+	<element name="Icebound" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_ICEBOUND">
+    <description>
+      <p>Beginning at 9th level, you gain resistance to cold damage. In addition, you can use your reaction and expend your <i>armor of agathys</i> spell to give yourself resistance to all damage until the end of your next turn. You regain your armor of agathys spell once you finish a short or long rest.</p>
+    </description>
+    <sheet action="Bonus Action">
+			<description>You can use your reaction and expend your armor of agathys spell to give yourself resistance to all damage until the end of your next turn. You regain your armor of agathys spell once you finish a short or long rest.</description>
+		</sheet>
+    <rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+  </element>
+
+	<element name="Frozen Tomb" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_FROSTPRESENCE_FROZEN_TOMB">
+    <description>
+      <p>Starting at 13th level, you are able to momentarily encase a creature in solid ice. As an action, choose a creature within 60 feet of you. The target must make a Dexterity saving throw. On a failed save, the target takes 8d10 cold damage and becomes petrified until the beginning of your next turn as ice envelopes it, or half as much damage and it is not petrified on a successful save.</p>
+			<p class="indent">You must then finish a long rest to use this feature again.</p>
+    </description>
+    <sheet action="1 Action" usage="1/Long Rest">
+			<description>You are able to momentarily encase a creature in solid ice. Choose a creature within 60 feet of you. The target must make a Dexterity saving throw. On a failed save, the target takes 8d10 cold damage and becomes petrified until the beginning of your next turn as ice envelopes it, or half as much damage and it is not petrified on a successful save.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Unholy Presence" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_DEATH_KNIGHT_UNHOLY_PRESENCE">
+		<supports>Presence</supports>
+		<description>
+      <p>Death knights of the unholy presence are shunned by most for their deeds, especially by the Holy Light, they wield necrotic energy in a way matched only by warlocks, removing any shred of Holy Light around them as they drain their surroundings of joy and hope.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_RAISE_GHOUL" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_UNHOLY_PROTECTION" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_DARK_TRANSFORMATION" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_RAISE_GHOUL" level="5" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_UNHOLY_PROTECTION" level="9" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_DARK_TRANSFORMATION" level="13" />
+    </rules>
+  </element>
+
+	<element name="Channel Necromancy (Unholy)" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY">
+    <description>
+      <p>When you take this presence at 2nd level, you gain the following two Channel Necromancy options.</p>
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY_CONTROL_UNDEAD" />
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY_TURN_THE_HOLY" />
+    </description>
+    <sheet display="false" />
+    <rules>
+			<grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY_CONTROL_UNDEAD" />
+			<grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY_TURN_THE_HOLY" />
+		</rules>
+  </element>
+
+	<element name="Contol Undead" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY_CONTROL_UNDEAD">
+    <description>
+      <p>As an action, you target one undead creature you can see within 30 feet of you. The target must make a Wisdom saving throw. On a failed save, the target must obey your commands for the next 24 hours, or until you use this Channel Necromancy option again. An undead whose challenge rating is equal to or greater than your death knight level is immune to this effect.</p>
+    </description>
+    <sheet action="1 Action">
+			<description>Target one undead creature you can see within 30 feet of you. The target must make a Wisdom saving throw. On a failed save, the target must obey your commands for the next 24 hours, or until you use this Channel Necromancy option again. An undead whose challenge rating is equal to or greater than your death knight level is immune to this effect.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Turn the Holy" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_CHANNEL_NECROMANCY_TURN_THE_HOLY">
+    <description>
+      <p>As an action, you present your rune weapon and speak vile words censuring celestials and feys. Each celestial and fey that can see or hear you within 30 feet of you must succeed a Wisdom saving throw, or be turned for 1 minute or until it takes damage.</p>
+			<p class="indent">A turned creature spend its turn trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can only take the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</p>
+    </description>
+    <sheet action="1 Action">
+			<description>You present your rune weapon and speak vile words censuring celestials and feys. Each celestial and fey that can see or hear you within 30 feet of you must succeed a Wisdom saving throw, or be turned for 1 minute or until it takes damage. &#13;&#10; A turned creature spend its turn trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can only take the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</description>
+		</sheet>
+    <rules />
+  </element>
+
+	<element name="Raise Ghoul" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_RAISE_GHOUL">
+    <description>
+      <p>Starting at 5th level, you can cast the <i>animate dead</i> spell at will. When you cast <i>animate dead</i>, you raise a ghoul rather than a zombie or skeleton. If you cast <i>animate dead</i> while you have an undead under your control, you destroy your current ghoul as you cast the spell.</p>
+			<p class="indent">Whenever you create a ghoul using this spell, it has additional benefits:</p>
+			<ul>
+				<li>The ghoul's hit point maximum is increased by an amount equal to your death knight level.</li>
+				<li>The ghoul adds your proficiency bonus to its weapon damage rolls.</li>
+			</ul>
+    </description>
+    <sheet>
+			<description>you can cast the animate dead spell at will. When you cast animate dead, you raise a ghoul rather than a zombie or skeleton. If you cast animate dead while you have an undead under your control, you destroy your current ghoul as you cast the spell. Whenever you create a ghoul using this spell, it adds {{raise-ghoul:additional-hp}} to its maximum hit point and {{raise-ghoul:extra-damage}} to its weapon damage rolls.</description>
+		</sheet>
+    <rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" />
+			<stat name="raise-ghoul:additional-hp" value="level:death knight" />
+			<stat name="raise-ghoul:extra-damage" value="level:proficiency" />
+		</rules>
+  </element>
+
+	<element name="Unholy Protection" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_UNHOLY_PROTECTION">
+    <description>
+      <p>Beginning at 9th level, you regain hit points equal to 1d6 + half your death knight level if you end your turn in combat with fewer than half of your hit points remaining and you aren't incapacitated.</p>
+    </description>
+    <sheet>
+			<description>You regain hit points equal to 1d6 + {{unholy-protection:hit-points}} if you end your turn in combat with fewer than half of your hit points remaining and you aren't incapacitated.</description>
+		</sheet>
+    <rules>
+			<stat name="unholy-protection:hit-points" value="level:death knight:half" />
+		</rules>
+  </element>
+
+	<element name="Dark Transformation" type="Archetype Feature" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_UNHOLYPRESENCE_DARK_TRANSFORMATION">
+    <description>
+      <p>At 13th level, as an action you can surround yourself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around you to dim light, and dim light to darkness. You and any creature of your choice in the aura are draped in necrotic shadows. Creatures that rely on sight have disadvantage on attack rolls against any creature draped in this shadow.</p>
+			<p class="indent">While active, you can use a bonus action to cause the shadows in the aura to attack a creature. Making a melee spell attack against the target. If the attack hits, the target takes 3d10 + your Charisma modifier necrotic damage.</p>
+			<p class="indent">After activating this aura, you can't do so again until you finish a long rest.</p>
+    </description>
+    <sheet action="1 Action" usage="1/Long Rest">
+			<description>you can surround yourself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around you to dim light, and dim light to darkness. You and any creature of your choice in the aura are draped in necrotic shadows. Creatures that rely on sight have disadvantage on attack rolls against any creature draped in this shadow. While active, you can use a bonus action to cause the shadows in the aura to attack a creature. Making a melee spell attack against the target. If the attack hits, the target takes 3d10 + {{dark-transformation:extra-damage}} necrotic damage.</description>
+		</sheet>
+    <rules>
+			<stat name="dark-transformation:extra-damage" value="charisma:modifier" />
+		</rules>
+  </element>
+
+	<append id="ID_PHB_SPELL_ARMOR_OF_AGATHYS">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CAUSE_FEAR">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMMAND">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FALSE_LIFE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HEROISM">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_POTA_SPELL_ICEKNIFE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_ICY_TOUCH">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_WOTC_UA20170403_SPELL_PUPPET">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAY_OF_SICKNESS">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_THUNDEROUS_SMITE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WRATHFUL_SMITE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BRANDING_SMITE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_CHAINS_OF_ICE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CROWN_OF_MADNESS">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_DEATH_GRIP">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIND_STEED">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_FROST_STRIKE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GENTLE_REPOSE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_PERSON">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAGIC_WEAPON">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_POTA_SPELL_SNILLOCSSNOWBALLSWARM">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SUGGESTION">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ANIMATE_DEAD">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_ASPHYXIATE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BESTOW_CURSE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DISPEL_MAGIC">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_ENEMIES_ABOUND">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_MIND_FREZZE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PHANTOM_STEED">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SLEET_STORM">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_VAMPIRIC_TOUCH">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WATER_WALK">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BANISHMENT">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DEATH_WARD">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_FIND_GREATER_STEED">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ICE_STORM">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SHADOW_OF_MOIL">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SICKENING_RADIANCE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_STAGGERING_SMITE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ANTILIFE_SHELL">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BANISHING_SMITE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_DANSE_MACABRE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_DEATH_CHAIN">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DESTRUCTIVE_WAVE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DOMINATE_PERSON">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GEAS">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_MONSTER">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_HOLY_WEAPON">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_INSECT_PLAGUE">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD">
+		<supports>Death Knight</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SCRYING">
+		<supports>Death Knight</supports>
+	</append>
+
+</elements>

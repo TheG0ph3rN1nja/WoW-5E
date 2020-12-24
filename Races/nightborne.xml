@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Nightborne</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="nightborne.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Nightborne" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_NIGHTBORNE">
+    <description>
+      <p><i>It had to be done this way, there was no other alternative. We no longer need the Nightwell, nor do we need its power. We must forge our own destiny from now on.</i></p>
+      <p align="right"><i>— First Arcanist Thalyssra</i></p>
+      <h3>INTRODUCTION</h3>
+      <p class="indent">An impenetrable barrier was placed around their capital city Suramar, shielding the highborne from the Sundering. This shield would keep the highborne isolated from the rest of Azeroth's new continents for thousands of years. Forcing the highbornes to rely on their Nightwell for their magical powers. The highbornes evolved over the ages, and they called themselves the shal'dorei or nightborne.</p>
+      <p class="indent">When Suramar run out of food, the shal'dorei began to utilize the substance of their Nightwell as nourishment and was thus spared an untimely death, however, this soon caused them to be unable to survive without drawing magic from the Nightwell. Crime was punished by exile. Cutting them off from the Nightwell, the exiled would diminish into husks of their former selves, and eventually irreversible into mindless withered, waiting for death.</p>
+      <p class="indent">Ten thousand years later the nightborne lowered their shield and surrender to the Burning Legion by orders from their leader, Grand Magistrix Elisande. Many nightborne did not agree with her decision, but none dared speak against her newfound forces of demons. Through the aid of a nightborne resistance, and the forces of the Alliance and Horde. The Grand Magistrix and her demon allies were pushed back into the Twisting Nether.</p>
+      <h3>BORN IN THE DARKNESS</h3>
+      <p>Sealed off within their capital of Suramar, the nightborne physique in many ways resemble that of their night elven kin, with tall slender bodies and muscular builds. The ever darkened sky of their city have changed their skin to be a dark blue or purple, rather than the more vibrant colors of the night elves.The Shal'dorei still practice arcane magic, giving their eyes a dim blue or purple glow, instead of the golden glow of the night elves.</p>
+      <p class="indent">The nightborne are fiercely proud of the arcane ways, and proudly shows off shimmering tattoos of arcane energy that has been placed upon their body. The tattoos have no known impact on the nightborne capabilities, yet it stands as a show of a nightbornes comprehension of the arcane.</p>
+      <h3>HIGHBORNE CIVILIZATION</h3>
+      <p>The Shal'dorei have an air of superiority that often comes across as pompous. They revel in their unequalled magical civilization but having no exposure to the current races of Azeroth until the rebellion led an invading force to free Suramar, many still regard outside races and the world as it was back then, full of the unworthy, the uncultured, and low born far beneath the standards and levels of the nightborne civilization.</p>
+      <p class="indent">These were the less admirable qualities of night elven civilization back then, and the shal'dorei continue in them as if nothing has changed and as if they still remain the center of the world.</p>
+      <h3>AFFILIATION</h3>
+      <p>The Shal'dorei have been severed from the world for thousands of years, originally hailing from the night elven Highborne, many Nightbornes wished to return to their ancient kin. The night elves saw the careless use of arcane in the shal'dorei, knowing what it did to their civilization so many years ago and shunned them from their society.</p>
+      <p class="indent">A few amongst the Nightborne have sympathized with the blood elves and their past craving for their Sunwell and joined the Horde in their honor.</p>
+      <h3>NIGHTBORNE NAMES</h3>
+      <p>Nightborne names resemble that of night elves, and would appear Darnassian in script to an inexperienced eye. Yet the nightbornes language have changed from their ancient tongue, as has their names. The nightbornes still follow the Kaldorei naming traditions.</p>
+      <p><strong>Male Names:</strong> Absolon, Astoril, Oculeth, Lespin, Silgryn, Almon, Ailen, Vanthir, Sylverin, Rosaine, Thorendis</p>
+      <p><strong>Female Names:</strong> Valtrois, Iadreth, Anastae, Ly'leth, Theryn, Ambrena, Anaryys, Naran, Ke'lorin, Arluelle, Noressa</p>
+      <p><strong>Surnames:</strong> Luneastre, Astravar, Swiftmeadow, Moonblade, Silverleaf</p>
+      <h3>NIGHTBORNE TRAITS</h3>
+      <p>Your nightborne character has a variety of natural abilities, harnessed by old traditions and the power of the Nightwell.</p>
+      <p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Dexterity score increases by 1, and your Intelligence score increases by 2.</p>
+      <p class="indent"><strong><i>Age.</i></strong> Although nightborne elves reach physical maturity at about the same age as humans, their understanding of adulthood goes beyond physical growth to encompass worldly experience. Nightborne typically claims adulthood and an adult name around the age of 100 and can live to become several thousand years old. Sustained by the Night-well, many have lived since the War of the Ancient.</p>
+      <p class="indent"><strong><i>Alignment.</i></strong> Order and structure are key to nightborne. Their society believes that reputation and status are of the utmost concern, and that mortality and principles of right and wrong are viewed too often in that light. Giving most nightborne a lawful alignment.</p>
+      <p class="indent"><strong><i>Size.</i></strong> Nightborne are around 7 feet tall and weigh between 180 and 240 pounds. Your size is medium.</p>
+      <p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+      <p class="indent"><strong><i>Darkvision.</i></strong> Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+      <p class="indent"><strong><i>Keen Senses.</i></strong> You are proficient in the Perception skill.</p>
+      <p class="indent"><strong><i>Lorekeeper.</i></strong> You gain proficiency with the Arcana and the artisan's tool (calligrapher's supplies).</p>
+      <p class="indent"><strong><i>Mental Warding.</i></strong> You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+      <p class="indent"><strong><i>Superior Darkvision.</i></strong> Your darkvision has a radius of 120 feet.</p>
+      <p class="indent"><strong><i>Sunlight Sensitivity.</i></strong> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+      <p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common and Shalassian. Shalassian, like Thalassian, originates from the Darnassian language. Its dialect has been scrutinized through the ages, making it nearly impossible for members outside of the Nightborne to read or write.</p>
+    </description>
+    <sheet display="false" />
+		<setters>
+			<set name="names" type="male">Absolon, Astoril, Oculeth, Lespin, Silgryn, Almon, Ailen, Vanthir, Sylverin, Rosaine, Thorendis</set>
+			<set name="names" type="female">Valtrois, Iadreth, Anastae, Ly'leth, Theryn, Ambrena, Anaryys, Naran, Ke'lorin, Arluelle, Noressa</set>
+			<set name="names" type="surname">Luneastre, Astravar, Swiftmeadow, Moonblade, Silverleaf</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+      <stat name="dexterity" value="1" />
+      <stat name="intelligence" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_GM_BINDER_WOW5E_LANGUAGE_SHALASSIAN"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHTBORNE_MENTAL_WARDING" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHTBORNE_SUPERIOR_DARKVISION" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHTBORNE_SUNLIGHT_SENSITIVITY" />
+    </rules>
+  </element>
+
+  <element name="Mental Warding" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHTBORNE_MENTAL_WARDING">
+		<description>
+			<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Superior Darkvision" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHTBORNE_SUPERIOR_DARKVISION">
+		<description>
+			<p>Your darkvision has a radius of 120 feet.</p>
+		</description>
+		<sheet>
+			<description>Your darkvision has a radius of 120 feet.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Sunlight Sensitivity" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHTBORNE_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+		</sheet>
+		<rules />
+	</element>
+
+</elements>

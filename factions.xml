@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Factions</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="factions.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Factions" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_FACTIONS">
+		<description>
+			<p>Armies and factions have always defined the Wcraft world, and two of the most powerful factions on Azeroth today are the Alliance and Horde. Most players belong to one or the other faction, although anomalies do exist.</p>
+			<h3>CHOOSING A SIDE</h3>
+			<p>At character creation, every player must choose their character’s faction. It is as much a part of the hero as their class or background. All characters in a party are usually of the same faction.</p>
+			<p class="indent">Although every race has an affiliation, there are excep-tions. Creating a character outside their normal affiliation is challenging, but offers a great role play opportunities for the player. Some suggestions are listed below.</p>
+			<ul>
+				<li>The character was born into the faction.</li>
+				<li>The character was saved or befriended by members of the faction.</li>
+				<li>The character fled from their faction.</li>
+				<li>The character witnessed members of their faction doing something they found reprehensible.</li>
+			</ul>
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_FACTIONS_ALLIANCE" />
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_FACTIONS_HORDE" />
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="The Alliance" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_FACTIONS_ALLIANCE">
+		<description>
+			<p>The Alliance have proven themselves to be fierce combatants, often giving their lives when called for. The faction is not a uniform governmental body, but is a coalition of mutual military and economic aid. Diplomacy is key with in the Alliance and decisions are traditionally made by being voted on by the Alliance's most influential members. Stormwind is described as the most powerful force in the now multiracial Alliance. With it becoming the de facto leader of the remaining human kingdoms and entering a powerful alliance with the strongest dwarven kingdom, Ironforge, Stormwind has thus been shown to be the most influential kingdom and therefore the de facto driving force of Alliance politics. Therefore, Stormwind is undisputedly looked to for maintaining the Alliance and its policies. Stormwind is where the main superpowers of the Alliance conference to discuss world issues and mutual defense. The majority of Alliance citizens also recognizes Stormwind City as the heart of the Alliance. The High King coordinates the workings of the Alliance's armies in order to safeguard the Alliance's interests and defense.</p>
+			<p class="indent">Even now, as always, humans are the glue that hold the Alliance together, being the most numerous and diplomatic of the member races. The armies of Stormwind are primarily stationed in the southern Eastern Kingdoms, securing regions such as Elwynn Forest, Duskwood, Westfall, and the Redridge mountains. As well as having outposts and bases stationed at key points in Lordaeron, Northrend, and Kalimdor. The armies of Ironforge are mainly stationed in Khaz Modan along with their gnome allies, and the night elven armies are mainly defending northern Kalimdor from the Horde's deforestation of the Ashenvale. The remaining draenei forces are still trying to secure their new home on Azuremyst Isle, and are also stationed in Outland. The recently brought in Gilnean armies are defending themselves from the endless Forsaken.</p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="The Horde" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_FACTIONS_HORDE">
+		<description>
+			<p>The Horde makes no compromises when it comes to excellence, and the power and ferocity of their warriors is legendary. Misunderstood by many as evil, the Horde possesses a strong code of honor and strict laws for disobedience. All members of the Horde have to swear a blood oath to join the faction and are thus obligated to follow the warchief's commands and support the warchief in war if the warchief calls upon them for aid. The position of warchief can be attained by having the previous warchief choose a successor or challenging the current warchief to a Mak'gora: a prearranged duel with deadly weapons between two people following a formal procedure in the presence of witnesses and traditionally fought until one party yields or is killed, usually to settle a quarrel involving a point of honor. Above all else, the title warchief is granted to those who display strength and decisive action.</p>
+			<p class="indent">The warchief may accept ambassadors and advisors from all the different tribes and members of the Horde to makes sure their voice is heard in the running of the fledgling hegemony but ultimately, only the warchief may have the final say in matters concerning the entire Horde. Each race within the Horde choose a single leader to govern their people and their people's kingdoms and also to represent their people in the high Horde echelon.</p>
+			<p class="indent">Despite their somewhat monstrous appearance, the majority of the Horde is not evil, much like the Alliance, it is comprised of diverse factions and individuals who possess a wide range of values and virtues. Even so, there is one expectation that must be met when joining the Horde: regardless of gender or station, all are expected to pull their own weight and give their talents for the betterment of the Horde. When weakness is a liability to the of the Horde, it is the duty of the strong to usurp control from the incompetent and redeem the Horde. <i>Lok'tar ogar! Victory or death</i> - These words bind one to the Horde. For they are the most sacred and fundamental of truths to any warrior of the Horde, for the Horde, failure is not an option.</p>
+			<p class="indent">Culturally, orcs and tauren believe in redemption more than most other races on Azeroth and are willing to give almost anyone a chance,regardless of reputation. The trolls seem to have even accepted, (if not at least tolerate) their ancient enemy the blood elves. Largely because of these beliefs, a number of mortal races and many diverse factions can be found in bservice to the Horde.</p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+</elements>

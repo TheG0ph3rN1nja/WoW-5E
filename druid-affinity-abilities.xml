@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Druid Affinity Abilities</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="druid-affinity-abilities.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Displacer Beast" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DISPLACER_BEAST">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>You can spend 1 affinity point and use your action to teleport up to 30 feet to an unoccupied space that you can see. As part of the same action, you shift into a known shapeshift of your choice.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Renewal" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_RENEWAL">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>While shapeshifted, you can spend 1 affinity point and use your bonus action to regain hit points equal to 1d6 + your Wisdom modifier. The healing increases by 1d6 for each additional affinity point you spend.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Stampeding Roar" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_STAMPEDING_ROAR">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>While shapeshifted, you can spend 1 affinity point and use your action to let out an enchanted roar. Each ally within 60 feet of you that can hear you have their movement speed increased by 10 feet until the end of their next turn, including you.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Feline Swiftness" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FELINE_SWIFTNESS">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>You can spend 1 affinity point to take the Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">Bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Ferocious Bite" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FEROCIOUS_BITE">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>When you hit another creature with a bite attack, you can spend 2 affinity points to deal an extra 1d8 + your Dexterity modifier piercing damage.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Attack</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Primal Fury" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_PRIMAL_FURY">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>Immediately after you take the Attack action on your turn, you can spend 1 affinity point to make a claw attack as a bonus action.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Attack</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Rake" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_RAKE">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>When a creature misses you with a melee weapon attack, you can spend 1 affinity point to make an opportunity attack against the target. Dealing additional damage equal to your druid level to the target.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">Reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Survival Instincts" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_SURVIVAL_INSTINCTS">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>Spend 2 affinity points upon taking damage to reduce the damage taken by an amount equal to your druid level.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Abjuration</set>
+      <set name="time">Upon Taking Damage</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Bramblefur" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_BRAMBLEFUR">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>As a reaction upon taking damage, you can spend 1 affinity point to reduce the damage by an amount equal to your druid level, and deal the reduced damage back to the attacker as bludgeoning damage.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Abjuration</set>
+      <set name="time">Reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Demoralizing Roar" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DEMORALIZING_ROAR">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>You can spend 2 affinity points and let out an echoing roar as an action. Each enemy within 30 feet of you must succeed on a Wisdom saving throw, or be frightened for 1 minute. A creature frightened in this way makes a new saving throw at the end of their turn, ending the effect on a success. On a successful save, a creature becomes immune to this feature for 24 hours.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Illusion</set>
+      <set name="time">Reaction</set>
+      <set name="duration">1 Min.</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Mangle" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_MANGLE">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>When you hit with a claw attack, you can spend 1 affinity point to force the target to make a Strength saving throw. Knocking it prone on a failed saving throw.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">Attack</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Mighty Bash" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_MIGHTY_BASH">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>When you hit another creature with a claw attack, you can spend 1 affinity point to attempt a mighty bash. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">Attack</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Pack Defender" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_PACK_DEFENDER">
+    <requirements>ID_GMBINDER_WOW5E_CLASS_DRUID</requirements>
+    <description>
+      <p>You can use your reaction upon an ally being targeted by a melee weapon attack, and spend 2 affinity points to move 20 feet towards the ally and give the attack against them disadvantage. Opportunity attacks against you are made with disadvantage.</p>
+    </description>
+    <setters>
+      <set name="keywords">affinity</set>
+      <set name="level">0</set>
+      <set name="school">Abjuration</set>
+      <set name="time">Reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+</elements>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Tauren</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="tauren.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Tauren" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_TAUREN">
+    <description>
+      <p><i>Our people have walked this land for many, many years, and in that time have learned much about the world. Our allies will need to look to us for wisdom and guidance. My father once made a promise to the Horde, to repay a debt we owed them for their service to our race. I, for one, intend to deliver on that promise.</i></p>
+      <p align="right"><i>— High Chieftain Baine Bloodhoof</i></p>
+      <h3>INTRODUCTION</h3>
+      <p>The plains of Kalimdor have long been a home to these gargantuan nomads. The tauren are a race of spiritual shamans, hunters, and fighters, who long ago developed a complex culture and system of living without the aid of stonework, steel or conquest. This is not to say that the tauren are a race of pacifists, when they are angered they are capable of retaliating with swift and decisive brutality.</p>
+      <p class="indent">The tauren are a noble race that embrace the natural world. They have shed their nomadic roots and united in their ancestral lands. Their race may be one of spirituality, reverence for nature, and respect for elders, but it also possesses powerful warriors that willingly fight when the situation demands it. Although strong and capable warriors when roused in battle, most tauren reserve combat for when all other options are exhausted.</p>
+      <p class="indent">They prefer course of wise discussion and careful rumination before embarking on any great endeavor, and they have great respect for the wise, spiritual and elderly among their people. The tauren are not wrathful by nature, but sometimes a thirst for justice causes them to take up arms in anger.</p>
+      <h3>PEACEFUL REACE</h3>
+      <p>Tauren have no love for bloodshed, as their deep spiritual beliefs do not have a place for warfare. The elders of a tribe solve most issues, or two tauren might resolve a conflict with a ritual challenge resembling a duel.</p>
+      <p class="indent">Having become members of the Horde, the introspective race has been involved in more and more conflict, creating a demand for tauren warriors and healers. Many must spend time putting great thought into the actions they perform on the field of battle. Taking another life, whether it is man or beast, is an act filled with great significance and responsibility to the tauren.</p>
+      <h3>MAJESTIC APPEARANCE</h3>
+      <p>Tauren are large, and muscular with bull-like heads. Males average 7 1/2 feet tall and 400 pounds, while females are usually a bit shorter and lighter. Tauren are mostly muscle, having incredibly developed physiques and brawny frames most suitable for combat. Soft, downy fur covers the tauren body, with manes growing along head and neck, the lengths of the arms, and the shins.</p>
+      <p class="indent">Coloration can range from solid black to blond and even to white, or mottled pelts with a range of spots and different colors. Horns are most prominent on males, although all tauren have horns.</p>
+      <h3>AFFILIATION</h3>
+      <p>Tauren are members of the horde. When they first encountered the orcs, the tauren recognized them as spiritual brethrens. No other race shared such a similar outlook on the world, and the shamans of both races met frequently to discuss the matters of the spirit world. The tauren allied with the orcs out of a shared vision, one of a collective of allies keeping each other well guarded.</p>
+      <p class="indent">While the tauren see the orcs and trolls as friends to welcome, they rarely trust the forsaken with more than a nod and a place to set their withered feet, and give blood elves the same treatment, the taint of magic still lingering on the blood elven spirit is a poisonous air to the tauren, a stench of the soul that they cannot tolerate for long.</p>
+      <p class="indent">Tauren bear no personal ill will to members of the Alliance unless directly threatened by them. They view night elves with awe and fear. Tauren and night elves have coexisted on Kalimdor for centuries, and tauren have long seen the Kaldorei as a mythical race of demigods, wielders of great magic and steeped in natural powers.</p>
+      <h3>NAMES</h3>
+      <p>The language of the tauren is often harsh and low sounding, which is reflected in the names of their children. The last name of a tauren is usually a family name, handed down through the generations. If the tauren has performed some act that has made an impression on the elders of his tribe, however, he may choose to take on his own last name to commemorate that act.</p>
+      <p><strong>Males Names:</strong> Azok, Bron, Turok, Garaddon, Hruon, Etu, Jeddek, Mechi, Cochu, Huslu, Idra, Naalnish</p>
+      <p><strong>Female Names:</strong> Argo, Serga, Grenda, Beruna, Halfa, Atepa, Chepi, Mabu, Foston, Pakuna, Halona</p>
+      <p><strong>Family Names:</strong> Darkthorn, Thunderhoof, Stormhorn, Quillsplitter, Stonebreaker, Plainstalker, Spiritwalker</p>
+      <h3>TAUREN TRAITS</h3>
+      <p>Tauren share certain characteristics no matter what tribe they come from.</p>
+      <p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Strength increases by 2.</p>
+      <p class="indent"><strong><i>Age.</i></strong> Tauren reaches adulthood in their mid teens, and most grow to be 80 years old, few live beyond a century.</p>
+      <p class="indent"><strong><i>Alignment.</i></strong> Most tauren are lawful, keeping to their tribal code. Those who are evil are shunned upon, most either outlaws or corrupted in some form.</p>
+      <p class="indent"><strong><i>Size.</i></strong> Tauren stand between 7-9 feet tall, most heavily built with broad shoulders. Your size is Medium.</p>
+      <p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+      <p class="indent"><strong><i>Horns.</i></strong> Your horns are natural weapons, which you can use to make an unarmed strike. When you hit with them, the target takes piercing damage equal to 1d6 + your Strength modifier.</p>
+      <p class="indent"><strong><i>Powerful Build.</i></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+      <p class="indent"><strong><i>Tauren Weapon Training.</i></strong> You are proficient with the halbard, tauren totem, shortbow, and longbow.</p>
+      <p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common and Taur-ahe. Taur-ahe is a harsh, and low sounding language, without a proper alphabet, their written language is made of elaborate pictograms and pictoforms.</p>
+      <p class="indent"><strong><i>Subrace.</i></strong> Three subraces of tauren exist: highmountain tauren, mulgore tauren, and winter tauren. Choose one of them for your character.</p>
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_HIGHMOUNTAINTAUREN" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_MULGORETAUREN" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_WINTERTAUREN" />
+    </description>
+    <sheet display="false" />
+		<setters>
+			<set name="names" type="male">Azok, Bron, Turok, Garaddon, Hruon, Etu, Jeddek, Mechi, Cochu, Huslu, Idra, Naalnish</set>
+			<set name="names" type="female">Argo, Serga, Grenda, Beruna, Halfa, Atepa, Chepi, Mabu, Foston, Pakuna, Halona</set>
+			<set name="names" type="surname">Darkthorn, Thunderhoof, Stormhorn, Quillsplitter, Stonebreaker, Plainstalker, Spiritwalker</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+      <stat name="strength" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_TAURAHE"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD" />
+      <!--<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_TAUREN_TOTEM" />-->
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_TAUREN_HORNS" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_TAUREN_POWERFUL_BUILD" />
+      <select type="Sub Race" name="Tauren Subrace" supports="Tauren" />
+    </rules>
+  </element>
+
+  <element name="Horns" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_TAUREN_HORNS">
+		<description>
+			<p>Your horns are natural weapons, which you can use to make an unarmed strike. When you hit with them, the target takes piercing damage equal to 1d6 + your Strength modifier.</p>
+		</description>
+		<sheet>
+			<description>Your horns are natural weapons, which you can use to make an unarmed strike. When you hit with them, the target takes piercing damage equal to 1d6 + {{tauren horns:damage}}.</description>
+		</sheet>
+		<rules>
+      <stat name="tauren horns:damage" value="strength:modifier" />
+    </rules>
+	</element>
+
+  <element name="Powerful Build" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_TAUREN_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Highmountain Tauren" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_HIGHMOUNTAINTAUREN">
+		<supports>Tauren</supports>
+		<description>
+			<p>Highmountains are among the more secluded tauren, residing atop highmountain on the broken isles, they are a peaceful, and generally kind hearted tauren kin. These tauren has massive thick antler instead of horns.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Wisdom increases by 1.</p>
+			<p><strong><i>Mountaineer.</i></strong> You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the <i>Dungeon Master's Guide.</i></p>
+			<p><strong><i>Rugged Tenacity.</i></strong> You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HIGHMOUNTAINTAUREN_MOUNTAINEER" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HIGHMOUNTAINTAUREN_RUGGED_TENACITY" />
+		</rules>
+	</element>
+
+  <element name="Mountaineer" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HIGHMOUNTAINTAUREN_MOUNTAINEER">
+		<description>
+			<p>You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the <i>Dungeon Master's Guide.</i></p>
+		</description>
+		<sheet>
+			<description>You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Rugged Tenacity" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HIGHMOUNTAINTAUREN_RUGGED_TENACITY">
+		<description>
+			<p>You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>When you take damage, roll a d12 + {{tauren rugged tenacity:count}}, and reduce the damage by that total.</description>
+		</sheet>
+		<rules>
+      <stat name="tauren rugged tenacity:count" value="constitution:modifier" />
+    </rules>
+	</element>
+
+  <element name="Mulgore Tauren" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_MULGORETAUREN">
+		<supports>Tauren</supports>
+		<description>
+			<p>The tauren of Mulgore are a peaceful and honorable people, that nonetheless are fierce fighters when roused. Hunting and shamanism are held in high regard in their culture, as is their worship of the Earth Mother and respect for the land and nature.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Wisdom increases by 1.</p>
+			<p><strong><i>Endurance.</i></strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+			<p><strong><i>War Stomp.</i></strong> You can cast the <i>earth tremor</i> once with this trait, by stomping your hoof into the ground, and regain the ability to do so when you finish a long rest. Strength is your spellcasting ability for this spell.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_MULGORETAUREN_ENDURANCE" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_MULGORETAUREN_WAR_STOMP" />
+		</rules>
+	</element>
+
+  <element name="Endurance" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_MULGORETAUREN_ENDURANCE">
+		<description>
+			<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+		</description>
+		<sheet>
+			<description>Your hit point maximum increases by {{mulgore tauren endurance:count}}</description>
+		</sheet>
+		<rules>
+      <stat name="mulgore tauren endurance:count" value="level" />
+      <stat name="hp" value="level" />
+    </rules>
+	</element>
+
+  <element name="War Stomp" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_MULGORETAUREN_WAR_STOMP">
+		<description>
+			<p>You can cast the <i>earth tremor spell</i> once with this trait, by stomping your hoof into the ground, and regain the ability to do so when you finish a long rest. Strength is your spellcasting ability for this spell.</p>
+		</description>
+		<sheet>
+			<description>You can cast the earth tremor spell. Strength is your spellcasting ability for this spell.</description>
+		</sheet>
+		<rules>
+      <grant type="Spell" id="ID_POTA_SPELL_EARTHTREMOR" />
+    </rules>
+	</element>
+
+  <element name="Winter Tauren (Taunka)" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_WINTERTAUREN">
+		<supports>Tauren</supports>
+		<description>
+			<p>The taunka are an ancient offshoot of the yaungol and relatives to the tauren who have adapted to the harsh environment in Northrend. Unlike their more peaceful tauren relatives, the taunka forcibly bend nature and the elements to their will in order to survive.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Constitution increases by 1.</p>
+			<p><strong><i>Cold Resistance.</i></strong> You have resistance to cold damage.</p>
+			<p><strong><i>Natural Athlete.</i></strong> You are proficient in the Athletics skill.</p>
+      <p><strong><i>Tundra Walker.</i></strong> You can move across difficult terrain made of ice or snow without expending extra movement.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="constitution" value="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WINTERTAUREN_COLD_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WINTERTAUREN_TUNDRA_WALKER" />
+		</rules>
+	</element>
+
+  <element name="Cold Resistance" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WINTERTAUREN_COLD_RESISTANCE">
+		<description>
+			<p>You have resistance to cold damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to cold damage.</description>
+		</sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+    </rules>
+	</element>
+
+  <element name="Tundra Walker" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WINTERTAUREN_TUNDRA_WALKER">
+		<description>
+			<p>You can move across difficult terrain made of ice or snow without expending extra movement.</p>
+		</description>
+		<sheet>
+			<description>You can move across difficult terrain made of ice or snow without expending extra movement.</description>
+		</sheet>
+		<rules />
+	</element>
+
+</elements>

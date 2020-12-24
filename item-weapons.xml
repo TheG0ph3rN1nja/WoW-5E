@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="item-weapons.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Kaldorei Moon Sword" type="Weapon" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_WEAPON_KALDOREI_MOON_SWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_KALDOREI_MOON_SWORD</set>
+		</setters>
+	</element>
+
+	<element name="Kaldorei Moonglaive" type="Weapon" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_WEAPON_KALDOREI_MOONGLAIVE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_KALDOREI_MOONGLAIVE</set>
+		</setters>
+	</element>
+
+	<element name="Sin'dorei Warblade" type="Weapon" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_WEAPON_SINDOREI_WARBLADE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_DAMAGE_TYPE_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>Immediately after attacking an enemy with this blade, you may make an additional attack with its second blade using your bonus action.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_SINDOREI_WARBLADE</set>
+		</setters>
+	</element>
+
+	<element name="Tauren Totem" type="Weapon" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_WEAPON_TAUREN_TOTEM">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_DAMAGE_TYPE_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="45">45 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d8</set>
+			<set name="proficiency">ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_TAUREN_TOTEM</set>
+		</setters>
+	</element>
+
+	<element name="Warglaive" type="Weapon" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_WEAPON_WARGLAIVE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_DAMAGE_TYPE_LIGHT, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_WARGLAIVE</set>
+		</setters>
+	</element>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_KALDOREI_MOON_SWORD" />
+			<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_KALDOREI_MOONGLAIVE" />
+			<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_SINDOREI_WARBLADE" />
+			<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_TAUREN_TOTEM" />
+			<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_WARGLAIVE" />
+		</rules>
+	</append>
+
+</elements>

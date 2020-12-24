@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Goblin</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="goblin.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Goblin" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_GOBLIN">
+    <description>
+      <p><i>I never cover up the things I'm proud of. If the world was gonna split in half tomorrow, I’d buy the Dark Portal, slap a toll booth on it, and charge refugees the last of their pocket change, the rings off their fingers, a bite of their meal, and a contractual obligation to build me a rocket palace in the skies of Nagrand. It’s the goblin way! Supply and demand! Deal with it!</i></p>
+      <p align="right"><i>— Trade Prince Jastor Gallywix</i></p>
+      <h3>INTRODUCTION</h3>
+      <p>Slaves of the jungle trolls on their home isle, forced to mine kaja'mite ore out of the volcanic bowels of Mount Kajaro. The ore had an unexpected effect on the goblins, granting them cunning intelligence. They began to rebel in secret, engineering artifacts, and brewing alchemical substances to successfully overthrow their oppressors and claim Kezan their homeland.</p>
+      <p class="indent">Their prior prison become an expanding empire in the mines they had dugged. To their dismay, the effects of the kaja'mite ore wore off, and their increased intelligence waned, as the ore itself became scarce and dwindled. Their brilliant engineering dwindled in ingenuity, looking haphazardly put together. Their remaining craftiness and greed soon took its place, lifting the race to preeminence as masters of mercantilism. Great fortunes were amassed, and the isle became a hub for goblin traders.</p>
+      <h3>TECHNOLOGY</h3>
+      <p>Goblins love of mechanics often places them into direct competition with gnomes who enjoy similar devices. The competition between goblins and gnomes seems to be friendly. Whether clockwork shredders that allow a single goblin to do as much harvesting as 10 field hands or zeppelin-like airships that can ferry troops over otherwise impassable terrain, the goblins' inventions have become legendary. Such technological ingenuity is as central to the goblins' rise among the races as any trading prowess.</p>
+      <p class="indent">Even with the malfunctions and explosions that occur, goblin technology is proving to be of a quality that rivals the dwarves and their firearms.</p>
+      <p class="indent">While other races often try to build reliable machines that would stay for grandchildren, goblin aims for device of the marginally bearable reliability that should only last enough to make its construction reasonable. Weird as it is, this approach allows to build more machines, or to build a more complex and powerful machine using the same time and resources.</p>
+      <h3>BORN TRADERS</h3>
+      <p>Goblins have taken to the role of merchants, and it's hard to travel for more than a week or two without stumbling across a goblin shop of some size. Goblin shops can be found nearly anywhere on Azeroth, seemingly regardless of whether or not there are towns nearby and heedless of dangers such as the Scourge. The goblins will sell anything to anyone, at only slightly inflated prices.</p>
+      <p class="indent">Though many shops remain independent, a growing number of them have signs declaring that they are owned and operated by the Venture Company, which the proprietors claim is headquartered in a faraway city ruled by goblins where the streets are paved with gold.</p>
+      <p class="inednt">The goblins are also legendary for the sheer variety of trade in which they are willing to indulge and for their tenacity in bargaining.</p>
+      <h3>SMALL BUT STANDING TALL</h3>
+      <p>Goblins are slight and wiry, averaging 3 feet in height and weighing between 30 and 50 pounds. They have long, sharp noses, chins and ears, and green skin. Their arms are long and slender and their fingers deft.</p>
+      <p class="indent">Female goblins are on average taller than most male goblins, even though the difference is miniscule, and close to nothing compared to other races.</p>
+      <h3>AFFILIATION</h3>
+      <p>Goblins have found a recent enemy in the Alliance. Unpro-fitable encounters with the secretive SI:7 forces have driven them away from comfortable neutrality with both sides. Forcing them to reforge old pacts with their business partners and now allies the horde.</p>
+      <p class="indent">Although the Alliance is not fond of goblins, they still for the most part do trade with them when stumbled upon outside Stormwinds borders. Only member of the Alliance they tend to stay from are night elves, who carry a deep dislike towards the goblins because of their disrespect for the nature they continuously harvest for resources.</p>
+      <h3>NAMES</h3>
+      <p>Every goblin has a given name and a family name. The family names portray some ancestor’s achievement, though a goblin may take a new family name if he feels he has made an accomplishment that outstrips that of his forebear.</p>
+      <p><strong>Males Names:</strong> Nees, Ford, Joxdeld, Zatval, Fivinkle, Bova, Geevegbix, Rolaz, Ixa, Saz, Menzen, Gilmaxle</p>
+      <p><strong>Female Names:</strong> Trutte, Meez, Kleqe, Suva, Tweedo, Cynmee, Twinkle, Klasi, Teexma, Ninzi</p>
+      <p><strong>Family Names:</strong> Brokenblast, Shifttale, Saltsnipe, Deadknob, Nifttweak, Cogbeast, Slyfire, Manbelt</p>
+      <h3>GOBLIN TRAITS</h3>
+      <p>Your goblin character has certain abilities, learned through generations of goblins.</p>
+      <p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Intelligence increases by 1, and your Charisma score increases by 2.</p>
+      <p class="indent"><strong><i>Age.</i></strong> Goblins mature slightly slower than humans, reach-ing adulthood in their early 20, and die within a century.</p>
+      <p class="indent"><strong><i>Alignment.</i></strong> Most goblins tend to be chaotic to a certain degree, even when lawful, they have a spark of chaoticness in them that they cannot get rid off.</p>
+      <p class="indent"><strong><i>Size.</i></strong> Goblins are between 3 and 4 feet and somewhat slender. Your size is Small.</p>
+      <p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+      <p class="indent"><strong><i>Darkvision.</i></strong> Goblins naturally have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+      <p class="indent"><strong><i>Best Deals Anywhere.</i></strong> You have advantage on any ability check made to appraise the price of an item.</p>
+      <p class="indent"><strong><i>Goblin Engineering.</i></strong>You are proficient with the artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct an explosive device. The device ceases to function after 24 hours, when a creature uses their action to activate it or when you dis-mantle it; if you dismantle a device, you can reclaim the materials used to create it. You can only have one explosive device constructed at a time.</p>
+      <p class="indent">When you create a device, choose one of the following:</p>
+      <ul>
+        <li><i>Rocket Jump.</i> This explosive container can be strapped to a person's belt or boot. As an action, that person can fire the rocket, launching them 30 feet in a direction of their choice. For example, a creature can choose to launch 25 feet into the air, 5 feet forward, and so on.</li>
+        <li><i>Rocket Blast.</i> A crude rocket fixed with flash powder. As an action you, you can choose a point within 30 feet. Each creature within 10-ft of the point must succeed a DC 11 Dexterity saving throw, or be blinded until the start of their next turn.</li>
+      </ul>
+      <p class="indent"><strong><i>Living Through Chemistry.</i></strong> You gain proficiency with the artisan's tool (alchemist's supplies).</p>
+      <p class="indent"><strong><i>Mechanical Familiarity.</i></strong> You are proficient in firearms.</p>
+      <p class="indent"><strong><i>Time is Money.</i></strong> As a bonus action you can shout at an ally and command them to move. That creature can use it's reaction to move up to its speed without provoking opportunity attacks. You can't use this feature again until you finish a short or long rest.</p>
+      <p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common, Goblin and one language of your choice. Goblins are traders, and trade with every race willing to buy from them, picking up languages as they go.</p>
+    </description>
+    <sheet display="false" />
+		<setters>
+			<set name="names" type="male">Nees, Ford, Joxdeld, Zatval, Fivinkle, Bova, Geevegbix, Rolaz, Ixa, Saz, Menzen, Gilmaxle</set>
+			<set name="names" type="female">Trutte, Meez, Kleqe, Suva, Tweedo, Cynmee, Twinkle, Klasi, Teexma, Ninzi</set>
+			<set name="names" type="surname">Brokenblast, Shifttale, Saltsnipe, Deadknob, Nifttweak, Cogbeast, Slyfire, Manbelt</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+      <stat name="charisma" value="2" />
+      <stat name="intelligence" value="1" />
+			<grant type="Size" id="ID_SIZE_SMALL"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_GOBLIN"/>
+      <select type="Language" name="Language (Goblin)" supports="Standard||Exotic" number="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+      <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_BESTDEALSANYWHERE" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_ENGINEERING" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_TIMEISMONEY" />
+    </rules>
+  </element>
+
+  <element name="Best Deals Anywhere" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_BESTDEALSANYWHERE">
+		<description>
+			<p>You have advantage on any ability check made to appraise the price of an item.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on any ability check made to appraise the price of an item.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Time is Money" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_TIMEISMONEY">
+		<description>
+			<p>As a bonus action you can shout at an ally and command them to move. That creature can use it's reaction to move up to its speed without provoking opportunity attacks. You can't use this feature again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>You can shout at an ally and command them to move. That creature can use it's reaction to move up to its speed without provoking opportunity attacks.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Goblin Engineering" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_ENGINEERING">
+		<description>
+			<p>You are proficient with the artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct an explosive device. The device ceases to function after 24 hours, when a creature uses their action to activate it or when you dis-mantle it; if you dismantle a device, you can reclaim the materials used to create it. You can only have one explosive device constructed at a time.</p>
+			<p class="indent">When you create a device, choose one of the following:</p>
+			<ul>
+				<li><i>Rocket Jump.</i> This explosive container can be strapped to a person's belt or boot. As an action, that person can fire the rocket, launching them 30 feet in a direction of their choice. For example, a creature can choose to launch 25 feet into the air, 5 feet forward, and so on.</li>
+				<li><i>Rocket Blast.</i> A crude rocket fixed with flash powder. As an action you, you can choose a point within 30 feet. Each creature within 10-ft of the point must succeed a DC 11 Dexterity saving throw, or be blinded until the start of their next turn.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Using tinker's tools,  you can spend 1 hour and 10 gp worth of materials to construct an explosive device. The device ceases to function after 24 hours, when a creature uses their action to activate it or when you dis-mantle it; if you dismantle a device, you can reclaim the materials used to create it. You can only have one explosive device constructed at a time. When you create a device, choose one of the following:</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_ENGINEERING_ROCKETJUMP" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_ENGINEERING_ROCKETBLAST" />
+		</rules>
+	</element>
+
+  <element name="Rocket Jump" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_ENGINEERING_ROCKETJUMP">
+		<description>
+			<p>This explosive container can be strapped to a person's belt or boot. As an action, that person can fire the rocket, launching them 30 feet in a direction of their choice. For example, a creature can choose to launch 25 feet into the air, 5 feet forward, and so on.</p>
+		</description>
+		<sheet>
+			<description>This explosive container can be strapped to a person's belt or boot. As an action, that person can fire the rocket, launching them 30 feet in a direction of their choice. For example, a creature can choose to launch 25 feet into the air, 5 feet forward, and so on.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Rocket Blast" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GOBLIN_GOBLIN_ENGINEERING_ROCKETBLAST">
+		<description>
+			<p>A crude rocket fixed with flash powder. As an action you, you can choose a point within 30 feet. Each creature within 10-ft of the point must succeed a DC 11 Dexterity saving throw, or be blinded until the start of their next turn.</p>
+		</description>
+		<sheet>
+			<description>A crude rocket fixed with flash powder. As an action you, you can choose a point within 30 feet. Each creature within 10-ft of the point must succeed a DC 11 Dexterity saving throw, or be blinded until the start of their next turn.</description>
+		</sheet>
+		<rules />
+	</element>
+
+</elements>

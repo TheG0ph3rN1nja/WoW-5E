@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Faction Fostered</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="faction-fostered.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Faction Fostered" type="Background" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_BACKGROUND_FACTION_FOSTERED">
+		<description>
+			<p>You were abandoned at birth and found by members of the opposing faction, taken in by a family and raised as a member of their faction. Having had a harsh childhood of being shunned upon by members of the faction, never fully being accepted but merely tolerated in their presence.</p>
+			<p class="indent">You might be a tauren born in the eastern kingdoms, and abandoned by your parents, to be found by human farmers that took you in, nurtured you and raised you as their own, or you may be a human of Theramore, who ran away from your home, to be taken in by orcs and raised as a member of the horde within Orgrimmar, taught how to fight and learn the language of orcs.</p>
+			<p class="indent">Discuss with your DM the details of the faction and race who raised you, as not all races of Azeroth have an equal relationship towards other races.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> History, Perception</li>
+				<li><strong>Languages:</strong> Two of your choice from the faction you were raised ins faction languages.</li>
+				<li><strong>Equipment:</strong> A set of common clothes, hooded cloak, a trinket of your faction, book, one bottle of ink, one quill, and a belt pouch containing 10 gp</li>
+			</ul>
+			<div element="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_A_FALSE_ALLEGIANCE" />
+			<h4>SUGGESTED CHARACTERISTICS</h4>
+			<p>Having lived a life amongst races of the opposite faction, getting to know and love their customs often make faction fostered social skills within their born faction limited. They are nonetheless social individuals, many of which greatly appreciate the races they now have grown up with, and stand by their side against their own kin.</p>
+		</description>
+		<setters>
+			<set name="short">History, Perception, Forgery Kit, 2 Languages</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<select type="Language" name="Language (Faction Fostered)" number="2" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_A_FALSE_ALLEGIANCE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I am optimistic and appreciate simple gestures given to me.</item>
+				<item id="2">I am genial and make an honest effort to get along with my new faction.</item>
+				<item id="3">I smile often, but I am distrustful of people outside my family.</item>
+				<item id="4">I am quiet and study the people around me intently.</item>
+				<item id="5">I am always looking over my shoulder.</item>
+				<item id="6">I am uncomfortable in urban settings and only truly feel safe on the open road.</item>
+				<item id="7">I am friendly and extremely curious.</item>
+				<item id="8">I love to talk to people and hear their stories.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Loyalty. I never betray a friend, no matter their allegiance. (Lawful)</item>
+				<item id="2">People. I help those who help me. (Any)</item>
+				<item id="3">Aspiration. I will prove im worthy of this faction. (Good)</item>
+				<item id="4">Family. Blood is thicker than water. (Lawful)</item>
+				<item id="5">Anger. I was abandoned and am angry at my kin for being left behind. (Evil)</item>
+				<item id="6">Peace. All races deserve peace. (Neutral)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">My family means everything to me.</item>
+				<item id="2">I owe everything to the people that took me in, and would do anything for them.</item>
+				<item id="3">My foster parents were better than my birth parents and I love them dearly.</item>
+				<item id="4">I strive to one day find the parents that left me.</item>
+				<item id="5">I must prove myself worthy of the love of a prominent family member.</item>
+				<item id="6">I must complete a great quest to prove my worth.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I am very slow to trust others.</item>
+				<item id="2">I have no sympathy for anyone of my born faction.</item>
+				<item id="3">I throw myself into danger recklessly.</item>
+				<item id="4">I try to talk my way out of every situation</item>
+				<item id="5">I always believe those of my foster race.</item>
+				<item id="6">I am painfully shy and have difficulties speaking to people I don't know.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: A False Allegiance" type="Background Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_A_FALSE_ALLEGIANCE">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Your race and appearance makes you able to enter and go undisturbed through villages and cities of both factions, eye may wander upon you as you walk, but none will stop and ask questions, or raise arms against you.</p>
+		</description>
+		<sheet alt="A False Allegiance" />
+	</element>
+
+</elements>

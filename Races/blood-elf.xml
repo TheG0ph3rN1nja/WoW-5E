@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Blood Elf</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="blood-elf.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Blood Elf" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_BLOOD_ELF">
+    <description>
+      <p><i>We must put this misery behind us. We must enter a new chapter! And so I say to you that, as of this day, we are no longer high elves! In honor of the sacrifices of our brothers and sisters, our parents, and our children, as of this day we will take the name of our royal lineage! As of this day, we are sin'dorei! For Quel'Thalas!</i></p>
+      <p align="right"><i>— Kael'thas Sunstrider</i></p>
+      <h3>INTRODUCTION</h3>
+      <p class="indent">Nourished and strengthened by the Sunwell’s potent energies, the high elves’ enchanted kingdom of Quel'Thalas prospered within the verdant forests north of Lordaeron.</p>
+      <p class="indent">During the Third War, the high elves were nearly scoured from Azeroth. Led by the death knight Arthas, the scourge army slaughtered almost all of the kingdom’s population. In the slaughter, Arthas tainted the sunwell, reanimating a lost necromancer. Prince Kael'thas rushed to his homeland's aid, and the survivors of the onslaught were renamed 'blood elves' in honor of their fallen kin. The blood elves grew addicted to the sunwells tainted energies. Kael'thas desperately searching for a cure for his kin, traveling the world to avenge his people and find a way to sate their hunger for magic.</p>
+      <p class="indent">Kael'thas assured his people he would return to Quel'Thalas and lead them to paradise, yet on Outland, the prince became twisted with the corrupting essence wielded by the demonic Burning Legion. Getting under the sway of the Legion's commander. The prince was later killed on his return to Quel'Thalas for his treachery, and with the aid of the draenei prophet, Velen, the magic taint lingering on the sunwell was vanquished, restore it as a fount of both arcane and holy energy.</p>
+      <p class="indent">Inspired by the Sunwell's rebirth, the blood elves have since entered into a shining new era in their ancient race's history. Although some elves remain hesitant to abandon their dependence on arcane magic, others have embraced change for the betterment of Quel'Thalas.</p>
+      <h3>CRIMSON</h3>
+      <p>As a culture, the sin'dorei have retained the look and feel of their fallen high elven kingdom, though have developed a greater penchant for the colour of crimson: the colour of their namesake. Crimson-red robes, decor and armour have become far more commonplace within blood elven society prior to the fall of the high elven people, a reference to the blood of their many brethren who had perished in the Third War. The iconic and traditional blood elven colours are red, gold, and to a lesser extent, blue – all of which can be seen on their racial crest, the Icon of Blood.</p>
+      <h3>PROUD SOCIETY</h3>
+      <p>In general, the blood elves are a proud, pragmatic, and somewhat jingoistic people; they place great emphasis on their love for their homeland, and are ruthless to their enemies. Their reputation for isolationism is well-earned, and they prefer to keep to their own kind, although excep-tions to this stereotype exist. Blood elves are a resilient race of survivors, and their most prominent figures stand as beacons of courage, tenacity, and the strength to fight on, regardless of what foes stand in their way.</p>
+      <h3>BEAUTIFUL AND GRACEFUL</h3>
+      <p>Blood elves are, biologically and physiologically high elves. With the largest difference being their emerald glowing eyes compared to the high elves blue.</p>
+      <p class="indent">They are slenderly built, standing at 5 feet tall to just over 6 feet, and averaging at 150 pounds. They have long pointy ears, high cheekbones, and are generally considered highly attractive by the standards of most mortal races. Both males and females commonly have long hair in light colorations, and males ability to grow facial hair is limited, resulting in very few having beards beyond an inch, and large facial hairs being completely absent.</p>
+      <h3>AFFILIATION</h3>
+      <p>The Sin'dorei have joined the Horde. After the third war, the atrocities dealt to their kin by the xenophobic humans lead them to distrust the Alliance. Convinced by the former ranger General Sylvanas Windrunner, and with her speak-ing on their behalf to the leaders of the Horde.</p>
+      <p class="indent">Even though high elves and blood elves are physically the same, the elves do not get along well. What remains of the high elves see their other kin as traitors, and tainted. And blood elves are split between wishing to reunite their empire, and seeing their high elven kin as dishonored for their actions against them.</p>
+      <h3>BLOOD ELF NAMES</h3>
+      <p>Blood elves for the most part use high elven names, as they originate from their high elven predecessors, many have either kept their past name, and given high elven names to their children. Unlike high elves, blood elven surnames are generally more aggressive, blood elves don't keep family names, with the exception of nobels wanting to carry on a certain name.</p>
+      <p><strong>Male Names:</strong> Mariel, Athaniar, Anador, Tharama, Viridiel, Malanior, Eraeth, Ulorath, Yehru, Kithadre</p>
+      <p><strong>Female Names:</strong> Anarial, Freja, Driana, Coria, Alanassori, Melanion, Azshara, Curlih, Setori, Amorly, Zama</p>
+      <p><strong>Surnames:</strong> Coldtrail, Nightfeast, Darkgift, Glowvein, Warmblood, Dawntrick, Solarmind, Phoenixdreamer</p>
+      <h3>BLOOD ELF TRAITS</h3>
+      <p>Your blood elf character has a variety of natural abilities, the result of magical influence and their highborne blood.</p>
+      <p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Dexterity score increases by 2, and your Intelligence score increases by 1.</p>
+      <p class="indent"><strong><i>Age.</i></strong> High elves reach adulthood at the rate of humans, but are not considered to have entered adulthood until they reach 60, and can live to become many hundreds of years old with ease. That said, many of the high elves have lived for thousands of years due to the power of the Sunwell extending their lifespan.</p>
+      <p class="indent"><strong><i>Alignment.</i></strong> High elves lies in a very militant society, strict rules have been made for people to uphold, pushing most towards a lawful alignment.</p>
+      <p class="indent"><strong><i>Size.</i></strong> High elves are just under 6 feet tall and weigh between 100 and 175 pounds. Your size is medium.</p>
+      <p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+      <p class="indent"><strong><i>Darkvision.</i></strong> Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+      <p class="indent"><strong><i>Keen Senses.</i></strong> You are proficient in the Perception skill.</p>
+      <p class="indent"><strong><i>Arcane Affinity.</i></strong> You can cast detect magic and magic weapon with this trait, Intelligence is your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest.</p>
+      <p class="indent"><strong><i>Cantrip.</i></strong> You know one cantrip of your choice from the mage spell list. Intelligence is your spellcasting ability for it.</p>
+      <p class="indent"><strong><i>Quel'dorei Weapon Training</i></strong> You are proficiency in longbows, sin'dorei warblades, and warglaives.</p>
+      <p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common, Thalassian, and one extra language of your choice. Tha-lassian is a derivative of the Darnassian language, and in many ways sound the same to an inexperienced ear.</p>
+    </description>
+    <sheet display="false" />
+		<setters>
+			<set name="names" type="male">Mariel, Athaniar, Anador, Tharama, Viridiel, Malanior, Eraeth, Ulorath, Yehru, Kithadre</set>
+			<set name="names" type="female">Anarial, Freja, Driana, Coria, Alanassori, Melanion, Azshara, Curlih, Setori, Amorly, Zama</set>
+			<set name="names" type="surname">Coldtrail, Nightfeast, Darkgift, Glowvein, Warmblood, Dawntrick, Solarmind, Phoenixdreamer</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+      <stat name="dexterity" value="2" />
+      <stat name="intelligence" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_THALASSIAN"/>
+      <select type="Language" name="Language (Blood Elf)" supports="Standard||Exotic" number="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+      <!--<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_WARGLAIVES" />
+      <grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_SINDOREI_WARBLADES" />-->
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_BLOOD_ELF_ARCANE_AFFINITY" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_BLOOD_ELF_CANTRIP" />
+    </rules>
+  </element>
+
+  <element name="Arcane Affinity" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_BLOOD_ELF_ARCANE_AFFINITY">
+		<description>
+			<p> You can cast <i>detect magic</i> and <i>magic weapon</i> with this trait, Intelligence is your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest.</p>
+		</description>
+		<sheet>
+			<description> You can cast detect magic and magic weapon with this trait, Intelligence is your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest.</description>
+		</sheet>
+		<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
+      <grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" />
+    </rules>
+	</element>
+
+  <element name="Cantrip" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_BLOOD_ELF_CANTRIP">
+		<description>
+			<p>You know one cantrip of your choice from the mage spell list. Intelligence is your spellcasting ability for it.</p>
+		</description>
+		<sheet>
+			<description>You know one cantrip of your choice from the mage spell list. Intelligence is your spellcasting ability for it.</description>
+		</sheet>
+		<rules>
+      <select type="Spell" name="Cantrip (Blood Elf)" supports="Wizard, 0" level="1" number="1" />
+    </rules>
+	</element>
+
+</elements>

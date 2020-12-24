@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Gnome</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="gnome.xml" url="" />
+		</update>
+	</info>
+
+  <element name="Gnome" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_GNOME">
+		<description>
+			<p><i>You never really understood, did you? It is our loyalty to our friends that provides our truest, greatest strength... My friends. It is a power that numbers cannot match.</i></p>
+			<p align="right"><i>— Gelbin Mekkatorque</i></p>
+			<h3>INTRODUCTION</h3>
+			<p>Gnomes are a diminutive, wiry race of tinkers who live underground. In the Second War, they built vehicles and gadgets for the Alliance, submarines and flying machines, to combat the Horde. They are great mechanics and inventors, and are renowned for their knowledge and eccentric natures. The gnomes had a city, Gnomeregan, built into Ironforge Mountain. But invading troggs destroyed it and slaughtered its citizens.</p>
+			<p class="indent">Many survivors moved into Khaz Modan and now live with the Dun Morogh dwarves, and a few traveled with their dwarven friends to Kalimdor.</p>
+			<p class="indent">The gnomes are still reeling from the destruction of their home city and are loath to leave the safety of the dwarven tunnels. Most gnomes on Kalimdor remain secluded in Bael Modan.</p>
+			<h3>CHEERFUL EXPRESSION</h3>
+			<p>Even after the decimation of their race and the destruction of their city, gnomes are an amiable and kind hearted lot. They make and keep friends easily; others find disliking a gnome to be difficult. A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 3 feet tall and weigh 40 to 45 pounds. Their tan or brown faces are usually adorned with broad smiles (beneath their prodigious noses), and their bright eyes shine with excitement. Their fair hair has a tendency to stick out in every direction, as if expressing the gnome's insatiable interest in everything around.</p>
+			<p class="indent">A gnome's personality is writ large in his or her appearance. A male gnome's beard, in contrast to his wild hair, is kept carefully trimmed but often styled into curious forks or neat points. A gnome's clothing, though usually made in modest earth tones, is elaborately decorated with embroidery, embossing, or gleaming jewels.</p>
+			<h3>EXCEPTIONAL TINKERS</h3>
+			<p>Gnomes tend to design complicated devices that are relatively safe. Gnomes are in many ways commensurate organizers: a gnome can spend as much time organizing and planning a project as they do actually working on it. If the design fails, they try to learn why, and fix it if they can.</p>
+			<p class="indent">If they meet with success, they will continue to tinker with it and improve the design, often for years afterward. Thus, many gnomish designs feature a high degree of complexity and a low chance of failure, the exceptions being those that dabble with chaos energy — but even then, they take steps to ensure the worst that could happen is a brief, non-fatal failure.</p>
+			<p class="indent">While a goblin would scream and flee at the mere thought of a cost overrun, a gnome simply shrugs and presses on. If a project fails to work correctly the first time, a gnome will continue to tinker with it, while a goblin would usually give up and move to something else. Thus, gnomish items have very low failure rates compared to goblin items.</p>
+			<h3>AFFILIATION</h3>
+			<p>Gnomes are members of the alliance, they are great friends of the dwarves and have fought and died alongside human soldiers. They are wary of the blood elves, but so is everyone else, so they don’t feel too bad about that. They battled the Horde in the Second War and have a bit of a grudge against orcs, but gnomes are a kindly and forgiving lot and are willing to give the orcs a second chance. Gnomes and goblins have always been rivals — though whether this rivalry is friendly or brutal depends on the individuals involved.</p>
+			<p class="indent">Gnomes have not been on Kalimdor long enough to form proper opinions about its denizens. Tauren and night elves both seem rather rustic for gnome sensibilities — but they can make friends with anyone.</p>
+			<h3>NAMES</h3>
+			<p>Gnome parents name their children at birth. Gnomes have family names that represent an honored ancestor’s achievements, but they only keep these names until some time in their 30s. Gnome society expects them to have made their own achievements by then, and thus the gnome invents a new name that represents their own accomplish-ments. This name then takes the place of his family name.</p>
+			<p><strong>Male Names:</strong> Grobnick, Kazbo, Hagin, Snoonose, Mikosh, Kebos, Otlak, Ciklin, Therlick, Finlis, Iklirn</p>
+			<p><strong>Female Names:</strong> Beggra, Nefti, Sorassa, Gamash, Biskil, Munkull, Inku, Fixi, Mekin, Mitkla, Dapeek</p>
+			<p><strong>Family Names:</strong> Spinpistol, Airslicer, Bombtosser, Greatgear, Togglefield, Luyckbreak, Stormhammer</p>
+			<h3>GNOME TRAITS</h3>
+			<p>Your gnome character has certain abilities, learned through generations of gnomes.</p>
+			<p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Intelligence increases by 2, and your Charisma by 1.</p>
+			<p class="indent"><strong><i>Age.</i></strong> Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.</p>
+			<p class="indent"><strong><i>Alignment.</i></strong> Gnomes are good-hearted, and even the tricksters amongst them are more playful than vicious. Those of evil alignment are often the result of madness. An innovative idea that consumed them.</p>
+			<p class="indent"><strong><i>Size.</i></strong> Gnomes are between 3 and 4 feet and generally compactly built. Your size is Small.</p>
+			<p class="indent"><strong><i>Speed.</i> Your base walking speed is 25 feet.</strong></p>
+			<p class="indent"><strong><i>Artificer's Lore.</i></strong> Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</p>
+			<p class="indent"><strong><i>Darkvision.</i></strong> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><i>Escape Artist.</i></strong> You can move through the space of any creature that is of a size larger than yours.</p>
+			<p class="indent"><strong><i>Gnome Cunning.</i></strong> You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+			<p class="indent"><strong><i>Gnomish Engineering.</i></strong>You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.</p>
+			<p class="indent">When you create a device, choose one of the following:</p>
+			<ul>
+				<li><i>Clockwork Toy.</i> This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</li>
+				<li><i>Fire Starter.</i> The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</li>
+				<li><i>Music Box.</i> When opened. this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</li>
+			</ul>
+			<p class="indent"><strong><i>Languages.</i></strong>You can speak, read, and write Common and Gnomish. Gnomish in many ways look like dwarven, it uses the same script, and is renowned for its technical treatises and its catalogs of knowledge about the natural world.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Grobnick, Kazbo, Hagin, Snoonose, Mikosh, Kebos, Otlak, Ciklin, Therlick, Finlis, Iklirn</set>
+			<set name="names" type="female">Beggra, Nefti, Sorassa, Gamash, Biskil, Munkull, Inku, Fixi, Mekin, Mitkla, Dapeek</set>
+			<set name="names" type="surname">Spinpistol, Airslicer, Bombtosser, Greatgear, Togglefield, Luyckbreak, Stormhammer</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="charisma" value="1" />
+			<grant type="Size" id="ID_SIZE_SMALL"/>
+			<stat name="innate speed" value="25" bonus="base"/>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_GNOMEISH"/>
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_ARTIFICERS_LORE" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_ESCAPE_ARTIST" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOME_CUNNING" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING" />
+		</rules>
+	</element>
+
+	<element name="Artificer's Lore" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_ARTIFICERS_LORE">
+		<description>
+			<p>Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Escape Artist" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_ESCAPE_ARTIST">
+		<description>
+			<p>You can move through the space of any creature that is of a size larger than yours.</p>
+		</description>
+		<sheet>
+			<description>You can move through the space of any creature that is of a size larger than yours.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Gnome Cunning" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_ESCAPE_ARTIST">
+		<description>
+			<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Gnomish Engineering" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING">
+		<description>
+			<p>You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.</p>
+			<p class="indent">When you create a device, choose one of the following:</p>
+			<ul>
+				<li><i>Clockwork Toy.</i> This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</li>
+				<li><i>Fire Starter.</i> The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</li>
+				<li><i>Music Box.</i> When opened. this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Using tinker's tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following:</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING_CLOCKWORKTOY" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING_FIRESTARTER" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING_MUSICBOX" />
+		</rules>
+	</element>
+
+	<element name="Clockwork Toy" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING_CLOCKWORKTOY">
+		<description>
+			<p>This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</p>
+		</description>
+		<sheet>
+			<description>This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Fire Starter" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING_FIRESTARTER">
+		<description>
+			<p>The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</p>
+		</description>
+		<sheet>
+			<description>The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Music Box" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_GNOME_GNOMISH_ENGINEERING_MUSICBOX">
+		<description>
+			<p>When opened. this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</p>
+		</description>
+		<sheet>
+			<description>When opened. this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</description>
+		</sheet>
+		<rules />
+	</element>
+
+</elements>

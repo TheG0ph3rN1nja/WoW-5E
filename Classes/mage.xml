@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mage</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="mage.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Mage" type="Class" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_MAGE">
+		<description>
+      <p><i>Always remember that power is a double-edged blade. One side light, the other dark. It calls to you, where you are most desperate; when victory seems worth any sacrifice. There is a price to be paid for such a gift, and many eagerly accept the bargain. Power alone is not to be feared. Fear, instead, those who wield it.</i></p>
+			<p align="right"><i>— Jaina Proudmoore</i></p>
+			<br />
+      <p class="indent">Clad in a golden robe, a blood elf closes her eyes to shut out the distractions of the battlefields and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a bead of fire toward the enemy ranks, where it erupts into an engulfing conflagration.</p>
+      <p class="indent">The air shimmers, as a draenei lifts his hands above his head twisting the air around him into a barrier of force engulfs him, blocking a barrage of attacks against him.</p>
+      <p class="indent">Golden eyes flashing, a human stomps his foot into the ground as a crippling fire sets him ablaze, as swords clash against him, an inferno of fire spews out at the attackers, engulfing them in hellfire.</p>
+      <p class="indent">Mages are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the leylines of magic that permeates Azeroth, mages cast spells of explo-sive fire, arcing lightning, and subtle deception. Their magic can conjure monsters from other planes of exis-tence, or glimpses the future. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals across continents.</p>
+      <h3>MASTERS OF TIME AND SPACE</h3>
+      <p>Students gifted with a keen intellect and unwavering discipline may walk the path of the mage. The arcane magic available to magi is both great and dangerous, and thus is revealed only to the most devoted practitioners. To avoid interference with their spellcasting, mages wear only cloth armor, but arcane shields and enchantments give them additional protection. To keep enemies at bay, mages can summon bursts of fire to incinerate distant targets and cause entire areas to erupt, setting groups of foes ablaze. Masters of ice can command blizzards that tear into flesh and limit movement. Should enemies manage to survive this assault, mages can shrink them into harmless sheep in the blink of an eye.</p>
+      <p class="indent">Powerful magi can even generate enhancements and portals, assisting allies by sharpening their minds and transporting them instantly across the world.</p>
+      <h3>SCHOLARS OF THE ARCANE</h3>
+			<p>Wild and enigmatic, varied in form and function, the power of magic draws students who seek to master its mysteries. Some aspire to become like the titans, shaping reality itself. Though the casting of a typical spell requires merely the utterance of a few strange words, fleeting gestures, and sometimes a pinch or clump of exotic materials, these surface components barely hint at the expertise attained after years of apprenticeship and countless hours of study.</p>
+      <p class="indent">Mages live and die by their spells. Everything else is secondary. They learn new spells as they experiment and grow in experience. They can also learn them from other mages, from ancient tomes or inscriptions, and from ancient creatures that are steeped in magic.</p>
+      <h5 class="caption">THE DRUID</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+        <tr><td>1st</td><td class="left">Spellcasting, Arcane Recovery</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>2nd</td><td class="left">Arcane Study</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>3rd</td><td class="left">Metamagic (1/rest)</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>5th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>6th</td><td class="left">Arcane Study feature</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>7th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>9th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>10th</td><td class="left">Arcane Study feature</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>11th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>12th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>13th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>14th</td><td class="left">Arcane Study feature</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+        <tr><td>15th</td><td class="left">Metamagic (2/rest)</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+        <tr><td>17th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>18th</td><td class="left">Spell Mastery</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>19th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+        <tr><td>20th</td><td class="left">Signature Spell</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+      </table>
+      <h3>THE LURE OF KNOWLEDGE</h3>
+      <p>Mages' lives are seldom mundane. The closest a mage is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. But the lure of knowledge and power calls even the most unadventurous mages out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most mages believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p>
+      <h3>CREATING A MAGE</h3>
+      <p>Creating a mage character demands a backstory dominated by at least one extraordinary event. How did your character first come into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic?</p>
+      <p class="indent">What drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other mages? Perhaps you're simply eager to put your newfound magical skills to the test in the face of danger.</p>
+      <h4>QUICK BUILD</h4>
+      <p>You can make a mage quickly by following these sugges-tions. First, lntelligence should be your highest ability score, followed by Constitution or Dexterity.</p>
+      <h2>CLASS FEATURES</h2>
+      <p>As a mage, you gain the following class features.</p>
+      <h4>HIT POINTS</h4>
+      <p><strong>Hit Dice:</strong> 1d6 per mage level</p>
+			<p><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</p>
+			<p><strong>Hit Points at Higher Levels:</strong> 1d6 + your Constitution modifier per mage level after 1st</p>
+			<h4>PROFICIENCIES</h4>
+			<p><strong>Armor:</strong> None</p>
+			<p><strong>Weapons:</strong> Simple Weapons</p>
+			<p><strong>Tools:</strong> None</p>
+			<p><strong>Saving Throws:</strong> Intelligence, Wisdom</p>
+			<p><strong>Skills:</strong> Choose two from Arcana, History, lnsight, lnvestigation, Medicine, and Religion</p>
+			<h4>EQUIPMENT</h4>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) quarterstaff or (b) a dagger</li>
+				<li>(a) a component pouch or (b) an arcane focus</li>
+				<li>(a) a scholar's pack or (b) an explorer's pack</li>
+				<li>A spellbook</li>
+			</ul>
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SPELLCASTING_MAGE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ARCANE_RECOVERY" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ARCANE_STUDY" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_METAMAGIC" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ABILITYSCOREIMPROVEMENT_MAGE" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SPELL_MASTERY" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SIGNATURE_SPELLS" />
+		</description>
+		<sheet display="false">
+			<description>A scholar of magic, capable of evoking arcane, shaping it to their needs.</description>
+		</sheet>
+		<setters>
+			<set name="short">A scholar of magic, capable of evoking arcane, shaping it to their needs.</set>
+			<set name="hd">d6</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_MAGE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_MAGE"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_MAGE"/>
+			<select type="Proficiency" name="Skill Proficiency (Mage)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_MAGE"/>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SPELLCASTING_MAGE" level="1"/>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ARCANE_RECOVERY" level="1"/>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ARCANE_STUDY" level="2"/>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_METAMAGIC" level="3"/>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ABILITYSCOREIMPROVEMENT_MAGE" level="4"/>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SPELL_MASTERY" level="18"/>
+			<grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SIGNATURE_SPELLS" level="20"/>
+		</rules>
+		<multiclass id="ID_GMBINDER_WOW5E_MULTICLASS_MAGE">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies" />
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+
+	<element name="Spellcasting" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SPELLCASTING_MAGE">
+    <description>
+			<p>As a student of arcane, you own a spellbook with spells that show the glimmerings of your true power. See chapter 10 of Player's Handbook for the general rules of spellcasting and chapter 6 of this book for the mage spell list.</p>
+			<h4>CANTRIPS</h4>
+			<p>At 1st level, you know three cantrips of your choice from the mage spell list. You learn additional mage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Mage table.</p>
+			<h4>SPELLBOOK</h4>
+			<p>At 1st level, you have a spellbook containing six 1st-level mage spells of your choice. Your spellbook does not contain your known cantrips.</p>
+			<h4>PREPARING AND CASTING SPELLS</h4>
+			<p>The Mage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain expended spell slots when you finish a long rest.</p>
+			<p class="indent">You prepare the list of mage spells that are available for you to cast. To do so, choose a number of mage spells from your spellbook equal to your Intelligence modifier + your mage level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example. if you're a 3rd-level mage, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of mage spells requires time spent studying your spellbook and memori-zing the incantations and gestures you must make to cast the spell: 1 minute per spell level for each spell on your list.</p>
+			<h4>SPELLCASTING ABILITY</h4>
+			<p>Intelligence is your spellcasting ability for your mage spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a mage spell you cast and when making an attack roll.</p>
+			<center>
+        <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+        <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+      </center>
+			<h4>RITUAL CASTING</h4>
+      <p>You can cast a mage spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.</p>
+			<hr />
+			<h5>YOUR SPELLBOOK</h5>
+			<p>The spells that you add to your spellbook as you gain levels reflect the arcane research you con-duct on your own, as well as intellectual break-throughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell re-corded on a scroll in an evil sorcerer's chest, for example, or in a dusty tome in an ancient library.</p>
+			<p class="indent"><strong><i>Copying a Spell into the Book.</i></strong> When you find a mage spell of 1st level or higher, you can add it to your spellbook if it is of a level for which you can prepare and if you can spare the time to decipher and copy it.</p>
+			<p class="indent">Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the mage who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.</p>
+			<p class="indent">For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experi-ment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.</p>
+			<p class="indent"><strong><i>Replacing the Book.</i></strong> ou can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.</p>
+			<p class="indent">If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. Many mages keep backup spellbooks in a safe place.</p>
+			<p class="indent"><strong><i>The Book's Appearance.</i></strong> Your spellbook is a unique compilation of spells, with its own de-corative flourishes and margin notes. It might be a plain, functional leather volume that you re-ceived as a gift, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.</p>
+			<hr />
+      <h4>SPELLCASTING FOCUS</h4>
+      <p>You can use an arcane focus as a spellcasting focus for your mage spells.</p>
+			<h4>LEARNING SPELLS OF 1ST LEVEL AND HIGHER</h4>
+			<p>Each time you gain a mage level, you add two mage spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventurers, you might find other spells that you can add to your spellbook (see the "Your Spellbook" sidebar).</p>
+    </description>
+		<sheet>
+			<description>You can cast mage spells as rituals. You can prepare {{mage:spellcasting:prepare}} spells from the mage spell list. You can use a arcane focus as your spellcasting focus.</description>
+		</sheet>
+		<spellcasting name="Mage" ability="Intelligence" prepare="true">
+			<list known="true">Mage</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<stat name="mage:spellcasting:slots:1" value="2" level="1" />
+			<stat name="mage:spellcasting:slots:1" value="1" level="2" />
+			<stat name="mage:spellcasting:slots:1" value="1" level="3" />
+			<stat name="mage:spellcasting:slots:2" value="2" level="3" />
+			<stat name="mage:spellcasting:slots:2" value="1" level="4" />
+			<stat name="mage:spellcasting:slots:3" value="2" level="5" />
+			<stat name="mage:spellcasting:slots:3" value="1" level="6" />
+			<stat name="mage:spellcasting:slots:4" value="1" level="7" />
+			<stat name="mage:spellcasting:slots:4" value="1" level="8" />
+			<stat name="mage:spellcasting:slots:4" value="1" level="9" />
+			<stat name="mage:spellcasting:slots:5" value="1" level="9" />
+			<stat name="mage:spellcasting:slots:5" value="1" level="10" />
+			<stat name="mage:spellcasting:slots:5" value="1" level="18" />
+			<stat name="mage:spellcasting:slots:6" value="1" level="11" />
+			<stat name="mage:spellcasting:slots:6" value="1" level="19" />
+			<stat name="mage:spellcasting:slots:7" value="1" level="13" />
+			<stat name="mage:spellcasting:slots:7" value="1" level="20" />
+			<stat name="mage:spellcasting:slots:8" value="1" level="15" />
+			<stat name="mage:spellcasting:slots:9" value="1" level="17" />
+			<stat name="mage:spellcasting:prepare" value="intelligence:modifier" />
+			<stat name="mage:spellcasting:prepare" value="level:mage" />
+			<select type="Spell" name="Cantrip (Mage)" supports="Mage, 0" level="1" number="3" spellcasting="Mage" />
+			<select type="Spell" name="Cantrip (Mage)" supports="Mage, 0" level="4" number="1" spellcasting="Mage" />
+			<select type="Spell" name="Cantrip (Mage)" supports="Mage, 0" level="11" number="1" spellcasting="Mage" />
+		</rules>
+	</element>
+
+	<element name="Arcane Recovery" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ARCANE_RECOVERY">
+    <description>
+			<p>You learn to regain some of your magical energy by study-ing your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your mage level (rounded up), and none of the slots can be of 6th level or higher.</p>
+			<p class="indent">For example, if you're a 4th-level mage, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
+		</description>
+		<sheet usage="1/Day">
+			<description>when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your mage level (rounded up), and none of the slots can be of 6th level or higher.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Arcane Study" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ARCANE_STUDY">
+    <description>
+			<p>Starting at 2nd level, you choose an arcane study, shaping your practice of magic through one of three areas: Arcane, Fire or Frost, all detailed at the end of the class description.</p>
+			<p class="indent">Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>
+			<h4>ARCANE STUDIES</h4>
+			<p>Mages are spellcasters who favor magics involving the car-dinal elements of the universe. Students gifted with a keen intellect and unwavering discipline may walk the path of the mage. The magic available to mages is both great and dangerous, and thus is revealed only to the most devoted practitioners.</p>
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_MAGE_STUDY_OF_ARCANE" />
+			<!--<div element="ID_GMBINDER_WOW5E_ARCHETYPE_MAGE_STUDY_OF_FIRE" />
+			<div element="ID_GMBINDER_WOW5E_ARCHETYPE_MAGE_STUDY_OF_FROST" />-->
+		</description>
+		<sheet display="false">
+			<description />
+		</sheet>
+		<rules>
+			<select type="Archetype" name="Arcane Study" supports="Arcane Study" level="2"/>
+		</rules>
+	</element>
+
+	<element name="Metamagic" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_METAMAGIC">
+    <description>
+			<p>At 3rd level, you gain the ability to twist your spells to suit your needs. You learn two of the following metamagics of your choice from the list below.</p>
+			<p class="indent">When you use your Metamagic, you choose which effect to twist your spells with. You must then finish a short or long rest to use your Metamagic again.</p>
+			<p class="indent">At 15th level, you can use your Metamagic twice between rests. When you finish a short or long rest, you regain your expended uses.</p>
+		</description>
+		<sheet usage="{{mage-metamagic:usage}}/Short Rest" level="3">
+			<description>When you use your Metamagic, you choose which effect to twist your spells with.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Metamagic (Mage)" supports="Metamagic" level="3" number="2"/>
+			<stat name="mage-metamagic:usage" value="1" level="3" />
+			<stat name="mage-metamagic:usage" value="1" level="15" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Improvement" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_ABILITYSCOREIMPROVEMENT_MAGE">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2. or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Mage 4)" supports="Improvement Option,Mage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Mage 8)" supports="Improvement Option,Mage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Mage 12)" supports="Improvement Option,Mage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Mage 16)" supports="Improvement Option,Mage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Mage 19)" supports="Improvement Option,Mage,19" level="19" />
+		</rules>
+	</element>
+
+	<element name="Spell Mastery" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SPELL_MASTERY">
+		<description>
+			<p>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level mage spell and a 2nd-level mage spell that are in your spell-book. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>
+			<p class="indent">You can spend 8 hours in study, and change one or both of the spells you chose for different spells of the same level.</p>
+		</description>
+		<sheet>
+			<description>Choose a 1st-level wizard spell and a 2nd-­level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. &#13;&#10; You can spend 8 hours in study, and change one or both of the spells you chose for different spells of the same level</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Signature Spells" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_MAGE_SIGNATURE_SPELLS">
+		<description>
+			<p>When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level mage spells in your spellbook as your signa-ture spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without ex-pending a spell slot. When you do so, you can't do so again until you finish a short or long rest.</p>
+			<p class="indent">If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>Choose two 3rd-­level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don’t count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. &#13;&#10; If you want to cast either spell at a higher level, you must expend a spell slot as normal.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Study of Arcane" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_MAGE_STUDY_OF_ARCANE">
+		<supports>Arcane Study</supports>
+		<description>
+      <p>Mages of the arcane are diviners of secrets, balancing the webb and flow of incredible mystic energies. These practi-tioners push their magical knowledge to its very limits. Those who master this craft are capable of releasing a barrage of unrelenting power upon their enemies.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_ABJURATION_SAVANT" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_UNSTABLE_SURGE" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_POTENT_CANTRIP" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_PRESENCE_OF_MIND" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_OVERPOWERED" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_ABJURATION_SAVANT" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_UNSTABLE_SURGE" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_POTENT_CANTRIP" level="6" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_PRESENCE_OF_MIND" level="10" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_OVERPOWERED" level="14" />
+    </rules>
+  </element>
+
+	<element name="Abjuration Savant" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_ABJURATION_SAVANT">
+		<description>
+			<p>Beginning when you select this study at 2nd level, the gold and time you must spend to copy an abjuration spell into your spellbook is halved.</p>
+		</description>
+		<sheet>
+			<description>The gold and time you must spend to copy an abjuration spell into your spellbook is halved.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Unstable Surge" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_UNSTABLE_SURGE">
+		<description>
+			<p>Starting at 2nd level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a mage spell of 1st level or higher, roll a d20. If you roll a 1, consult the Surge Intensity table beneath and roll on the Unstable Surge table to create a random magical effect.</p>
+			<h6>SURGE INTENSITY</h6>
+			<table>
+				<thead>
+					<tr><td class="col-5">Spell Level or Higher</td><td class="left">Surge Die</td></tr>
+        </thead>
+				<tr><td>1st level</td><td>d8</td></tr>
+				<tr><td>3rd level</td><td>d10</td></tr>
+				<tr><td>5th level</td><td>d12</td></tr>
+				<tr><td>7th level</td><td>d20</td></tr>
+			</table>
+			<p class="indent">The level of the spell slot that triggered the unstable surge determines the strength that the surge is capable of achieving, as shown on the table beneath. When you trigger an Unstable Surge, roll the dice shown for the spells level and consult the Unstable Surge table.</p>
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_MAGE_UNSTABLE_SURGE_TABLE" />
+		</description>
+		<sheet>
+			<description>Immediately after you cast a mage spell of 1st level or higher, roll a d20. If you roll a 1, consult the Surge Intensity table beneath and roll on the Unstable Surge table to create a random magical effect. When you trigger an Unstable Surge, roll the dice shown for the spells level and consult the Unstable Surge table.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Unstable Surge Table" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_MAGE_UNSTABLE_SURGE_TABLE">
+		<description>
+			<hr />
+			<h6>UNSTABLE SURGE</h6>
+			<table>
+				<thead>
+					<tr><td class="col-5">d20</td><td class="left">Effect</td></tr>
+				</thead>
+				<tr><td>01</td><td>You cast <i>mirror image</i>.</td></tr>
+				<tr><td>02</td><td>Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute.</td></tr>
+				<tr><td>03</td><td>You cast <i>levitate</i> on yourself.</td></tr>
+				<tr><td>04</td><td>A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to <i>magic missile</i>.</td></tr>
+				<tr><td>05</td><td>You teleport up to 60 feet to an unoccupied space of your choice that you can see.</td></tr>
+				<tr><td>06</td><td>You regain 2d10 hit points.</td></tr>
+				<tr><td>07</td><td>You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn.</td></tr>
+				<tr><td>08</td><td>Maximize the damage of the next damaging spell you cast.</td></tr>
+				<tr><td>09</td><td>Creatures have disadvantage on saving throws against the new spell you cast in the next minute that involves a saving throw.</td></tr>
+				<tr><td>10</td><td>Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell.</td></tr>
+				<tr><td>11</td><td>You cast <i>magic missile</i> as a 5th-level spell.</td></tr>
+				<tr><td>12</td><td>You cast <i>polymorph</i> on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration.</td></tr>
+				<tr><td>13</td><td>Up to three creatures you choose within 30 feet of you take 4d10 force damage.</td></tr>
+				<tr><td>14</td><td>You gain resistance to all damage for the next minute.</td></tr>
+				<tr><td>15</td><td>You cast <i>fireball</i> as a 3rd-level spell centered on yourself, the spell deals force damage instead.</td></tr>
+				<tr><td>16</td><td>You cast <i>confusion</i> centered on yourself.</td></tr>
+				<tr><td>17</td><td>You regain your lowest-level expended spell slot.</td></tr>
+				<tr><td>18</td><td>You teleport to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the next unoccupied space if that space is occupied.</td></tr>
+				<tr><td>19</td><td>For the next minute, you can see any invisible creatures if you have line of sight to it.</td></tr>
+				<tr><td>20</td><td>You regain all expended metamagic uses.</td></tr>
+			</table>
+			<hr />
+		</description>
+		<sheet display="false" />
+		<rules />
+	</element>
+
+	<element name="Potent Cantrip" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_POTENT_CANTRIP">
+		<description>
+			<p>At 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effects from the cantrip.</p>
+		</description>
+		<sheet>
+			<description>When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effects from the cantrip.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Presence of Mind" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_PRESENCE_OF_MIND">
+		<description>
+			<p>Starting at 10th level, the magic that surges through you helps to ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws.</p>
+		</description>
+		<sheet>
+			<description>While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Overpowered" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFARCANE_OVERPOWERED">
+		<description>
+			<p>Upon reaching 14th level, you are able to channel exceed-ing amounts of arcane energy into a spell. When you cast a mage spell of 5th level or lower that deals damage, you can deal maximum damage with that spell.</p>
+			<p class="indent">The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 psychic damage per level of the spell, immediate-ly after you cast it. Each time you use this feature again before finishing a long rest, the force damage per spell level increases by 1d12. Damage dealt by this feature ignores your resistances and immunities.</p>
+		</description>
+		<sheet>
+			<description>When you cast a mage spell of 5th level or lower that deals damage, you can deal maximum damage with that spell. &#13;&#10; The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 psychic damage per level of the spell, immediate-ly after you cast it. Each time you use this feature again before finishing a long rest, the force damage per spell level increases by 1d12. Damage dealt by this feature ignores your resistances and immunities.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Study of Fire" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_MAGE_STUDY_OF_FIRE">
+		<supports>Arcane Study</supports>
+		<description>
+      <p>While any worthy mage is an unparalleled expert in the use of magic and heavily dedicated to their craft, those who master the forces of fire tend to be a little more audacious than their peers. These mages take pride, even pleasure in igniting their enemies in wild bursts of flame.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_EVOCATION_SAVANT" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_COMBUSTION" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_BLAZING_SOUL" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_EMPOWERED_EVOCATION" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_HOT_STREAK" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_EVOCATION_SAVANT" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_COMBUSTION" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_BLAZING_SOUL" level="6" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_EMPOWERED_EVOCATION" level="10" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_HOT_STREAK" level="14" />
+    </rules>
+  </element>
+
+	<element name="Evocation Savant" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_EVOCATION_SAVANT">
+		<description>
+			<p>Beginning when you select this tradition at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved.</p>
+		</description>
+		<sheet>
+			<description>The gold and time you must spend to copy an evocation spell into your spellbook is halved.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Combustion" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_COMBUSTION">
+		<description>
+			<p>Starting at 2nd level, you can unleash the flames that blaze within you. As a bonus action, you magically wreath your-self in swirling fire, as your eyes glow like hot coals. For 1 minute, you gain the following benefits:</p>
+			<ul>
+				<li>You shed bright light in a 30-foot radius and dim light for an additional 30 feet.</li>
+				<li>Any creature takes fire damage equal to your Intelligence modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.</li>
+				<li>Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Intelligence modifier.</li>
+			</ul>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>You magically wreath your-self in swirling fire, as your eyes glow like hot coals. For 1 minute, you gain the following benefits: &#13;&#10; • You shed bright light in a 30-foot radius and dim light for an additional 30 feet. &#13;&#10; • Any creature takes fire damage equal to your Intelligence modifier if it hits you with a melee attack from within 5 feet of you or if it touches you. &#13;&#10; • Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Intelligence modifier.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Blazing Soul" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_BLAZING_SOUL">
+		<description>
+			<p>Beginning at 6th level, if you are reduced to 0 hit points, you can use your reaction to draw on the fiery energy that burn within you. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to half your mage level + your Intelligence modifier.</p>
+			<p class="indent">If you use this feature while under the effects of your Combustion, this feature instead deals fire damage equal to your mage level + twice your Intelligence modifier, and your Combustion immediately ends.</p>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Long Rest">
+			<description>If you are reduced to 0 hit points, you are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to half your {{blazing-soul:count}}. &#13;&#10; If you use this feature while under the effects of your Combustion, this feature instead deals fire damage equal to {{coumbustion-blazing-soul:count}}, and your Combustion immediately ends.</description>
+		</sheet>
+		<rules>
+			<stat name="blazing-soul:count" value="mage:level" />
+			<stat name="blazing-soul:count" value="intelligence:modifier" />
+			<stat name="coumbustion-blazing-soul:count" value="mage:level" />
+			<stat name="coumbustion-blazing-soul:count" value="intelligence:modifier" />
+			<stat name="coumbustion-blazing-soul:count" value="intelligence:modifier" />
+		</rules>
+	</element>
+
+	<element name="Empowered Evocation" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_EMPOWERED_EVOCATION">
+		<description>
+			<p>Starting at 10th level, you can add your Intelligence modi-fier to damage rolls of any mage evocation spell you cast.</p>
+		</description>
+		<sheet>
+			<description>You can add {{empowered-evocation:count}} to damage rolls of any mage evocation spell you cast.</description>
+		</sheet>
+		<rules>
+			<stat name="empowered-evocation:count" value="intelligence:modifier" />
+		</rules>
+	</element>
+
+	<element name="Hot Streak" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFIRE_HOT_STREAK">
+		<description>
+			<p>At 14th level, the blazing energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Study of Frost" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_MAGE_STUDY_OF_FROST">
+		<supports>Arcane Study</supports>
+		<description>
+      <p>Frost mages stand apart from their colleagues, in that their chosen school of magic focuses on maintaining supreme control over the capabilities of their enemies. Mages who command frost perform chilling displays on the battlefield, rendering foes immobile as they bombard them with ice.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_COJURATION_SERVANT" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_COLD_SNAP" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_ICE_BARRIER" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_FRIGID_WINDS" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_ICE_FAMILIAR" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_COJURATION_SERVANT" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_COLD_SNAP" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_ICE_BARRIER" level="6" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_FRIGID_WINDS" level="10" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_ICE_FAMILIAR" level="14" />
+    </rules>
+  </element>
+
+	<element name="Conjuration Servant" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_COJURATION_SERVANT">
+		<description>
+			<p>Beginning when you select this tradition at 2nd level, the gold and time you must spend to copy a conjuration spell into your spellbook is halved.</p>
+		</description>
+		<sheet>
+			<description>The gold and time you must spend to copy a conjuration spell into your spellbook is halved.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Cold Snap" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_COLD_SNAP">
+		<description>
+			<p>Starting at 2nd level, whenever you hit a creature with a spell that deals cold damage, the target must succeed on a Constitution saving throw or have its speed reduced by 10 feet for 1 minute. In addition to any movement reduction the spell might have normally.</p>
+		</description>
+		<sheet>
+			<description>Whenever you hit a creature with a spell that deals cold damage, the target must succeed on a Constitution saving throw or have its speed reduced by 10 feet for 1 minute. In addition to any movement reduction the spell might have normally.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Ice Barrier" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_ICE_BARRIER">
+		<description>
+			<p>At 6th level, you can manifest ice around a creature to protective it from harm, warping with the creature to not prevent movement. As a bonus action, ice forms around a creature you can see within 60 feet of you. The creature gains resistance to bludgeoning, piercing, and slashing from nonmagical attacks for 1 minute, until you use this feature again, or until you are incapacitated.</p>
+			<p class="indent">You can use this feature twice. You regain expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="2/Long Rest">
+			<description>Ice forms around a creature you can see within 60 feet of you. The creature gains resistance to bludgeoning, piercing, and slashing from nonmagical attacks for 1 minute, until you use this feature again, or until you are incapacitated.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Frigid Winds" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_FRIGID_WINDS">
+		<description>
+			<p>Starting at 10th level, you gain resistance to cold damage. In addition, whenever you cast a spell of 1st level or higher that deals cold damage, frigid winds surround you. This wind shivers creatures of your choice within 10 feet of you, making them lose their reaction until their next turn.</p>
+			<p class="indent">This feature have no effect on creatures that are immune to cold damage.</p>
+		</description>
+		<sheet>
+			<description>whenever you cast a spell of 1st level or higher that deals cold damage, frigid winds surround you. This wind shivers creatures of your choice within 10 feet of you, making them lose their reaction until their next turn. &#13;&#10; This feature have no effect on creatures that are immune to cold damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+
+	<element name="Ice Familiar" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_STUDYOFFROST_ICE_FAMILIAR">
+		<description>
+			<p>At 14th level, you learn the find familiar spell if you don't already know it, and you cast it without providing material components. The familiar you summon is made of ice, and have immunity to cold damage.</p>
+			<p class="indent">As an action, you can transform the familiar into an ice elemental, as by the conjure elemental spell, its duration becomes 1 minute, and if you lose your concentration the elemental returns to being your familiar.</p>
+			<p class="indent">You can use this feature even if you don't have a familiar summoned, conjuring an ice elemental in an empty space within 30 feet of you. Once the feature ends, the elemental transforms into your familiar.</p>
+			<p class="indent">Your ice elemental uses the water elemental statistics with the following changes.</p>
+			<ul>
+				<li>It is immune to cold damage</li>
+				<li>It deals slashing damage instead of bludgeoning.</li>
+				<li>It can cast the sleet storm spell once.</li>
+			</ul>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the find familiar without providing material components. The familiar you summon is made of ice, and have immunity to cold damage. &#13;&#10; As an action, you can transform the familiar into an ice elemental, as by the conjure elemental spell, its duration becomes 1 minute, and if you lose your concentration the elemental returns to being your familiar. &#13;&#10; You can use this feature even if you don't have a familiar summoned, conjuring an ice elemental in an empty space within 30 feet of you. Once the feature ends, the elemental transforms into your familiar. &#13;&#10; Your ice elemental uses the water elemental statistics with the following changes. &#13;&#10; • It is immune to cold damage &#13;&#10; • It deals slashing damage instead of bludgeoning. &#13;&#10; • It can cast the sleet storm spell once.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" />
+		</rules>
+	</element>
+
+	<append id="ID_PHB_SPELL_BLADE_WARD">
+		<supports>Mage</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONTROL_FLAMES">
+		<supports>Mage</supports>
+	</append>
+
+</elements>

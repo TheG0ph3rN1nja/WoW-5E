@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Troll</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="troll.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Troll" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_TROLL">
+    <description>
+      <p><i>Your ancestry dates back to the dawn of the world. Great were the ancient empires of the trolls. I see a spark in your eyes, a powerful will - you wish to be great again, yes?</i></p>
+      <p align="right"><i>— Lorewalker Cho</i></p>
+      <h3>INTRODUCTION</h3>
+      <p>The jungle trolls are sometimes referred to as Gurubashi trolls, after the ancient empire of the same name. Their capital, Zul'Gurub, is located in Stranglethorn Vale, along with many smaller towns, cities, and villages, many of which are in a state of ruin or disrepair. The largest jungle troll settlement outside Stranglethorn is Sen'jin Village founded by the Darkspear tribe, who had been displaced from their exile on the Broken Isles and Echo Isles.</p>
+      <p class="indent">Forest trolls hold all other races in contempt — especially blood elves, whom they consider the despoilers of their ancient homeland. They will only work with others if it means the elimination of an even more hated enemy. Forest troll culture is tribal and primitive. Though not as violent as their ice troll cousins, forest trolls nonetheless have a fearsome reputation in battle.</p>
+      <p class="indent">Ice trolls are a subspecies of troll that lives in cold climates. They have angular features, bright blue eyes, and mottled blue-white skin covered in hides and pelts. This troll has blue-white skin under grayish leather armor, and he sports a red mohawk.</p>
+      <p class="indent">Ice trolls are generally evil and like most trolls, they are fierce protectors of their homes and may attack travelers to gain weapons, materials, clothing and food. They practice cannibalism and sometimes eat their slain enemies raw.</p>
+      <h3>CANNIBALIST AND VOODOOISM</h3>
+      <p>Cannibalism was a relatively common practice amongst trolls, although through the decades, and with their integration into the horde, their cannibalism had been frowned upon by most, and has since been made a forbidding practice by the horde, some still practice it, but none do so openly.</p>
+      <p class="indent">Not all trolls practice voodoo, but it is widespread. It was given to the trolls by their worshiped gods the Loa, and the exact emergence of voodoo among the trolls is unknown, for most tribes that possess such knowledge are unwilling to share it with outsiders.</p>
+      <h3>TALL AND MUSCULAR</h3>
+      <p>Trolls are often tall, lanky, and muscular. They have both elven and orcish characteristics with their fierce fangs and long ears. Their long arms, strong legs and quick reflexes make them adept hunters.</p>
+      <p class="indent">Trolls have only two fingers and a thumb on their hands, and they have only two toes on each foot. Some trolls have a toenail on their heels, and they do not wear standard shoes or boots due to their unusual foot shape and comfort in wading barefooted within different terrains.</p>
+      <h3>AFFILIATION</h3>
+      <p>Trolls are steadfast members of the horde. Though they practice voodoo and many retain their savage natures, they are respected within the horde by the orcs. They feel a great debt to them, and their time fighting alongside the tauren has made them friends of these creatures as well. They are suspicious of the forsaken, but so is everyone else.</p>
+      <p class="indent">The troll tribes doesn’t really hate the Alliance races, but their loyalty to the Horde and their bloodthirstiness makes the Alliance a great target. However, their respect for the Warchief prevents them from waging a private war against Theramore.</p>
+      <h3>NAMES</h3>
+      <p>Troll names look simple but are surprisingly complex. Their language is largely syllabic, and various syllables can be added to the beginning or end of a troll’s name to denote status and ability. Trolls don't have family names, although some use their clan name as their surname.</p>
+      <p><strong>Male Names:</strong> Vol, Ros, Mig, Gal, Traxe, Maaho, Tuben, Ju, Goz, Akash, Vithek, Tian, Vazkono, Rhas, Vog</p>
+      <p><strong>Female Names:</strong> Shi, Mith, Hai, So, Ozdun, Imo, Aju, Zhokre, Xullah, Joz, Fahze, Zil, Ruso, Mooh</p>
+      <h3>TROLL TRAITS</h3>
+      <p>Your troll character has certain characteristics in common with all other trolls.</p>
+      <p><strong><i>Ability Score Increase.</i></strong> Your Dexterity increases by 1.</p>
+      <p><strong><i>Age.</i></strong> A troll reaches adulthood in their late teens and generally dies within a century, although they can live to become well over a century old.</p>
+      <p><strong><i>Alignment.</i></strong> Trolls are a neutral race, their alignment varying drastically between them. Most trolls tend to be lawful, their tribes often having particular customs and rules for them to abide by.</p>
+      <p><strong><i>Size.</i></strong> Even though most trolls stand bend forward with their slender builds and broad shoulders, they still tower above other races with an average height of 7 feet. Your size is Medium.</p>
+      <p><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+      <p><strong><i>Darkvision.</i></strong> Trolls retain their vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+      <p><strong><i>Regeneration.</i></strong> For each Hit Die spent at the end of a short rest, you add twice your Constitution modifier to it.</p>
+      <p><strong><i>Languages.</i></strong> You can speak, read, and write Common and Zandali. Zandali is the tongue of all trolls. It is a largely syllabic language, and taught down through generations as it has no physical script.</p>
+      <p><strong><i>Subrace.</i></strong> Four main subraces of troll populate the sur-face of Azeroth: forest trolls, ice trolls, jungle trolls, and zandalari trolls. Choose one of these subraces.</p>
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_FOREST_TROLL" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_ICE_TROLL" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_JUNGLE_TROLL" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_ZANDALARI_TROLL" />
+    </description>
+    <sheet display="false" />
+		<setters>
+			<set name="names" type="male">Vol, Ros, Mig, Gal, Traxe, Maaho, Tuben, Ju, Goz, Akash, Vithek, Tian, Vazkono, Rhas, Vog</set>
+			<set name="names" type="female">Shi, Mith, Hai, So, Ozdun, Imo, Aju, Zhokre, Xullah, Joz, Fahze, Zil, Ruso, Mooh</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_ZANDALI"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_TROLL_REGENERATION" />
+      <select type="Sub Race" name="Troll Subrace" supports="Troll" />
+    </rules>
+  </element>
+
+  <element name="Regeneration" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_TROLL_REGENERATION">
+		<description>
+			<p>For each Hit Die spent at the end of a short rest, you add twice your Constitution modifier to it.</p>
+		</description>
+		<sheet>
+			<description>For each Hit Die spent at the end of a short rest, you add {{troll-rgeneration:count}} to it.</description>
+		</sheet>
+		<rules>
+      <stat name="troll-rgeneration:count" value="constitution:modifier" />
+      <stat name="troll-rgeneration:count" value="constitution:modifier" />
+    </rules>
+	</element>
+
+  <element name="Forest Troll" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_FOREST_TROLL">
+		<supports>Troll</supports>
+		<description>
+			<p>As a forest troll, you have a keen sense of the natural world, a cunning for warfare, and a hatred of men and elves. Their skin is often a lush green, with a moss like substance grow-ing on its surface. The forest trolls of Azeroth once ruled an empire that has been brought to its knees by an alliance of human and high elves, liberating the region of Lordaeron.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Constitution score increases by 2.</p>
+			<p><strong><i>Mask of the Wild.</i></strong> You have advantage on Stealth checks when lightly obscured by plants, or other types of foliage.</p>
+			<p><strong><i>Wilderness Knowledge.</i></strong> You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
+      <p><strong><i>Affiliation.</i></strong><i> Independent or Horde.</i> Forest trolls are very secluded, remaining in the ashes of their old empire.</p>
+      <p class="indent">They openly practice cannibalism, making them disliked by members of the Horde. These trolls few other races as beneath them, but will not hesitate to ally them-selves with them if it means their survival.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="constitution" value="2" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FOREST_TROLL_MASKOFTHEWILD" />
+			<select type="Proficiency" name="Skill Proficiency (Forest Troll)" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+		</rules>
+	</element>
+
+  <element name="Mask of the Wild" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FOREST_TROLL_MASKOFTHEWILD">
+		<description>
+			<p>You have advantage on Stealth checks when lightly obscured by plants, or other types of foliage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Stealth checks when lightly obscured by plants, or other types of foliage.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Ice Troll" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_ICE_TROLL">
+		<supports>Troll</supports>
+		<description>
+			<p>As an ice troll, you're strong and hardy, accustomed to cold climates. You rise above other troll subspecies, and tend toward lighter coloration. The ice trolls hail from the frigid regions of Dun Morogh and Northrend.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Strength score increases by 2.</p>
+			<p><strong><i>Frostworn Skin.</i></strong> You have resistance to cold damage.</p>
+			<p><strong><i>Powerful Build.</i></strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+      <p><strong><i>Tundra Walker.</i></strong> You can move across difficult terrain made of ice or snow without expending extra movement.</p>
+      <p><strong><i>Affiliation.</i></strong><i> Independent.</i> Ice trolls are steadfastly loyal to themselves above all others, their harsh society and brutal way of life makes them notorious amongst the Horde. They disobey their demand of ending their ways of cannibalism, making them uncommon members of the horde.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="strength" value="2" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ICE_TROLL_FROSTWORN_SKIN" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ICE_TROLL_POWERFUL_BUILD" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ICE_TROLL_TUNDRA_WALKER" />
+		</rules>
+	</element>
+
+  <element name="Frostworn Skin" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ICE_TROLL_FROSTWORN_SKIN">
+		<description>
+			<p>You have resistance to cold damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to cold damage.</description>
+		</sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+    </rules>
+	</element>
+
+  <element name="Tundra Walker" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ICE_TROLL_TUNDRA_WALKER">
+		<description>
+			<p>You can move across difficult terrain made of ice or snow without expending extra movement.</p>
+		</description>
+		<sheet>
+			<description>You can move across difficult terrain made of ice or snow without expending extra movement.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Powerful Build" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ICE_TROLL_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Jungle Troll" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_JUNGLE_TROLL">
+		<supports>Troll</supports>
+		<description>
+			<p>As a jungle troll, you have a knowledge of voodoo, a ferocity unmatched by your kin, and a uniformed tribal society. You stand shorter than any other troll specie, and tend to have skin of purple or gray colorations. The jungle trolls of Stranglethorn are by many considered the most brutal of all troll races, yet the ones that have joined the Horde have been forced to leave much of their brutality behind.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Constitution score increases by 1, and your Wisdom score increases by 1.</p>
+			<p><strong><i>Beserking.</i></strong> Whenever you score a critical hit with a weapon attack, you can reroll one of the weapon's damage die and use either roll for the damage.</p>
+			<p><strong><i>Gurubashi Weapon Training.</i></strong> You have proficiency with the hand axe, javelin, and spear.</p>
+      <p><strong><i>Voodoo Shuffle.</i></strong> You ignore non-magical difficult terrain, and your base walking speed increases to 35 feet.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="constitution" value="1" />
+      <stat name="wisdom" value="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_JUNGLE_TROLL_BESERKING" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_JUNGLE_TROLL_VOODOO_SHUFFLE" />
+		</rules>
+	</element>
+
+  <element name="Beserking" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_JUNGLE_TROLL_BESERKING">
+		<description>
+			<p>Whenever you score a critical hit with a weapon attack, you can reroll one of the weapon's damage die and use either roll for the damage.</p>
+		</description>
+		<sheet>
+			<description>Whenever you score a critical hit with a weapon attack, you can reroll one of the weapon's damage die and use either roll for the damage.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Voodoo Shuffle" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_JUNGLE_TROLL_VOODOO_SHUFFLE">
+		<description>
+			<p>You ignore non-magical difficult terrain, and your base walking speed increases to 35 feet.</p>
+		</description>
+		<sheet>
+			<description>You ignore non-magical difficult terrain.</description>
+		</sheet>
+		<rules>
+      <stat name="innate speed" value="35" bonus="base"/>
+    </rules>
+	</element>
+
+  <element name="Zandalar Troll" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_ZANDALARI_TROLL">
+		<supports>Troll</supports>
+		<description>
+			<p>As a zandalari troll, you have a unparalleled connection to the loas, a strong intuition, and ancient traditions to uphold. Unlike most trolls, you stand upright, and tend toward a gray stone like complexion. The zandalari trolls are the pinnacle of all troll society, their temple city on Zandalar sits as a union for all trolls to converge to for meetings.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Wisdom score increases by 1, and your Charisma score increases by 1.</p>
+			<p><strong><i>Ancient Lore.</i></strong> You gain proficiency in the History skill.</p>
+			<p><strong><i>Loa's Embrace.</i></strong> You know the <i>guidance</i> cantrip. When you reach 3rd level, you can cast the <i>guiding hand</i> spell once per long rest. When you reach 5th level, you can also cast the <i>enhance ability</i> spell once per long rest. Wisdom is your spellcasting ability for these spells. When you cast this version of guiding hand, the hand appears as a tiny animal, representing a specific loa.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="charisma" value="1" />
+      <stat name="wisdom" value="1" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ZANDALARI_TROLL_LOAS_EMBRACE" />
+		</rules>
+	</element>
+
+  <element name="Loa's Embrace" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_ZANDALARI_TROLL_LOAS_EMBRACE">
+		<description>
+			<p>You know the <i>guidance</i> cantrip. When you reach 3rd level, you can cast the <i>guiding hand</i> spell once per long rest. When you reach 5th level, you can also cast the <i>enhance ability</i> spell once per long rest. Wisdom is your spellcasting ability for these spells. When you cast this version of guiding hand, the hand appears as a tiny animal, representing a specific loa.</p>
+		</description>
+		<sheet>
+			<description level="1">You know the guidance cantrip. Wisdom is your spellcasting ability for these spells.</description>
+			<description level="3">You know the guidance cantrip and you can cast the guiding hand spell once per long rest. Wisdom is your spellcasting ability for these spells. When you cast this version of guiding hand, the hand appears as a tiny animal, representing a specific loa.</description>
+			<description level="5">You know the guidance cantrip, you can cast the guiding hand spell once per long rest,and you can also cast the enhance ability spell once per long rest. Wisdom is your spellcasting ability for these spells. When you cast this version of guiding hand, the hand appears as a tiny animal, representing a specific loa.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" level="1" />
+			<grant type="Spell" id="ID_WOTC_UA20170403_SPELL_GUIDING_HAND" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENHACE_ABILITY" level="5" />
+		</rules>
+	</element>
+
+</elements>

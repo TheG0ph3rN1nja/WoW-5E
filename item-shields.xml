@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Shields</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="item-shields.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Buckler Shield" type="Armor" source="Player’s Handbook" id="ID_GMBINDER_WOW5E_GEAR_BUCKLER_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>A buckler is strapped to your forearm, allowing you to hold an item in its hand. If you use the shielded hand as part of an action or bonus action, you loose its increase to your Armor Class until the start of your next turn.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+1</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="1" bonus="shield" />
+		</rules>
+	</element>
+
+	<element name="Tower Shield" type="Armor" source="Player’s Handbook" id="ID_GMBINDER_WOW5E_GEAR_TOWER_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>You use your Strength modifier, instead of your Dexterity for determining your Armor Class while you have this shield donned.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="24">24 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="strength">15</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">+2</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+		</rules>
+	</element>
+
+</elements>

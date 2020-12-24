@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Appendix A: Shapeshifts</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="appendix-a-shapeshifts.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Appendix A: Shapeshifts" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_APPENDIX_A_SHAPESHIFTS">
+		<description>
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_CAT_FORM" />
+			<hr class="rounded" />
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_BEAR_FORM" />
+			<hr class="rounded" />
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_FLIGHT_FORM" />
+			<hr class="rounded" />
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_AQUATIC_FORM" />
+			<hr class="rounded" />
+			<div element="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_TRAVEL_FORM" />
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Cat Form" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_CAT_FORM">
+		<description>
+			<p><i>Medium beast</i></p>
+			<p><strong>Armor Class</strong> 13 + Dexterity modifier</p>
+			<p><strong>Speed</strong> 40 ft., climb 40 ft.</p>
+			<p><strong><i>Darkvision.</i></strong> You gain darkvision 60 ft.</p>
+			<p><strong><i>Keen Smell.</i></strong> You have advantage on Wisdom (Perception) checks that rely on smell, as long as you are shapeshifted.</p>
+			<p><strong><i>Pounce.</i></strong> If you move at least 20 feet straight toward a creature right before hitting it with a claw attack, the target must succeed on a DC <i>(8 + Dex + prof bonus)</i> Strength saving throw or be knocked prone. If the target is knocked prone by the pounce, your bite deals an extra 1d6 piercing damage.</p>
+			<h5>ACTIONS</h5>
+			<p><i><strong>Claws.</strong> Melee Weapon Attack: (Dex + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (2d4 + Dex) slashing damage.</p>
+			<h5>BONUS ACTIONS</h5>
+			<p><i><strong>Bite.</strong> Melee Weapon Attack: (Dex + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (1d6 + Dex) piercing damage.</p>
+			<p><strong>Common shapes taken are as followed:</strong></p>
+			<p><i>(Snow) Leopard, Lion, Lynx, Panther, Tiger.</i></p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Bear Form" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_BEAR_FORM">
+		<description>
+			<p><i>Large beast</i></p>
+			<p><strong>Armor Class</strong> 10 + Dexterity modifier + Constitution modifier</p>
+			<p><strong>Speed</strong> 40 ft., climb 30 ft.</p>
+			<p><strong><i>Keen Smell.</i></strong> You have advantage on Wisdom (Perception) checks that rely on smell, as long as you are shapeshifted.</p>
+			<p><strong><i>Charge.</i></strong> If you move at least 20 feet straight toward a target and then hits with a claw attack on the same turn, the target takes an extra (2d6) slashing damage. If the target is a creature, it must succeed on a DC (8 + Str + prof bonus) Strength saving throw or be knocked prone.</p>
+			<h5>ACTIONS</h5>
+			<p><i><strong>Claws.</strong> Melee Weapon Attack: (Str + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (2d6 + Str) slashing damage.</p>
+			<h5>BONUS ACTIONS</h5>
+			<p><i><strong>Bite.</strong> Melee Weapon Attack: (Str + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (1d8 + Str) piercing damage.</p>
+			<p><strong>Common shapes taken are as followed:</strong></p>
+			<p><i>Brown Bear, Black Bear, Grey Bear, Grizzly Bear.</i></p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Flight Form" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_FLIGHT_FORM">
+		<description>
+			<p><i>Large beast</i></p>
+			<p><strong>Armor Class</strong> 10 + Dexterity modifier</p>
+			<p><strong>Speed</strong> 10 ft., fly 70 ft.</p>
+			<p><strong><i>Flyby.</i></strong> You don't provoke opportunity attacks when you fly out of an enemy's reach.</p>
+			<p><strong><i>Keen Sight.</i></strong> You have advantage on Wisdom (Perception) checks that rely on sight.</p>
+			<h5>ACTIONS</h5>
+			<p><i><strong>Beak.</strong> Melee Weapon Attack: (Str/Dex + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (2d4 + Str/Dex) piercing damage.</p>
+			<p><i><strong>Talons.</strong> Melee Weapon Attack: (Str/Dex + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (2d6 + Str) slashing damage.</p>
+			<p><strong>Common shapes taken are as followed:</strong></p>
+			<p><i>Dire Bat, Dire Hawk, Dire Owl, Eagle, Storm Crow.</i></p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Aquatic Form" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_AQUATIC_FORM">
+		<description>
+			<p><i>Medium beast</i></p>
+			<p><strong>Armor Class</strong> 11 + Dexterity modifier</p>
+			<p><strong>Speed</strong> 5 ft., swim 50 ft.</p>
+			<p><strong><i>Amphibious.</i></strong> You can breathe air and water.</p>
+			<p><strong><i>Blindsight.</i></strong> You gain blindsight 60 ft.</p>
+			<h5>ACTIONS</h5>
+			<p><i><strong>Bite.</strong> Melee Weapon Attack: (Str + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (1d8 + Str) piercing damage.</p>
+			<p><strong>Common shapes taken are as followed:</strong></p>
+			<p><i>Sea Lion (Amphibious), Shark, Dolphin, Orca.</i></p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Aquatic Form" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_AQUATIC_FORM">
+		<description>
+			<p><i>Medium beast</i></p>
+			<p><strong>Armor Class</strong> 11 + Dexterity modifier</p>
+			<p><strong>Speed</strong> 5 ft., swim 50 ft.</p>
+			<p><strong><i>Amphibious.</i></strong> You can breathe air and water.</p>
+			<p><strong><i>Blindsight.</i></strong> You gain blindsight 60 ft.</p>
+			<h5>ACTIONS</h5>
+			<p><i><strong>Bite.</strong> Melee Weapon Attack: (Str + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (1d8 + Str) piercing damage.</p>
+			<p><strong>Common shapes taken are as followed:</strong></p>
+			<p><i>Sea Lion (Amphibious), Shark, Dolphin, Orca.</i></p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Travel Form" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_SHAPESHIFTS_TRAVEL_FORM">
+		<description>
+			<p><i>Large beast</i></p>
+			<p><strong>Armor Class</strong> 12 + Dexterity modifier</p>
+			<p><strong>Speed</strong> 50 ft.</p>
+			<p><strong><i>Mountable.</i></strong> As long as a creature is on your back, you both take turns on your initiative. Upon dis-mount, the riders initiative returns to normal.</p>
+			<h5>ACTIONS</h5>
+			<p><i><strong>Hooves.</strong> Melee Weapon Attack: (Str + Prof bonus)</i> to hit, reach 5 ft., one target. <i>Hit:</i> (2d4 + Str) bludgeoning damage.</p>
+			<p><strong>Common shapes taken are as followed:</strong></p>
+			<p><i>Elk, Horse, Stag, Reindeer.</i></p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+</elements>

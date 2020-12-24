@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Worgen</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="worgen.xml" url="" />
+		</update>
+	</info>
+
+  <element name="Worgen" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_WORGEN">
+		<description>
+			<p><i>When I told you that I wanted to retake Gilneas City from these Forsaken. There were those who said that it was impossible. I say that we no longer let our fears control us! For too long it has controlled me, fear that if all of you knew the whole truth, you would reject me. I give in no longer. Look at me... Now that you know the truth, I ask of you, who will stand with me, who will fight by my side?</i></p>
+			<p align="right"><i>— Genn Greymane</i></p>
+			<h3>INTRODUCTION</h3>
+			<p class="indent">Worgens are vicious humanoid wolves, a curse thrown upon them by careless druids mingling in powers that were beyond them. The druids turned into the first worgen, feral and uncontrollable, they were sealed away for countless years when night elves realized that their bite was able to transfer the curse to others.</p>
+			<p class="indent">When the forsaken sieged the kingdom of Gilneas, the worgens were released from their imprisonment to fight the undead. The feral worgens were effective, but did not differentiate undead from human. The feral worgens never entered Gilneas, but the humans did. Spreading the curse through the kingdom like wildfire. Realizing their mistake, the night elves came to gilneas rescue to offer their aid, they evacuated as many people as they could, and sailed them to their homeland in Teldrassil. There, night elven druids taught the gilnean people how to control the feral curse that lingered in their veins. Some gilneas were so fascinated by the elves magic and connection to druidism, that they were taught their ways.</p>
+			<h3>FIERCE AND VICIOUS</h3>
+			<p>With their massive shapes of a cross between a human and wolf, and the razor sharp claws, worgens appear like evil of a children's tale to those unaware of their existence. They loom over the heads of humans, ranging well over 6 feet to just under 8 feet. Their furry bodies often make them seem much larger than they are, yet with their massive bodies they weigh between 220 to 310 pounds. Males and females are about the same height and build, with the only distinct difference being a males mane.</p>
+			<p class="indent">Worgen fur varies widely in coloration, with shades of black, gray, and brown being the most common amongst the worgen kin, even if the worgen had light colorations in skin or hair as a human. Worgen eyes vary like humans, from a light blue to a deep brown.</p>
+			<h3>MORE THAN JUST FEROCIOUS</h3>
+			<p>With their wild appearance it is easy to think of a worgen as a vicious beast. Yet most still carries the properties they had in their human life. The curse will always linger in their blood, giving many worgen's a shorter temper than they might've had before. Yet they carry the same compas-sion and determination as humans do, pushing themselves forward to achieve ever greater things for themselves, their newfound kin and that of the human.</p>
+			<h3>AFFILIATION</h3>
+			<p>Worgens are still humans at their cores, they began the Alliance and it could not exist without them. Besides the respect given to all affiliated races, the gilnean humans carry a great gratitude for night elves. Their curse may be the result of rogue night elven druids, but without their aid the worgens would still be feral and hostile to all.</p>
+			<p class="indent">Although no one trusts or likes the forsaken, the gilnean hatred of the undead goes deeper than most. The forsaken are the cause of their kingdoms demise, a fact the worgens have and will not forget.</p>
+			<h3>NAMES</h3>
+			<p>Worgen names follow that of humans, as the worgens were once humans of Gilneas. Through the ages some worgen have forgotten their last names, replacing it with a name of their own, based on their achievements in their cursed life.</p>
+			<p><strong>Male Names:</strong> Blake, Chris, Fenegan, Gerard, James, Sean, Sebastian, Vincent, Slain, Tobias, Vitus</p>
+			<p><strong>Female Names:</strong> Amelia, Ashley, Celestine, Loren, Mary, Melinda, Mia, Tess, Almyra</p>
+			<p><strong>Gilnean Surnames:</strong> Broderick, Cleese, Crowly, Godfrey, Walden, Whitewall, Hammond, Hayward</p>
+			<p><strong>Worgen Surnames:</strong> Greymane, Moonfang, Mistmantle, Bloodfang, Darkwalker</p>
+			<h3>WORGEN TRAITS</h3>
+			<p>The worgen curse has transformed your body into that of a worgen, giving you the following traits.</p>
+			<p class="indent"><strong><i>Abilit Score Increase.</i></strong> Your Strength increases by 2, and your Dexterity increases by 1.</p>
+			<p class="indent"><strong><i>Age.</i></strong> Worgen age like humans, but even though their bodies continue to age, they never feel the strain of old age, and continue to fight as if they were a young human.</p>
+			<p class="indent"><strong><i>Alignment.</i></strong> Worgen tend to become chaotic, while originating from humans, the infection of their blood with the wolves has made them more unpredictable.</p>
+			<p class="indent"><strong><i>Size.</i></strong> Like humans, they vary widely in height and build, most standing well over 6 feet tall, and weigh around 250 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><i>Darkvision.</i></strong> Accustomed to the black nights, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><i>Hunter's Lore.</i> You gain proficiency with one of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, or Survival.</strong></p>
+			<p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects.</p>
+			<p class="indent"><strong><i>Two Forms.</i></strong> Using 1 minute, you can transform yourself into a human. While human, you appear as you did before getting affected by the worgen curse. You always appear as the same human when you transform. You can transform back into a worgen as a free action on your turn.</p>
+			<p class="indent">As a human, you loose all worgen form traits. If you make an attack, cast a spell that affects an enemy creature, or try to use an ability only available in worgen form, you imme-diately revert into your worgen form.</p>
+			<h4>WORGEN FORM TRAITS</h4>
+			<p class="indent"><strong><i>Speed.</i></strong> You base walking speed is 35 feet, and you have a climbing speed of 20 feet.</p>
+			<p class="indent"><strong><i>Bite.</i></strong> Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier.</p>
+			<p class="indent"><strong><i>Viciousness.</i></strong> You can throw yourself into a vicious frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Blake, Chris, Fenegan, Gerard, James, Sean, Sebastian, Vincent, Slain, Tobias, Vitus</set>
+			<set name="names" type="female">Amelia, Ashley, Celestine, Loren, Mary, Melinda, Mia, Tess, Almyra</set>
+			<set name="names" type="surname">Broderick, Cleese, Crowly, Godfrey, Walden, Whitewall, Hammond, Hayward, Greymane, Moonfang, Mistmantle, Bloodfang, Darkwalker</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="2" />
+			<stat name="dexterity" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="35" bonus="base"/>
+			<stat name="innate speed:climb" value="20" bonus="base"/>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+			<select type="Proficiency" name="Skill Proficiency (Hunter's Lore)" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<select type="Language" name="Language (Worgen)" supports="Standard||Exotic" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WORGEN_TWO_FORMS" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WORGEN_BITE" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WORGEN_VICIOUSNESS" />
+		</rules>
+	</element>
+
+	<element name="Two Forms" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WORGEN_TWO_FORMS">
+		<description>
+			<p>Using 1 minute, you can transform yourself into a human. While human, you appear as you did before getting affected by the worgen curse. You always appear as the same human when you transform. You can transform back into a worgen as a free action on your turn.</p>
+			<p class="indent">As a human, you loose all worgen form traits. If you make an attack, cast a spell that affects an enemy creature, or try to use an ability only available in worgen form, you imme-diately revert into your worgen form.</p>
+		</description>
+		<sheet>
+			<description>Using 1 minute, you can transform yourself into a human. As a human, you loose all worgen form traits you lose your climbing speed and your base walking speed becomes 30. If you make an attack, cast a spell that affects an enemy creature, or try to use an ability only available in worgen form, you immediately revert into your worgen form.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Bite" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WORGEN_BITE">
+		<description>
+			<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier.</p>
+		</description>
+		<sheet>
+			<description>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + {{worgen bite:count}}.</description>
+		</sheet>
+		<rules>
+			<stat name="worgen bite:count" value="strength:modifier" />
+		</rules>
+	</element>
+
+	<element name="Viciousness" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WORGEN_VICIOUSNESS">
+		<description>
+			<p>You can throw yourself into a vicious frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>You can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to {{worgen viciousness:count}}</description>
+		</sheet>
+		<rules>
+			<stat name="worgen viciousness:count" value="constitution:modifier" />
+		</rules>
+	</element>
+
+</elements>

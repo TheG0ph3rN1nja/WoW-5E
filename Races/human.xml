@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Human</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="human.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Human" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN">
+		<description>
+			<p><i>No one feels he deserves it. Because no one does. It's grace, pure and simple, we are inherently unworthy, simply because we're human. Aye the elves, dwarves, and all the other races are flawed. But the Light loves us anyway. It loves us for what we sometimes can rise to in rare moments. It loves us for what we can do to help others.</i></p>
+			<p align="right"><i>— Uther the Lightbringer</i></p>
+			<h3>INTRODUCTION</h3>
+			<p>Human kingdoms have existed for thousand of years, and humans themselves for thousands more. Their short lives in comparison to dwarves and elves pushes them to achieve as much as they can in the years they are given. Their valor, optimism, and stubbornness have led them to build some of the greatest kingdoms on Azeroth, some of which still stand a millennium later. Whatever have pushed them down, it has only strengthened the bond between those that still stand.</p>
+			<h3>A BROAD SPECTRUM</h3>
+			<p>With their penchant for migration and conquest, humans are more physically diverse than any other race. There is no typical human. An individual can stand from 5 feet to a little over 6 feet tall and weigh from 125 to 250 pounds. Human skin shades range from nearly black to very pale, and hair colors from black to blond (curly, kinky, or straight); males might sport facial hair that is sparse or thick. Humans reach adulthood in their late teens and rarely live even a single century.</p>
+			<h3>VARIETY IN ALL THINGS</h3>
+			<p>Humans are the most adaptable and ambitious people among Azeroth's races. They have widely varying tastes, morals, and customs in the many different kingdoms where they have settled. When they settle though, they stay: they build cities to last for the ages, and great kingdoms that can persist for long centuries. An individual human might have a relatively short life span, but a human nation or culture preserves traditions with origins far beyond the reach of any single human's memory. They live fully in the present but also plan for the future, striving to leave a lasting legacy.</p>
+			<h3>PROUDLY STANDING</h3>
+			<p>Despite what atrocities have happened to them, humans remain hardy and brave, thoroughly committed to building strong societies, reinforcing their kingdoms, and reclaiming lost nations. Years of war have tempered their resolve, and they are more determined than ever before. Their value of virtue, honor and courage shine their ranks.</p>
+			<h3>FAITHFUL</h3>
+			<p>Among all human nations, the holy light is a central part of civilized society. By most it is considered the only religion and a staple of worship, respect, and honor. The religion is widely worshiped throughout Azeroth, yet humans were the first to utilize its powers in an offensive manner with the creation of paladins. Throughout their kingdoms, churches of the holy light can be found, an organization dedicated to creating a world of honor, and justice.</p>
+			<h3>AFFILIATION</h3>
+			<p>Humans began the Alliance and it could not exist without them. Humans and orcs joined forces to face the Burning Legion years ago, but old habits returned once they dispatched the demon threat. Although the Alliance and Horde leaders bear a healthy respect for each another, old racial hatreds still stir within the hearts of their troops.</p>
+			<p class="indent">They respect the races of their alliance, and carries no ill wish against any of them. They know they are the center stone of the alliance, and that a good relationship is key.</p>
+			<h3>HUMAN NAMES AND ETHNICITIES</h3>
+			<p>Having so much more variety than other cultures, humans as a whole have no typical names. Some human parents give their children names from other languages, such as Dwarven or Darnassian, but most parents give names that are linked to their region's culture or to the naming traditions of their ancestors.</p>
+			<p class="indent">The material culture and physical characteristics of humans can change wildly from region to region. For example, the clothing, architecture, cuisine, music, and literature are different in the peninsula of Gilneas than in the southern kingdom of Stormwind. Human physical characteristics, though, vary according to the ancient migrations of the earliest humans, so that the humans of the Eastern Kingdoms have every possible variation of coloration and features.</p>
+			<p class="indent">Seven human kingdoms and ethnic groups are widely recognized. These groups, and the typical names of their members, can be used as inspiration no matter which kingdom your human is in.</p>
+			<h4>ALTERAC</h4>
+			<p>Found in the Alterac mountains, Alteracis are of moderate height and muscular built, with skin hues of pale and fair skin. Their hair is usually silver or blonde, and their eye color varies widely, though light colorations are common.</p>
+			<p><strong>Alteraci Names:</strong> Alteracis generally use names taken from the humans of Stromgarde or Lordaeron, and have no names specific to them.</p>
+			<h4>DALARAN</h4>
+			<p>Dalaranians are slender, fair-skinned folk with brown hair that ranges from blond to almost black. Most are of moderate height and have blue or green eyes. But these traits are hardly universal. Humans of Dalaran come from far and wide across the Eastern Kingdoms to study or seek refuge within the floating city.</p>
+			<p><strong>Dalaranian Names:</strong> Dalaranians have no names specific to them, the ethnicity of their people vary beyond mere humans and names are used from a variety of races.</p>
+			<h4>GILNEAS</h4>
+			<p>Gilneans are tall, fair to amber-skinned folk with blue or steely gray eyes. Most have hair ranging from wine-red or light brown to raven-black.</p>
+			<p><strong>Gilnean Names:</strong> (Male) Blake, Chris, Fenegan, Gerard, James, Sean, Sebastian, Vincent; (female) Amelia, Ashley, Celestine, Loren, Mary, Melinda, Mia, Tess; (surnames) Broderick, Cleese, Crowly, Godfrey, Walden</p>
+			<h4>KUL TIRAS</h4>
+			<p>Native to the Kul Tiran isles, tirasians are generally tall and muscular, with fair to amber skin similar to that of gilneans, brown to black hair, and light colored eyes.</p>
+			<p><strong>Tirasian Names:</strong> (Male) Cyrus, Denzel, Elijah, Herold, Patrick, Ron, Wesley, Will; (female) Fray, Helena, Jess, Joan, Kate, Leila, Louisa, Taylor; (surnames) Clark, Ledger, Mueller, Page, Wellard</p>
+			<h4>LORDAERON</h4>
+			<p>Widespread along the Eastern Kingdoms northern realm, Lordaeronians are of medium height and slender built, with pale skin. Their hair and eye color varies widely, but silver or light colored hair and blue eyes are common.</p>
+			<p><strong>Lordaeronian Names:</strong> (Male) Alexi, Aurius, Gannon, Menard, Norwyn, Othmar, Urias, Wallace; (female) Arenya, Diahann, Ellaine, Illucia, Jandice, Lydie, Malina, Merla; (surnames) Barton, Camden, Godwin, Hayden</p>
+			<h4>STORMWIND</h4>
+			<p>Found within the southern region of the Eastern King-doms, Stormwindians are of moderate height and build, with skin hues ranging from tawny to fair. Their hair varies widely from blonde to brown, as does their eyes, though brown is most common.</p>
+			<p><strong>Stormwindian Names:</strong> (Male) Ander, Dungar, Harlan, Jesper, Jocryn, Maginor, Osric, Renato; (female) Dalga, Einris, Ilsa, Jalane, Karrina, Laurena, Maris, Sarisse; (surnames) Ayrole, Bolero, Cordell, Leifeld, Stanford</p>
+			<h4>STROMGARDE</h4>
+			<p>Shorter in build than most other humans, Stromics have generally pale skin contrasted by brown or black hair, and dark colored eyes.</p>
+			<p><strong>Stromic Names:</strong> (Male) Adrien, Emmir, Galen, Ganar, Thoras, Tyrreth, Urnor, Wyenas; (female) Amina, Céline, Clarisse, Ella, Emeline, Iris, Mara, Marine; (surnames) Brewston, Farthing, Gilbreath, Swale, Tubal</p>
+			<h3>HUMAN TRAITS</h3>
+			<p>It's hard to make generalizations about humans, no matter where you were born your character has these traits.</p>
+			<p class="indent"><strong><i>Ability Score Increase.</i></strong> One ability score of your choice increases by 2, and another ability score of your choice increases by 1.</p>
+			<p class="indent"><strong><i>Age.</i></strong> Humans reach adulthood in their late teens and live less than a century.</p>
+			<p class="indent"><strong><i>Alignment.</i></strong> Humans tend toward no particular alignment. The best and the worst are found among them.</p>
+			<p class="indent"><strong><i>Size.</i></strong> Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall, averaging at 170 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><i>Versatility.</i></strong> You gain proficiency in one skill or tool of your choice.</p>
+			<p class="indent"><strong><i>Human Resolve.</i></strong> When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can’t use it again until you finish a short or long rest.</p>
+			<p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Dwarven curses, Darnassian musical expressions, Gnomish tongue twisters, and so on.</p>
+		</description>
+		<sheet display="false" />
+    <setters>
+      <set name="names" type="male">Blake, Chris, Fenegan, Gerard, James, Sean, Sebastian, Vincent, Cyrus, Denzel, Elijah, Herold, Patrick, Ron, Wesley, Will, Alexi, Aurius, Gannon, Menard, Norwyn, Othmar, Urias, Wallace, Ander, Dungar, Harlan, Jesper, Jocryn, Maginor, Osric, Renato, Adrien, Emmir, Galen, Ganar, Thoras, Tyrreth, Urnor, Wyenas</set>
+      <set name="names" type="female">Amelia, Ashley, Celestine, Loren, Mary, Melinda, Mia, Tess, Fray, Helena, Jess, Joan, Kate, Leila, Louisa, Taylor, Arenya, Diahann, Ellaine, Illucia, Jandice, Lydie, Malina, Merla,Dalga, Einris, Ilsa, Jalane, Karrina, Laurena, Maris, Sarisse, Amina, Céline, Clarisse, Ella, Emeline, Iris, Mara, Marine</set>
+      <set name="names" type="surname">Broderick, Cleese, Crowly, Godfrey, Walden, Clark, Ledger, Mueller, Page, Wellard, Barton, Camden, Godwin, Hayden, Ayrole, Bolero, Cordell, Leifeld, Stanford, Brewston, Farthing, Gilbreath, Swale, Tubal</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <select type="Language" name="Language (Human)" supports="Standard||Exotic" />
+			<select type="Proficiency" name="Proficiency (Human)" supports="Skill||Tool" />
+			<select type="Racial Trait" name="Ability Score Increase (Human I)" supports="Human I" number="1" />
+			<select type="Racial Trait" name="Ability Score Increase (Human II)" supports="Human II" number="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HUMAN_HUMAN_RESOLVE" />
+		</rules>
+	</element>
+
+	<element name="Human Resolve" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_HUMAN_HUMAN_RESOLVE">
+		<description>
+			<p>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Req Temp Fix" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_REQTEMPFIX" />
+	<append id="ID_GMBINDER_WOW5E_RACE_HUMAN">
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_REQTEMPFIX"/>
+		</rules>
+	</append>
+
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_I_STRENGTH">
+		<compendium display="false" />
+		<supports>Human I</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_I_DEXTERITY">
+		<compendium display="false" />
+		<supports>Human I</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_I_CONSTITUTION">
+		<compendium display="false" />
+		<supports>Human I</supports>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_I_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Human I</supports>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_I_WISDOM">
+		<compendium display="false" />
+		<supports>Human I</supports>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_I_CHARISMA">
+		<compendium display="false" />
+		<supports>Human I</supports>
+		<description>
+			<p>Your Charisma score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="1"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Strength)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_II_STRENGTH">
+		<compendium display="false" />
+		<supports>Human II</supports>
+		<description>
+			<p>Your Strength score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="2"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_II_DEXTERITY">
+		<compendium display="false" />
+		<supports>Human II</supports>
+		<description>
+			<p>Your Dexterity score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="2"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_II_CONSTITUTION">
+		<compendium display="false" />
+		<supports>Human II</supports>
+		<description>
+			<p>Your Constitution score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="2"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_II_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Human II</supports>
+		<description>
+			<p>Your Intelligence score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="2"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_II_WISDOM">
+		<compendium display="false" />
+		<supports>Human II</supports>
+		<description>
+			<p>Your Wisdom score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="2"/>
+		</rules>
+	</element>
+
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_HUMAN_II_CHARISMA">
+		<compendium display="false" />
+		<supports>Human II</supports>
+		<description>
+			<p>Your Charisma score increases by 2.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="2"/>
+		</rules>
+	</element>
+
+</elements>

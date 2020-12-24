@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kirin Tor Apprentice</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="kirin-tor-apprentice.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Kirin Tor Apprentice" type="Background" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_BACKGROUND_KIRIN_TOR_APPRENTICE">
+		<description>
+			<p>You have been accepted into the Kirin Tor, Dalaran's elite cadre of the most powerful wizards on Azeroth. You have spent time within their school, earning yourself a magi mentor to oversee your studies and guide your learning.</p>
+			<p class="indent">You've learnt the basics of the schools of magic, and the ley lines of arcane magic that runs beneath the surface of Azeroth. You've spent enough time within Kirin Tors libraries, learning what knowledge interested you, and have been sent out onto Azeroth by your mentor to seek know-ledge elsewhere, and to gain experience.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Arcana, History</li>
+				<li><strong>Tool Proficiencies:</strong> One type of artisan's tools</li>
+				<li><strong>Languages:</strong> One of your choice</li>
+				<li><strong>Equipment:</strong> A bottle of high quality ink, a quill, chalk, a scroll case with 5 pieces of parchment, robes, a candle, tinder box, and a belt pouch containing 15 gp</li>
+			</ul>
+			<div element="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_A_PROMINENT_MENTOR" />
+			<h4>SUGGESTED CHARACTERISTICS</h4>
+			<p>An apprentice of the Kirin Tor is often eager to learn what lies around Azeroth, wishing to learn any knowledge given to them. These apprentices vary drastically in personality, but they all have one thing in common, a deep lying wish for knowledge and understanding of the magic of the world.</p>
+		</description>
+		<setters>
+			<set name="short">Arcana, History, Artisan’s Tool, 1 Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<select type="Proficiency" name="Tool Proficiency (Kirin Tor Apprentice)" supports="Artisan tools" />
+			<select type="Language" name="Language (Kirin Tor Apprentice)" number="1" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_A_PROMINENT_MENTOR" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I am quiet and observant.</item>
+				<item id="2">I compare any magical effect i see to one I have learned about.</item>
+				<item id="3">I bring up my mentors' teachings often.</item>
+				<item id="4">I enjoy experiencing the world and avoid being 'cooped up' in a quiet or stuffy location.</item>
+				<item id="5">I treat others as though they are unintelligent.</item>
+				<item id="6">I am wide eyed and easily excited.</item>
+				<item id="7">I like to use big words to showcase my intelligence.</item>
+				<item id="8">I enjoy an intellectual challenge.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Protection. Magic can protect us from all the evils in the world. (Good)</item>
+				<item id="2">Power. Knowledge can be leveraged into power in the world, and I want more. (Evil)</item>
+				<item id="3">Respect. Magic deserves our humble efforts to understand and master. (Lawful)</item>
+				<item id="4">Experimentation. New and exciting magics await discovery. (Chaotic)</item>
+				<item id="5">Knowledge. Understanding the world around us is the only thing that matters. (Neutral)</item>
+				<item id="6">Self-Improvement. I will achieve magical power through self-mastery and understanding. (Any)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I will be known for my power, knowledge, and discoveries.</item>
+				<item id="2">I will prove myself superior to my mentors.</item>
+				<item id="3">I will bring honor and renown my family.</item>
+				<item id="4">I will discover new magics that my mentor has never heard of.</item>
+				<item id="5">A former mentor was a monster, I will avenge his victims.</item>
+				<item id="6">I have heard of a scroll that contains knowledge I seek that I must find.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I point out others mistakes to make them look smaller so I feel bigger.</item>
+				<item id="2">I can't resist the opportunity to learn a new spell or gain a new magical item.</item>
+				<item id="3">I never learned proper social skills or interactions.</item>
+				<item id="4">I use spells and magic to do things I can do by hand.</item>
+				<item id="5">I have disdain for authority and act rebelliously.</item>
+				<item id="6">I'm compelled to prove my superior intelligence.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: A Prominent Mentor" type="Background Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_A_PROMINENT_MENTOR">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You know at least one prominent mage within the Kirin Tor that you can call upon for answers and information. You've learnt a simple but limited spell that makes you able to contact them as long as you are on the same plane of existence. The spell is limited to a 100 word message, and a 100 word reply from the mentor. Once you've contacted your mentor, you cannot contact him again for a week, unless you expend a spell slot of 2nd level or higher.</p>
+			<p class="indent">At the DMs discretion, the mentors information may be false, missing vital details, or they may not respond within a timely fashion.</p>
+			<p class="indent">Discuss the details of the mages you know within the Kirin Tor with your DM.</p>
+		</description>
+		<sheet alt="A Prominent Mentor" />
+	</element>
+
+</elements>

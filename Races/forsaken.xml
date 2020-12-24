@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Forsaken</name>
+    <description></description>
+    <author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+    <update version="0.0.1">
+      <file name="forsaken.xml" url="" />
+    </update>
+  </info>
+
+  <element name="Forsaken" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_FORSAKEN">
+    <description>
+      <p><i>Death offered no escape for the scores of humans killed during the Lich King’s campaign to scour the living from Lordaeron. Instead, the kingdom’s fallen were risen into undeath as Scourge minions and forced to wage an unholy war against everything. . . and everyone. . . that they once held dear.</i></p>
+      <h3>INTRODUCTION</h3>
+      <p>Undead humans and elves freed from the Lich King’s control, the Forsaken are a strange and dark force. Hailing from the twisted, skittering darkness of Undercity, the Forsaken are nominally allied with the Horde but serve only themselves.</p>
+      <p class="indent">Under the Lich Kings crusade, the elven Ranger General Sylvanas Windrunner fell in combat. Prince Arthas raised her as a banshee and compelled her to follow his command. When the Lich King’s power waned in the incidents surrounding the Frozen Throne, Sylvanas harnessed her fury and tore herself free from his skeletal grasp. She freed many other undead as well, and recruited powerful allies from the Burning Legion and the surrounding ogre clans. Sylvanas dubbed her new force the Forsaken, and the undead established their capital in the labyrinthine crypts beneath Lordaeron’s capital city. Their sprawling, subterranean realm now called Undercity.</p>
+      <h3>NECESSARY ALLIANCE</h3>
+      <p>The Forsaken originally became allies of the Horde out of necessity and convenience. They have no love for orcs, tauren or any other living creature, but they need time to strike against the Scourge and allies to help them do it. The Forsaken claim that they joined the Horde to prove their desire to leave their evil ways behind, but no one really believes this. The Horde accepts the forsaken’s help, as they do indeed have a common enemy: the Scourge. The Horde is leery of the forsaken’s tactics, however, and keeps watchful eyes on them.</p>
+      <p class="indent">Though initially the Forsaken alliance with the Horde was one of pure convenience, in recent times it appears that their position in the faction has begun to solidify and many, though not all, of the Forsaken appear to be more or less loyal to the Horde now.</p>
+      <h3>STRANGE BEHAVIORS</h3>
+      <p>Forsaken culture is strange, a perverse combination of the lives they once knew as mortals and the mindless slavery they experienced in the Scourge, colored by white-hot rage toward the Lich King and an almost equally intense devotion to their queen.</p>
+      <p class="indent">Some Forsaken attempt to reclaim their humanity by acting in kind and helpful ways. Others allow hatred to fester into cruelty and rage.</p>
+      <h3>EXTREME ALCHEMIST</h3>
+      <p>Never sleeping, eating or falling ill, abandoned by those they once loved, the Forsaken have a brutal set of priorities.</p>
+      <p class="indent">A great portion of their efforts focus on dark alchemy, and the Royal Apothecary Society commands great power in Undercity’s oily tunnels. The apothecaries constantly send Forsaken on missions to gather odd materials for their twisted experiments. Rumors tell that the undead creatures are working to create a plague that will exterminate the Scourge and every living being on Azeroth.</p>
+      <h3>DREADFUL LOOKS</h3>
+      <p>Forsaken, unsurprisingly, look like dead people. Their skin is gray and rotting, showing bone and flesh in places. Their pupil-less eyes glow with dim, white ghostlight. Their muscles are withered, making them scrawny. Their move-ments are slow but jagged. Necromantic magic keeps them preserved, but natural decay still proceeds, just at an extremely slow rate compared to normal.</p>
+      <h3>AFFILIATION</h3>
+      <p>Though the Forsaken do not trust anyone and no one trusts them, they are members of the Horde and, for now, do their best to help their allies and placate their ambassadors. Forsaken have even less love for the Alliance, particularly because they clash constantly with the human organization called the Scarlet Crusade.</p>
+      <p class="indent">The only other Horde faction they have a semblance of trust with is Silvermoon City and the blood elves. This is because their ruler Sylvanas Windrunner, and a small portion of forsaken were once blood elves.</p>
+      <h3>NAMES</h3>
+      <p>Most forsaken keep the human or blood elven name they had when they were alive. If a forsaken cannot remember their name, or simply wishes to change it, they make up a suitable name or read one from a headstone. Some invent surnames that imply their desire to eradicate the Scourge or about their undead nature.</p>
+      <h3>FORSAKEN TRAITS</h3>
+      <p>Your forsaken character has certain traits deriving from humans, as well as forsaken traits.</p>
+      <p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Constitution score increases by 1.</p>
+      <p class="indent"><strong><i>Age.</i></strong> Forsakens do not age, they are undead. The age they were when brought back as forsaken is the age they will be until destroyed.</p>
+      <p class="indent"><strong><i>Alignment.</i></strong> Forsakens alignment varies, as their race origin, most tend to become more chaotic, and very few keep to good after decades of being an undead.</p>
+      <p class="indent"><strong><i>Size.</i></strong> Forsaken size reflects that of their living counter-parts. Many getting more hunched over with the decades. Your size is Medium.</p>
+      <p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+      <p class="indent"><strong><i>Darkvision.</i></strong> Forsakens can see normal in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+      <p class="indent"><strong><i>Cannibalism.</i></strong> Using 1 minute, you can cannibalize the corpse of a humanoid that has been dead for less than 1 hour. When done, you regain a number of hit point sequal to your level + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short rest.</p>
+      <p class="indent"><strong><i>Touch of the Grave.</i></strong> Forsaken don't need to sleep. Instead, they enter a semiconscious state of the afterlife for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+      <p class="indent"><strong><i>Undead.</i></strong> You have two creature types: humanoid and undead. You can be affected by a game effect if it works on either of your creature types. In addition, you gain the following benefits:</p>
+      <ul>
+        <li>You don't require food, or water.</li>
+        <li>You have resistance to poison damage, and advantage on saving throws against being poisoned.</li>
+      </ul>
+      <p class="indent"><strong><i>Will of the Forsaken.</i></strong> You have advantage on saving throws against being charmed, effects that turn undead, and magic can't put you to sleep.</p>
+      <p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common and Gutterspeak. Gutterspeak is a simple form of common that mixes in Dwarven and Thalassian slurs.</p>
+      <p class="indent"><strong><i>Subrace.</i></strong> Two kinds of forsaken exist on Azeroth, elves and humans. Choose one of these subraces.</p>
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_FORSAKEN_ELF" />
+      <div element="ID_GMBINDER_WOW5E_SUB_RACE_FORSAKEN_HUMAN" />
+    </description>
+    <sheet display="false" />
+		<setters />
+    <rules>
+      <stat name="constitution" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_GUTTERSPEAK"/>
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_CANNIBALISM" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_TOUCHOFTHEGRAVE" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_UNDEAD" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_WILLOFTHEFORSAKEN" />
+      <select type="Sub Race" name="Forsaken Subrace" supports="Forsaken" />
+    </rules>
+  </element>
+
+  <element name="Cannibalism" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_CANNIBALISM">
+		<description>
+			<p>Using 1 minute, you can cannibalize the corpse of a humanoid that has been dead for less than 1 hour. When done, you regain a number of hit point sequal to your level + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>Using 1 minute, you can cannibalize the corpse of a humanoid that has been dead for less than 1 hour. When done, you regain a number of hit points equal to {{forsaken cannibalism:count}}</description>
+		</sheet>
+		<rules>
+      <stat name="forsaken cannibalism:count" value="level" />
+      <stat name="forsaken cannibalism:count" value="constitution:modifier" />
+      <stat name="calculation" value="forsaken cannibalism:count" bonus="calculation" />
+    </rules>
+	</element>
+
+  <element name="Touch of the Grave" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_TOUCHOFTHEGRAVE">
+		<description>
+			<p>Forsaken don't need to sleep. Instead, they enter a semiconscious state of the afterlife for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
+		</description>
+		<sheet>
+			<description>Forsaken don't need to sleep. Instead, they enter a semiconscious state of the afterlife for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Undead" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_UNDEAD">
+		<description>
+			<p>You have two creature types: humanoid and undead. You can be affected by a game effect if it works on either of your creature types. In addition, you gain the following benefits:</p>
+      <ul>
+        <li>You don't require food, or water.</li>
+        <li>You have resistance to poison damage, and advantage on saving throws against being poisoned.</li>
+      </ul>
+		</description>
+		<sheet>
+			<description>You have two creature types: humanoid and undead, you don't require food, or water, you have resistance to poison damage, and advantage on saving throws against being poisoned.</description>
+		</sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+	</element>
+
+  <element name="Will of the Forsaken" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_WILLOFTHEFORSAKEN">
+		<description>
+			<p>You have advantage on saving throws against being charmed, effects that turn undead, and magic can't put you to sleep.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being charmed, effects that turn undead, and magic can't put you to sleep.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Forsaken Elf" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_FORSAKEN_ELF">
+		<supports>Forsaken</supports>
+		<description>
+			<p>As a forsaken elf, you were once a high elf off Quel'thalas, overtaken by the scourge. Now usually serving as high and powerful members within Sylvanas' rule.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Intelligence increases by 1.</p>
+			<p><strong><i>Quel'dorei legacy.</i></strong> You can cast <i>magic missiles</i> and <i>shield</i> with this trait, using Intelligence as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest.</p>
+			<p><strong><i>Languages.</i></strong> You can speak, read, and write Thalassian.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_ELF_QUELDOREI_LEGACY" />
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_THALASSIAN" />
+		</rules>
+	</element>
+
+  <element name="Quel'dorei Legacy" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_ELF_QUELDOREI_LEGACY">
+		<description>
+			<p>You can cast <i>magic missile</i> and <i>shield</i> with this trait, using Intelligence as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1 Each/Short Rest">
+			<description>You can cast magic missile and shield with this trait, using Intelligence as your spellcasting ability for them.</description>
+		</sheet>
+		<rules>
+      <grant type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE" />
+      <grant type="Spell" id="ID_PHB_SPELL_SHIELD" />
+    </rules>
+	</element>
+
+  <element name="Forsaken Human" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_FORSAKEN_HUMAN">
+		<supports>Forsaken</supports>
+		<description>
+			<p>As a forsaken human, you were once a proud human of Lordaeron. A human society at the top of the Eastern Kingdoms, that the scourge all but leveled with the ground in its passing. Now, broken from the scourges will, you serve under Queen Sylvanas' rule.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> One other ability scores of your choice increases by 1.</p>
+			<p><strong><i>Human Resolve.</i></strong> When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<select type="Racial Trait" name="Ability Score Increase (Forsaken Human)" supports="Forsaken Human" number="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_HUMAN_HUMAN_RESOLVE" />
+		</rules>
+	</element>
+
+  <element name="Human Resolve" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_HUMAN_HUMAN_RESOLVE">
+		<description>
+			<p>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can't use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage.</description>
+		</sheet>
+		<rules />
+	</element>
+
+  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="GM Binder" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_HUMAN_STRENGTH">
+		<compendium display="false" />
+		<supports>Forsaken Human</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1"/>
+		</rules>
+	</element>
+
+  <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="GM Binder" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_HUMAN_DEXTERITY">
+		<compendium display="false" />
+		<supports>Forsaken Human</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1"/>
+		</rules>
+	</element>
+
+  <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="GM Binder" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_HUMAN_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Forsaken Human</supports>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1"/>
+		</rules>
+	</element>
+
+  <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="GM Binder" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_HUMAN_WISDOM">
+		<compendium display="false" />
+		<supports>Forsaken Human</supports>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1"/>
+		</rules>
+	</element>
+
+  <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="GM Binder" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_FORSAKEN_HUMAN_CHARISMA">
+		<compendium display="false" />
+		<supports>Forsaken Human</supports>
+		<description>
+			<p>Your Charisma score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="1"/>
+		</rules>
+	</element>
+
+</elements>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Night Elf</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="night-elf.xml" url="" />
+		</update>
+	</info>
+
+  <element name="Night Elf" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_NIGHT_ELF">
+		<description>
+      <p><i>Darkness covered us in the beginning, and we could not see. We cried for guidance and the moon shone down bright upon us. Her soft light not only illuminated the night for us but also gave comfort. Her light touched us from within, enabling us to see even when the moon was not visible...</i></p>
+      <p align="right"><i>— Tyrande Whisperwind</i></p>
+			<h3>INTRODUCTION</h3>
+      <p class="indent">Proud and ancient, the kaldorei once ruled Azeroth as one powerful nation. They were the first to study magic and let it loose throughout the world during the First war. Since then most night elves have abandoned arcane, remember-ing the chaos it brought, turning their attention to raw strength, or the powers of nature.</p>
+      <h3>GRACEFUL NATURE</h3>
+      <p>Imposing in stature, night elves stand as one of the highest race of elves and on Azeroth, with their muscular bodies and slender builds, and long narrow ears. Their skin range in hues of blue, from a light blue sky to the deep blue of the water. With hair varying from a lush green, to blue, to dark purple. It is customary among night elves to paint tattoos across their faces, generally depicting an animal or leaf like design, often done as a rite of passage to adulthood.</p>
+      <p class="indent">Their eyes shine with a dim golden or silver glow, since the Sundering the golden glow has become ever more common amongst the night elves, a sign of their connection to nature and druidsm. Night elves who's eyes shine silver have left their kins ways for the arcane, and is seen as an outcast by most night elves.</p>
+      <h3>BELIEF IN THE ANCIENTS</h3>
+      <p>Night elves have made close ties to the ancients beings of Azeroth. They have a strong connection to the goddess Elune and have built temples and organizations in her name to carry on her message. The sisters of Elune have long since been the leaders of the night elven military, and official head of their civilization as a whole.</p>
+      <p class="indent">Although Elune stands above all else, the night elves also carry a deep respect and gratitude to the ancient guardians of Azeroth, also know as wild gods, many of whom have not been seen since the blessing of nordrassil. Was it not for their aid during the War of the Ancients, the night elves would have perished from the surface of Azeroth.</p>
+      <h3>A TIMELESS PERSPECTIVE</h3>
+      <p>Night Elves can live to become thousands of years of age, giving them a broad perspective on events that might trouble the shorter-lived races more deeply. They are often more amused than excited, and more likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance. When pursuing a goal, whether adven-turing on a mission or learning a new skill or art, elves can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them.</p>
+      <p class="indent">Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and compro-mise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their woodland homes, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, strategy, and the foces of nature.</p>
+      <h3>AFFILIATION</h3>
+      <p>Night elves joined the alliance after the Third War. The war had cost the elves many of their former allies, who had fallen into madness and abandoned the alliance they had with the night elves. the night elves have a disgust and suspicion of the high elves. They remember the atrocities their forefathers the highborne did, and have not forgiven them for it. Despite the grudge, they have worked together in the past when it was deemed a necessity for survival.</p>
+      <p class="indent">Even though much of the kaldorei nation has joined the Alliance, many among them have chosen to stay neutral. Night elves of the Cenarion Circle, for example, choose to stay out of the faction conflict, and turned their attention towards the protection of Azeroth's nature.</p>
+      <h3>NIGHT ELF NAMES</h3>
+      <p>Kaldorei names commonly have a hidden meaning or a meaning in Darnassian, and their surnames aren family names, derived from personal feats of the night elves ancestors, yet some amongst night elves take new family names showing their own achievements.</p>
+      <p><strong>Male Names:</strong> Alegorn, Daros, Eiron, Mathrengyl, Mardant, Gasul, Lanoth, Khardona, Andissiel, Sillarn</p>
+      <p><strong>Female Names:</strong> Astaia, Saelienne, Jeen'ra, Lelanai, Keina, Alathea, Lotherias, Cordessa, Aquinne</p>
+      <p><strong>Family Names:</strong> Moonlance, Shadewhisper, Nightrunner, Bearwalker, Briarbow, Moonblade, Proudstrider</p>
+      <h3>NIGHT ELF TRAITS</h3>
+      <p>Your night elf character has a variety of natural abilities, the result of thousands of years of elven refinement.</p>
+      <p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>
+      <p class="indent"><strong><i>Age.</i></strong> Night elves reach physical maturity at the pace of humans, but the night elven understanding of adulthood goes beyond physical growth. Night elves typically claim adulthood and an adult name around the age of 100, and can live to become thousands of years old.</p>
+      <p class="indent"><strong><i>Alignment.</i></strong> Night elves live in close ties with the natural world, they have an unprecedented connection to nature and protect it fiercely, pulling many night elves towards good. They love freedom and variety, making most lean toward the gentler aspects of chaos as well.</p>
+      <p class="indent"><strong><i>Size.</i></strong> Night elves are between 7 and 8 feet tall and weigh between 210 and 250 pounds. Your size is medium.</p>
+      <p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 35 feet.</p>
+      <p class="indent"><strong><i>Darkvision.</i></strong> Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+      <p class="indent"><strong><i>Keen Senses.</i></strong> You are proficient in the Perception skill.</p>
+      <p class="indent"><strong><i>Natural Resistance.</i></strong> You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+      <p class="indent"><strong><i>Shadowmeld.</i></strong> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+      <p class="indent"><strong><i>Kaldorei Weapon Training.</i></strong> You are proficient in longbows, kaldorei moonglaives, kaldorei moon swords, and warglaives.</p>
+      <p class="indent"><strong><i>Languages.</i></strong> You can speak, read, and write Common and Darnassian. Darnassian is fluid, with subtle intonations and intricate grammar. Its literature is rich and varied, and their songs and poems are famous among other races.</p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Alegorn, Daros, Eiron, Mathrengyl, Mardant, Gasul, Lanoth, Khardona, Andissiel, Sillarn</set>
+      <set name="names" type="female">Astaia, Saelienne, Jeen'ra, Lelanai, Keina, Alathea, Lotherias, Cordessa, Aquinne</set>
+      <set name="names" type="surname">Moonlance, Shadewhisper, Nightrunner, Bearwalker, Briarbow, Moonblade, Proudstrider</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+      <stat name="dexterity" value="2" />
+      <stat name="wisdom" value="1" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+      <stat name="innate speed" value="35" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+      <!--<grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_KALDOREI_MOONGLAIVES" />
+      <grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_KALDOREI_MOON_SWORDS" />
+      <grant type="Proficiency" id="ID_GMBINDER_WOW5E_PROFICIENCY_WEAPON_PROFICIENCY_WARGLAIVES" />-->
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_DARNASSIAN"/>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHT_ELF_NATURE_RESISTANCE" />
+      <grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHT_ELF_SHADOWMELD" />
+    </rules>
+  </element>
+
+  <element name="Nature Resistance" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHT_ELF_NATURE_RESISTANCE">
+		<description>
+			<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against poison, and you have resistance against poison damage.</description>
+		</sheet>
+		<rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+	</element>
+
+  <element name="Shadowmeld" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_NIGHT_ELF_SHADOWMELD">
+		<description>
+			<p>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>
+		</description>
+		<sheet>
+			<description>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</description>
+		</sheet>
+		<rules />
+	</element>
+
+</elements>

@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Druid</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="wow-druid.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Druid" type="Class" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_DRUID">
+		<description>
+      <p><i>Standing in the way of nature is heresy. Even when nature's force is a destructive one.</i></p>
+			<p align="right"><i>— Malfurion Stormrage</i></p>
+			<br />
+      <p class="indent">Clutching an engraved staff stitched with leaves, a night elf summons the powers of elune, calling down raw blue energy of the moon upon a terrible foe, smashing upon its body and encasing it hole for a brief moment.</p>
+      <p class="indent">Crouching out of sight on a low hanging tree branch, in the form of a large feral tiger, a worgen scouts out from his hiding stop towards the constructions of Zul'Gurub. Watching every move of the jungle trolls patrolling.</p>
+      <p claas="indent">Holding near her sickle and staff, a young tauren druid is making beautiful ritual, making tiny seeds sprinkle into a perfect circle of faintly glowing green lights, healing an endured ally to the best of her capabilities.</p>
+      <p class="indent">Rushing forward towards his companions aid, rumbling the ground as his body transforms into a giant bear creature with tusks, an experienced troll runs to his allies aid, blocking a fatal blow with its fur.</p>
+      <h3>NATURE"S POWER</h3>
+      <p>Druids harness the vast powers of nature to preserve balance and protect life. With experience, druids can unleash nature’s raw energy against their enemies, raining celestial fury on them from a great distance, binding them with enchanted vines, or ensnaring them in unrelenting cyclones. Druids can also direct this power to heal wounds and restore life to fallen allies.</p>
+      <p class="indent">They are deeply in tune with the animal spirits of Azeroth. As master shapeshifters, druids can take on the forms of a variety of beasts, morphing into a bear, cat, creatures of water, and creatures of air with ease. This flexibility allows them to fill different roles during their adventures, tearing enemies to shreds one minute and surveying the battlefield from the sky the next. These keepers of the natural order are among the most versatile heroes in Azeroth, and they must be prepared to adjust to new challenges on a moment’s notice.</p>
+      <h5 class="caption">THE DRUID</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td>Affinity Points</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+        <tr><td> 1st</td><td>—</td><td class="left">Druidic, Spellcasting</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td>1</td><td class="left">Shapeshifting, Druid Path, Affinity</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>1</td><td class="left">—</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>1</td><td class="left">Ability Score Improvement, Shapeshifting Improvement</td><td>3</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>2</td><td class="left">—</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>2</td><td class="left">Druid Path feature, Shapeshifting Improvement</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>2</td><td class="left">—</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>3</td><td class="left">Ability Score Improvement, Shapeshifting Improvement</td><td>3</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>3</td><td class="left">—</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>3</td><td class="left">Druid Path feature</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>4</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>4</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>4</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td>4</td><td class="left">Druid Path feature</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td>4</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td>5</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td>5</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td>5</td><td class="left">Timeless Body</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td>5</td><td class="left">Ability Score Improvement</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td>5</td><td class="left">Soul of the Forest</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+      <h3>PROTECTORS OF BALANCE</h3>
+      <p>Guardians of nature who seek to preserve balance and protect life, Druids have unmatched versatility on the field of battle. This is in part because druidism is much more than a fighting discipline.</p>
+      <p class="indent">It’s a way of life steeped in traditions so ancient that even the origin of their kind is preserved largely in mythology passed on through millennia.</p>
+      <p class="indent">Druids harness nature’s raw energy for an incredible breadth of offensive and defensive abilities, as well as to restore life to the wounded. Through communion with nature and the demigod Cenarius, Lord of the Forest, Druids are supernaturally endowed with the gift of shapeshifting, allowing them to take the form of all manner of nature’s creature and access powers as distinct as they are diverse.</p>
+      <h3>CREATING A DRUID</h3>
+      <p>When making a druid, consider why your character has such a close bond with nature. Perhaps your character was raised by a druid after being abandoned in the depths of a forest. Perhaps your character had a dramatic encounter with the spirits of nature, coming face to face with a giant eagle or dire wolf and surviving the experience.</p>
+      <h4>QUICK BUILD</h4>
+      <p>You can make a druid quickly by following these suggestions. Wisdom should be your highest ability score, followed by Constitution. (Some druids focus more on their physical traits than their mental ones, preferring Dexterity for Feral, and Strength for Guardian over Wisdom.)</p>
+      <h2>CLASS FEATURES</h2>
+      <p>As a druid, you gain the following class features.</p>
+			<h4>HIT POINTS</h4>
+      <ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per druid level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per druid level after 1st</li>
+			</ul>
+			<h4>PROFICIENCIES</h4>
+			<ul class="unstyled mb">
+        <li><strong>Armor:</strong> Light armor, medium armor</li>
+				<li><strong>Weapons:</strong> Simple Weapons</li>
+				<li><strong>Tools:</strong> Herbalism kit</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
+				<li><strong>Skills:</strong> Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival</li>
+			</ul>
+			<h4>EQUIPMENT</h4>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) a quarterstaff or (b) any simple weapon</li>
+				<li>(a) a dagger or (b) any simple melee weapon</li>
+				<li>Leather armor, an explorer’s pack, and a druidic focus</li>
+			</ul>
+      <div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_DRUIDIC" />
+			<div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" />
+      <dic element="ID_GMBINDER_WOW5E_CLASS_FEATURE_FERALGUARDIAN_SPELLCASTING" />
+      <div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SHAPESHIFTING" />
+      <div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_DRUID_PATHS" />
+      <div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_AFFINITY" />
+      <div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" />
+      <div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_TIMELESS_BODY" />
+      <div element="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SOUL_OF_THE_FOREST" />
+    </description>
+    <sheet display="false">
+      <description>A watcher of nature, wielding powers of elune, and able to transform into animals.</description>
+    </sheet>
+    <setters>
+      <set name="short">A watcher of nature, wielding powers of elune, and able to transform into animals.</set>
+      <set name="hd">d8</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN,!ID_GMBINDER_WOW5E_MULTICLASS_DRUID"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID"/>
+      <select type="Proficiency" name="Skill Proficiency (Druid)" supports="Skill,Druid" number="3" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_DRUIDIC" level="1"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" level="1"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SHAPESHIFTING" level="2"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_DRUID_PATHS" level="2"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_AFFINITY" level="2"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" level="4"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_TIMELESS_BODY" level="18"/>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SOUL_OF_THE_FOREST" level="20"/>
+    </rules>
+    <multiclass id="ID_GMBINDER_WOW5E_MULTICLASS_DRUID">
+      <prerequisite>Wisdom 13</prerequisite>
+      <requirements>[wis:13],!ID_WOTC_PHB_CLASS_DRUID</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, nature skill</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+      </rules>
+    </multiclass>
+  </element>
+
+  <element name="Druidic" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_DRUIDIC">
+    <description>
+      <p>You know Druidic, the secret language of druids. You can speak, read and write Druidic, a language sacred to druids that is not taught to outsides without severe consequences for the teacher and teached.</p>
+    </description>
+    <sheet>
+      <description>You can use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Perception check but can’t decipher it without magic.</description>
+    </sheet>
+    <rules>
+      <grant type="Language" id="ID_LANGUAGE_DRUIDIC" />
+    </rules>
+  </element>
+
+  <element name="Spellcasting" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
+    <description>
+      <p>Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See chapter 10 of the Player's Handbook for the general rules of spellcasting and chapter 6 of this book for the druid spell list.</p>
+      <h4>CANTRIPS</h4>
+      <p>At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.</p>
+      <h4>PREPARING AND CASTING SPELLS</h4>
+      <p>The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast a druid spell, you must expend a slot of the spell's level or higher. You re-gain all expended spell slots when you finish a long rest.</p>
+      <p class="indent">You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+      <p class="indent">For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+      <p class="indent">You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+      <h4>SPELLCATING ABILITY</h4>
+      <p>Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attune-ment to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack with one.</p>
+      <center>
+        <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+        <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+      </center>
+      <h4>RITUAL CASTING</h4>
+      <p>You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+      <h4>SPELLCASTING FOCUS</h4>
+      <p>You can use a druidic focus as a spellcasting focus for your druid spells.</p>
+    </description>
+    <sheet>
+			<description>You can cast druid spells as rituals. You can prepare {{druid:spellcasting:prepare}} spells from the druid spell list. You can use a druidic focus as your spellcasting focus.</description>
+		</sheet>
+		<spellcasting name="Druid" ability="Wisdom" prepare="true">
+			<list known="true">WoW-Druid</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<stat name="druid:spellcasting:slots:1" value="2" level="1" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:1" value="1" level="2" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:1" value="1" level="3" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:2" value="2" level="3" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:2" value="1" level="4" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:3" value="2" level="5" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:3" value="1" level="6" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:4" value="1" level="7" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:4" value="1" level="8" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:4" value="1" level="9" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:5" value="1" level="9" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:5" value="1" level="10" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:5" value="1" level="18" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:6" value="1" level="11" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:6" value="1" level="19" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:7" value="1" level="13" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:7" value="1" level="20" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:8" value="1" level="15" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:slots:9" value="1" level="17" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<stat name="druid:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="druid:spellcasting:prepare" value="level:druid" />
+			<select type="Spell" name="Cantrip (Druid)" supports="WoW-Druid, 0" level="1" number="2" spellcasting="Druid" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<select type="Spell" name="Cantrip (Druid)" supports="WoW-Druid, 0" level="4" number="1" spellcasting="Druid" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+			<select type="Spell" name="Cantrip (Druid)" supports="WoW-Druid, 0" level="10" number="1" spellcasting="Druid" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+		</rules>
+	</element>
+
+  <element name="Feral/Guardian Spellcasting" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_FERALGUARDIAN_SPELLCASTING">
+    <description>
+      <h5 class="caption">Feral/Guardian Spellcasting</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Druid Level</td><td>Affinity Points</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+        <tr><td>2nd</td><td>2</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>3rd</td><td>3</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>4th</td><td>4</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>5th</td><td>5</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>6th</td><td>6</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>7th</td><td>7</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>8th</td><td>8</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>9th</td><td>9</td><td>2</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>10th</td><td>10</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+        <tr><td>11th</td><td>11</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>12th</td><td>12</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+        <tr><td>13th</td><td>13</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+        <tr><td>14th</td><td>14</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+        <tr><td>15th</td><td>15</td><td>3</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>16th</td><td>16</td><td>3</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+        <tr><td>17th</td><td>17</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>18th</td><td>18</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>19th</td><td>19</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+        <tr><td>20th</td><td>20</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+      </table>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="druid:spellcasting:slots:1" value="3" level="2" />
+      <stat name="druid:spellcasting:slots:1" value="1" level="5" />
+      <stat name="druid:spellcasting:slots:2" value="2" level="5" />
+      <stat name="druid:spellcasting:slots:2" value="1" level="7" />
+      <stat name="druid:spellcasting:slots:3" value="2" level="9" />
+      <stat name="druid:spellcasting:slots:3" value="1" level="11" />
+      <stat name="druid:spellcasting:slots:4" value="1" level="13" />
+      <stat name="druid:spellcasting:slots:4" value="1" level="15" />
+      <stat name="druid:spellcasting:slots:4" value="1" level="17" />
+      <stat name="druid:spellcasting:slots:5" value="1" level="17" />
+      <stat name="druid:spellcasting:slots:5" value="1" level="19" />
+      <select type="Spell" name="Cantrip (Druid)" supports="WoW-Druid, 0" level="2" number="2" spellcasting="Druid" />
+      <select type="Spell" name="Cantrip (Druid)" supports="WoW-Druid, 0" level="10" number="1" spellcasting="Druid" />
+      <stat name="druid affinity:count" value="2" level="2" />
+      <stat name="druid affinity:count" value="1" level="3" />
+      <stat name="druid affinity:count" value="1" level="4" />
+      <stat name="druid affinity:count" value="1" level="5" />
+      <stat name="druid affinity:count" value="1" level="6" />
+      <stat name="druid affinity:count" value="1" level="7" />
+      <stat name="druid affinity:count" value="1" level="8" />
+      <stat name="druid affinity:count" value="1" level="9" />
+      <stat name="druid affinity:count" value="1" level="10" />
+      <stat name="druid affinity:count" value="1" level="11" />
+      <stat name="druid affinity:count" value="1" level="12" />
+      <stat name="druid affinity:count" value="1" level="13" />
+      <stat name="druid affinity:count" value="1" level="14" />
+      <stat name="druid affinity:count" value="1" level="15" />
+      <stat name="druid affinity:count" value="1" level="16" />
+      <stat name="druid affinity:count" value="1" level="17" />
+      <stat name="druid affinity:count" value="1" level="18" />
+      <stat name="druid affinity:count" value="1" level="19" />
+      <stat name="druid affinity:count" value="1" level="20" />
+    </rules>
+  </element>
+
+  <element name="Shapeshifting" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SHAPESHIFTING">
+    <description>
+      <p>Starting at 2nd level, you can use your bonus action to magically assume the shape of specific animals. There is no limitation to how often you are able to shapeshift into a shape that you know.</p>
+      <p class="indent">Your druid level determines the shapes you can trans-form into, as shown in the Shapeshifts table. At 2nd level, for example, you can assume the shape of a large feral cat, or a thick furred bear. Each shapeshift and its benefits are described in Appendix A at the end of this book.</p>
+      <h5 class="caption">SHAPESHIFTS</h5>
+			<table>
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Shapeshift Forms</td></tr>
+        </thead>
+        <tr><td>2nd</td><td class="left">Cat and Bear</td></tr>
+        <tr><td>4th</td><td class="left">Travel</td></tr>
+        <tr><td>6th</td><td class="left">Aquatic</td></tr>
+        <tr><td>8th</td><td class="left">Flight</td></tr>
+      </table>
+      <p class="indent">You can stay shapeshifted for as long as you wish. You can revert to your normal form by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.</p>
+      <p class="indent">While you are transformed, the following rules apply:</p>
+      <ul>
+        <li>Your retain your game statistics, alignment, and person-ality. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the shape.</li>
+        <li>Shapeshifting does not change your hit points, and any damage taken whilst in a shapeshift carries over to your humanoid form upon reverting back.</li>
+        <li>You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabil-ities of your shapeshift. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell that you've already cast.</li>
+        <li>You retain the benefit of any features from your class, race, or other source and can use them if the shapeshift is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.</li>
+        <li>You choose whether your equipment falls to the ground in your space, or merges into your new form. Merged equipment has no effect until you leave the shape.</li>
+      </ul>
+      <h5>DRUIDIC FORMS</h5>
+      <p>Shapeshifts are an extension of the druid. Both as a person, but also as a race, a taurens shape-shift might grow horns similar to his own. An orc or troll might want their forms to have tusks, and a night elf might decorate theirs with signs of elune. Likewise, their beast might be different, one may choose a slim panther, and another a strong lion, or another feline beast.</p>
+      <p class="indent">A list of the most common beasts druids have taken for that shape. Choose one of them as your shape, and modify its appearance as you wish to fit your race, or talk to your DM about becoming something not on the list.</p>
+    </description>
+    <sheet action="Bonus Action">
+      <description level="2">You can stay shapeshifted for as long as you wish. You can revert to your normal form by using a bonus action on your turn. &#13;&#10; Your retain your game statistics, alignment, and personality. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the shape. &#13;&#10; Shapeshifting does not change your hit points, and any damage taken whilst in a shapeshift carries over to your humanoid form upon reverting back. &#13;&#10; You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your shapeshift. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell that you've already cast. &#13;&#10; You retain the benefit of any features from your class, race, or other source and can use them if the shapeshift is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense. &#13;&#10; You choose whether your equipment falls to the ground in your space, or merges into your new form. Merged equipment has no effect until you leave the shape. You have access to Cat and Bear forms. &#13;&#10; You can find blocks for each form in the compendium.</description>
+      <description level="4">You can stay shapeshifted for as long as you wish. You can revert to your normal form by using a bonus action on your turn. &#13;&#10; Your retain your game statistics, alignment, and personality. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the shape. &#13;&#10; Shapeshifting does not change your hit points, and any damage taken whilst in a shapeshift carries over to your humanoid form upon reverting back. &#13;&#10; You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your shapeshift. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell that you've already cast. &#13;&#10; You retain the benefit of any features from your class, race, or other source and can use them if the shapeshift is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense. &#13;&#10; You choose whether your equipment falls to the ground in your space, or merges into your new form. Merged equipment has no effect until you leave the shape. You have access to Cat, Bear, and Travel forms. &#13;&#10; You can find blocks for each form in the compendium.</description>
+      <description level="6">You can stay shapeshifted for as long as you wish. You can revert to your normal form by using a bonus action on your turn. &#13;&#10; Your retain your game statistics, alignment, and personality. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the shape. &#13;&#10; Shapeshifting does not change your hit points, and any damage taken whilst in a shapeshift carries over to your humanoid form upon reverting back. &#13;&#10; You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your shapeshift. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell that you've already cast. &#13;&#10; You retain the benefit of any features from your class, race, or other source and can use them if the shapeshift is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense. &#13;&#10; You choose whether your equipment falls to the ground in your space, or merges into your new form. Merged equipment has no effect until you leave the shape. You have access to Cat, Bear, Travel, and Aquatic forms. &#13;&#10; You can find blocks for each form in the compendium.</description>
+      <description level="8">You can stay shapeshifted for as long as you wish. You can revert to your normal form by using a bonus action on your turn. &#13;&#10; Your retain your game statistics, alignment, and personality. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the shape. &#13;&#10; Shapeshifting does not change your hit points, and any damage taken whilst in a shapeshift carries over to your humanoid form upon reverting back. &#13;&#10; You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your shapeshift. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell that you've already cast. &#13;&#10; You retain the benefit of any features from your class, race, or other source and can use them if the shapeshift is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense. &#13;&#10; You choose whether your equipment falls to the ground in your space, or merges into your new form. Merged equipment has no effect until you leave the shape. You have access to Cat, Bear, Travel, Aquatic, and Flight forms. &#13;&#10; You can find blocks for each form in the compendium.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Druid Paths" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_DRUID_PATHS">
+		<description>
+			<p>At 2nd level, you choose to identify with a druidic path: Balance, Feral, Guardian, or Restoration, all detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p>
+      <h5>PATH SPELLS</h5>
+      <p>Some paths has a list of spells that you gain at the druid levels noted in the path description. Once you gain a path spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</p>
+      <p class="indent">If you have a path spell that doesn't appear on the druid spell list, the spell is nontheless a druid spell for you.</p>
+      <h5>PATH AFFINITIES</h5>
+      <p>Some paths have additional affinity features, that can be learned as you gain levels in this class.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_BALANCE" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_RESTORATION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Druid Path" supports="Druid Path" level="2"/>
+		</rules>
+	</element>
+
+  <element name="Affinity" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_AFFINITY">
+    <description>
+      <p>Also at 2nd level, you are to transfer part of your druidic magic into your shapeshifts, harnessing their true potential. Your access to this magic is represented by a number of affinity points. Your druid level determines the number of points you have, as shown in the Affinity Points column of the druid table.</p>
+      <p class="indent">You can spend these points to fuel various affinity features. You know three such features: Displacer Beast, Renewal, and Stampeding Roar.</p>
+      <p class="indent">When you spend an affinity point, it is unavailable until you finish a short or long rest, at the end of which your strained link to the beasts affinity is restored.</p>
+      <p class="indent">Some of your affinity features require your target to make a saving throw to resist the feature's effect. The saving throw DC equals your druid Spell Save DC.</p>
+    </description>
+    <sheet usage="{{druid affinity:count}}/ Long Rest">
+      <description>Some of your affinity features require your target to make a saving throw to resist the feature's effect. The saving throw DC equals your druid Spell Save DC.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_DISPLACER_BEAST" spellcasting="WoW-Druid" />
+      <grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_RENEWAL" spellcasting="WoW-Druid" />
+      <grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_STAMPEDING_ROAR" spellcasting="WoW-Druid" />
+      <stat name="druid affinity:count" value="1" level="2" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+      <stat name="druid affinity:count" value="1" level="5" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+      <stat name="druid affinity:count" value="1" level="8" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+      <stat name="druid affinity:count" value="1" level="11" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+      <stat name="druid affinity:count" value="1" level="16" requirements="!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL,!ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN" />
+    </rules>
+  </element>
+
+  <element name="Ability Score Improvement" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Druid 4)" supports="Improvement Option,Druid,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Druid 8)" supports="Improvement Option,Druid,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Druid 12)" supports="Improvement Option,Druid,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Druid 16)" supports="Improvement Option,Druid,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Druid 19)" supports="Improvement Option,Druid,19" level="19" />
+		</rules>
+	</element>
+
+  <element name="Timeless Body" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_TIMELESS_BODY">
+    <description>
+      <p>Starting at 18th level, the primal magic that you wield has caused you to age more slowly. For every 10 years that pass, your body ages only 1 year.</p>
+    </description>
+    <sheet>
+      <description>For every 10 years that pass, your body ages only 1 year.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Soul of the Forest" type="Class Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_DRUID_SOUL_OF_THE_FOREST">
+    <description>
+      <p>At 20th level, your connection with nature has grown to an incredible level, deepening beasts respect for you, and mak-ing you able to conjure a gateway to the Emerald Dream.</p>
+      <p class="indent">Using 10 minutes in an area of unspoiled nature, you can conjure a gateway to the Emerald Dream, the entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when conjuring the gateway can enter into the Emerald Dream for as long as the gate-way remains open. You can open and close the gateway if you are within 30 feet of it. While closed, the gateway on Azeroth crumbles and is effectively invisible. The gateway remains conjured for 24 hours, at which point it crumbles entire and cannot be conjured again for 7 days.</p>
+      <p class="indent">Additionally, beasts and plants of the wilds can sense your connection to nature, giving you advantage on all skill and ability checks made to communicate with them.</p>
+    </description>
+    <sheet usage="10 mins.">
+      <description>You can conjure a gateway to the Emerald Dream, the entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when conjuring the gateway can enter into the Emerald Dream for as long as the gate-way remains open. You can open and close the gateway if you are within 30 feet of it. While closed, the gateway on Azeroth crumbles and is effectively invisible. The gateway remains conjured for 24 hours, at which point it crumbles entire and cannot be conjured again for 7 days. &#13;&#10; Additionally, beasts and plants of the wilds can sense your connection to nature, giving you advantage on all skill and ability checks made to communicate with them.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Path of Balance" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_BALANCE">
+		<supports>Druid Path</supports>
+		<description>
+      <p>Druids on the path of balance leverage the sacred powers of the moon, the sun, and the stars, accessing a mixture of arcane and nature powers to aid in the fight against the imbalance that threatens the natural order of all things.</p>
+      <h5 class="caption">PATH OF BALANCE SPELLS</h5>
+      <table>
+        <thead>
+          <tr><td class="col-5">Druid Level</td><td class="left">Spells</td></tr>
+        </thead>
+        <tr><td>3rd</td><td class="left">enhance ability, moonbeam</td></tr>
+        <tr><td>5th</td><td class="left">plant growth, starsurge</td></tr>
+        <tr><td>7th</td><td class="left">confusion, grasping vine</td></tr>
+        <tr><td>9th</td><td class="left">commune with nature, wrath of nature</td></tr>
+      </table>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_INNERVATE" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_MOONKIN_SHAPESHIFT" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_ASTRAL_INFLUENCE" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_FURY_OF_ELUNE" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" spellcasting="WoW-Druid" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" spellcasting="WoW-Druid" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" spellcasting="WoW-Druid" level="5" />
+      <grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_STARSURGE" spellcasting="WoW-Druid" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" spellcasting="WoW-Druid" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_GRASPING_VINE" spellcasting="WoW-Druid" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" spellcasting="WoW-Druid" level="9" />
+      <grant type="Spell" id="ID_XGTE_SPELL_WRATH_OF_NATURE" spellcasting="WoW-Druid" level="9" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_INNERVATE" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_MOONKIN_SHAPESHIFT" level="6" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_ASTRAL_INFLUENCE" level="10" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_FURY_OF_ELUNE" level="14" />
+    </rules>
+  </element>
+
+  <element name="Innervate" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_INNERVATE">
+    <description>
+      <p>Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with the nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.</p>
+      <p class="indent">For example, when you are a 4th-level druid, you can re-cover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to {{innervate:count}}, and none of the slots can be 6th level or higher.</description>
+    </sheet>
+    <rules>
+      <stat name="innervate:count" value="level:druid:half:up" />
+    </rules>
+  </element>
+
+  <element name="Moonkin Shapeshift" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_MOONKIN_SHAPESHIFT">
+    <description>
+      <p>Upon reaching 6th level, you can shapeshift into a moonkin. While shapeshifted in this way, you are unarmored and add your Wisdom modifier to your AC. Additionally, you are still able to cast spells whilst shapeshifted in this way.</p>
+      <p class="indent">When a creature succeeds on a saving throw against a cantrip cast while shapeshifted, the creature takes half the cantrip's damage (if any) but suffers no additional effects from the cantrip.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>Your can shapeshift into a moonkin. While shapeshifted in this way, your AC becomes {{moonkin ac:count}}. Additionally, you are still able to cast spells whilst shapeshifted in this way. &#13;&#10; When a creature succeeds on a saving throw against a cantrip cast while shapeshifted, the creature takes half the cantrip's damage (if any) but suffers no additional effects from the cantrip.</description>
+    </sheet>
+    <rules>
+      <stat name="moonkin ac:count" value="10" />
+      <stat name="moonkin ac:count" value="wisdom:modifier" />
+    </rules>
+  </element>
+
+  <element name="Astral Influence" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_ASTRAL_INFLUENCE">
+    <description>
+      <p>Upon reaching 10th level, the powers of elune flows within you, giving you resistance to radiant damage.</p>
+      <p class="indent">Additionally, when you cast a spell that deals damage while shapeshifted as a moonkin, you can spend 1 affinity point to reroll a number of damage dice equal to your Wisdom modifier and use either roll.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You gain resistance to radiant damage. &#13;&#10; When you cast a spell that deals damage while shapeshifted as a moonkin, you can spend 1 affinity point to reroll a number of damage dice equal to {{astral influence:count}} and use either roll.</description>
+    </sheet>
+    <rules>
+      <stat name="astral influence:count" value="wisdom:modifier" />
+    </rules>
+  </element>
+
+  <element name="Fury of Elune" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFBALANCE_FURY_OF_ELUNE">
+    <description>
+      <p>At 14th level, when you are hit by a melee attack, you can use your reaction to deal radiant damage to the attacker. The damage equals your druid level. The attacker must also make a Strength saving throw against your druid spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</p>
+    </description>
+    <sheet action="Reaction">
+      <description>When you are hit by a melee attack, you can deal radiant damage to the attacker equal to {{fury of elune:count}}. The attacker must also make a Strength saving throw against your druid spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</description>
+    </sheet>
+    <rules>
+      <stat name="fury of elune:count" value="level:druid" />
+    </rules>
+  </element>
+
+  <element name="Path of Feral" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_FERAL">
+		<supports>Druid Path</supports>
+		<description>
+      <p>Druids that wander the feral path seek an understanding, and visceral connection to the wild. These druids take the form of a feline predator, becoming fero-cious and agile stalkers. After a while, many feral druids come to prefer the appearance of their feline form over their humanoid shape.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_FERAL_AFFINITY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_APEX_PREDATOR" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_RAZOR_CLAWS" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_PROWL" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_KINGOFTHEJUNGLE" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_FERAL_AFFINITY" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_APEX_PREDATOR" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_RAZOR_CLAWS" level="6" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_PROWL" level="10" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_KINGOFTHEJUNGLE" level="14" />
+    </rules>
+  </element>
+
+  <element name="Feral Affinity" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_FERAL_AFFINITY">
+    <description>
+      <p>When you choose this path at 2nd level, you have begun spending more time as a cat, familiarizing yourself with it. Your proficiency in Intelligence saving throws permanently changes to Dexterity saving throws.</p>
+      <p class="indent">You refer to the Spellcasting table later in the class description to determine your affinity points, cantrips, and spell slots when you gain a level in this class, and you count as a half-caster for determining available spell slots when multiclassing with another class.</p>
+      <p class="indent">You also learn a new affinity feature of your choice. You learn an additional affinity feature when you reach certain levels in this class: 3rd, 7th, 11th, and 15th level. The available options are detailed below.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_FERALGUARDIAN_SPELLCASTING" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID" />
+      <select type="Spell" name="Affinity Spell 2 (Path of Feral)" supports="ID_GMBINDER_WOW5E_SPELL_FELINE_SWIFTNESS|ID_GMBINDER_WOW5E_SPELL_FEROCIOUS_BITE|ID_GMBINDER_WOW5E_SPELL_PRIMAL_FURY|ID_GMBINDER_WOW5E_SPELL_RAKE|ID_GMBINDER_WOW5E_SPELL_SURVIVAL_INSTINCTS" level="2" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 3 (Path of Feral)" supports="ID_GMBINDER_WOW5E_SPELL_FELINE_SWIFTNESS|ID_GMBINDER_WOW5E_SPELL_FEROCIOUS_BITE|ID_GMBINDER_WOW5E_SPELL_PRIMAL_FURY|ID_GMBINDER_WOW5E_SPELL_RAKE|ID_GMBINDER_WOW5E_SPELL_SURVIVAL_INSTINCTS" level="3" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 7 (Path of Feral)" supports="ID_GMBINDER_WOW5E_SPELL_FELINE_SWIFTNESS|ID_GMBINDER_WOW5E_SPELL_FEROCIOUS_BITE|ID_GMBINDER_WOW5E_SPELL_PRIMAL_FURY|ID_GMBINDER_WOW5E_SPELL_RAKE|ID_GMBINDER_WOW5E_SPELL_SURVIVAL_INSTINCTS" level="7" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 11 (Path of Feral)" supports="ID_GMBINDER_WOW5E_SPELL_FELINE_SWIFTNESS|ID_GMBINDER_WOW5E_SPELL_FEROCIOUS_BITE|ID_GMBINDER_WOW5E_SPELL_PRIMAL_FURY|ID_GMBINDER_WOW5E_SPELL_RAKE|ID_GMBINDER_WOW5E_SPELL_SURVIVAL_INSTINCTS" level="11" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 17 (Path of Feral)" supports="ID_GMBINDER_WOW5E_SPELL_FELINE_SWIFTNESS|ID_GMBINDER_WOW5E_SPELL_FEROCIOUS_BITE|ID_GMBINDER_WOW5E_SPELL_PRIMAL_FURY|ID_GMBINDER_WOW5E_SPELL_RAKE|ID_GMBINDER_WOW5E_SPELL_SURVIVAL_INSTINCTS" level="17" number="1" spellcasting="WoW-Druid" />
+    </rules>
+  </element>
+
+  <element name="Apex Predator" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_APEX_PREDATOR">
+    <description>
+      <p>Starting at 2nd level, you excel at ambushes and acting quickly. You gain advantage on Dexterity (Stealth) checks made in dim light or darkness.</p>
+      <p class="indent">Additionally, you have advantage on initiative rolls.</p>
+    </description>
+    <sheet>
+      <description>You gain advantage on Dexterity (Stealth) checks made in dim light or darkness. &#13;&#10; Additionally, you have advantage on initiative rolls.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Razor Claws" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_RAZOR_CLAWS">
+    <description>
+      <p>Beginning at 6th level, you can make one additional bite or claws attack of your choice as part of your attack Action, and you can add your proficiency bonus to one damage roll of a cat forms attack.</p>
+      <p class="indent">Additionally, your attacks in cat form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+    </description>
+    <sheet>
+      <description>You can make one additional bite or claws attack of your choice as part of your attack Action, and you can add {{razor claws:damage}} to one damage roll of a cat forms attack. &#13;&#10; Additionally, your attacks in cat form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</description>
+    </sheet>
+    <rules>
+      <stat name="razor claws:damage" value="proficiency" />
+    </rules>
+  </element>
+
+  <element name="Prowl" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_PROWL">
+    <description>
+      <p>Upon reaching 10th level, you have learned to blend into your surroundings whilst in the shadow. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or enter an area of bright light.</p>
+    </description>
+    <sheet action="Action">
+      <description>When you are in an area of dim light or darkness, you can become invisible. You remain invisible until you make an attack, cast a spell, or enter an area of bright light.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="King of the Jungle" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFFERAL_KINGOFTHEJUNGLE">
+    <description>
+      <p>At 14th level, you can spend 3 affinity points to take on the form of an unparalleled hunter. Boasting your defenses by manifesting armor of bark, and improving your combat prowess. Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:</p>
+      <ul>
+        <li>You gain the benefits of the barkskin spell.</li>
+        <li>Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.</li>
+        <li>Whenever a creature within 5 feet of you is hit by an attack made by another creature, you can use your reaction to make a melee attack against that creature.</li>
+      </ul>
+    </description>
+    <sheet action="Action">
+      <description>You can spend 3 affinity points to take on the form of an unparalleled hunter.You undergo a transformation. For 1 minute, you gain the following benefits: &#13;&#10; • Your AC can’t be less than 16, regardless of what kind of armor you're wearing. &#13;&#10; • Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20. &#13;&#10; • Whenever a creature within 5 feet of you is hit by an attack made by another creature, you can use your reaction to make a melee attack against that creature.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Path of Guardian" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_GUARDIAN">
+		<supports>Druid Path</supports>
+		<description>
+      <p>Druids that go down the guardian path takes the form of massive bears, becoming walls of fur, claw, and tooth, that are able to deliver devastating blows. Aided by the forces of nature, they stand between allies and any opposing threat. They stand between allies and any opposing threat, taking the frontal blow of harmful attacks.</p>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_GUARDIAN_AFFINITY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_BLOOD_FRENZY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_MARK_OF_URSOL" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_PULVERIZE" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_GUARDIAN_OF_URSOC" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_GUARDIAN_AFFINITY" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_BLOOD_FRENZY" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_MARK_OF_URSOL" level="6" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_PULVERIZE" level="10" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_GUARDIAN_OF_URSOC" level="14" />
+    </rules>
+  </element>
+
+  <element name="Guardian Affinity" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_GUARDIAN_AFFINITY">
+    <description>
+      <p>When you choose this path at 2nd level, you have begun spending more time as a bear, familiarizing yourself with it. Your proficiency in Intelligence saving throws permanently changes to Constitution saving throws.</p>
+      <p class="indent">You refer to the Spellcasting table later in the class description to determine your affinity points, cantrips, and spell slots when you gain a level in this class, and you count as a half-caster for determining available spell slots when multiclassing with another class.</p>
+      <p class="indent">You also learn a new affinity feature of your choice. You learn an additional affinity feature when you reach certain levels in this class: 3rd, 7th, 11th, and 15th level. The available options are detailed below.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Class Feature" id="ID_GMBINDER_WOW5E_CLASS_FEATURE_FERALGUARDIAN_SPELLCASTING" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_GMBINDER_WOW5E_MULTICLASS_DRUID" />
+      <select type="Spell" name="Affinity Spell 2 (Path of Guardian)" supports="ID_GMBINDER_WOW5E_SPELL_BRAMBLEFUR|ID_GMBINDER_WOW5E_SPELL_DEMORALIZING_ROAR|ID_GMBINDER_WOW5E_SPELL_MANGLE|ID_GMBINDER_WOW5E_SPELL_MIGHTY_BASH|ID_GMBINDER_WOW5E_SPELL_PACK_DEFENDER" level="2" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 3 (Path of Guardian)" supports="ID_GMBINDER_WOW5E_SPELL_BRAMBLEFUR|ID_GMBINDER_WOW5E_SPELL_DEMORALIZING_ROAR|ID_GMBINDER_WOW5E_SPELL_MANGLE|ID_GMBINDER_WOW5E_SPELL_MIGHTY_BASH|ID_GMBINDER_WOW5E_SPELL_PACK_DEFENDER" level="3" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 7 (Path of Guardian)" supports="ID_GMBINDER_WOW5E_SPELL_BRAMBLEFUR|ID_GMBINDER_WOW5E_SPELL_DEMORALIZING_ROAR|ID_GMBINDER_WOW5E_SPELL_MANGLE|ID_GMBINDER_WOW5E_SPELL_MIGHTY_BASH|ID_GMBINDER_WOW5E_SPELL_PACK_DEFENDER" level="7" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 11 (Path of Guardian)" supports="ID_GMBINDER_WOW5E_SPELL_BRAMBLEFUR|ID_GMBINDER_WOW5E_SPELL_DEMORALIZING_ROAR|ID_GMBINDER_WOW5E_SPELL_MANGLE|ID_GMBINDER_WOW5E_SPELL_MIGHTY_BASH|ID_GMBINDER_WOW5E_SPELL_PACK_DEFENDER" level="11" number="1" spellcasting="WoW-Druid" />
+      <select type="Spell" name="Affinity Spell 17 (Path of Guardian)" supports="ID_GMBINDER_WOW5E_SPELL_BRAMBLEFUR|ID_GMBINDER_WOW5E_SPELL_DEMORALIZING_ROAR|ID_GMBINDER_WOW5E_SPELL_MANGLE|ID_GMBINDER_WOW5E_SPELL_MIGHTY_BASH|ID_GMBINDER_WOW5E_SPELL_PACK_DEFENDER" level="17" number="1" spellcasting="WoW-Druid" />
+    </rules>
+  </element>
+
+  <element name="Blood Frenzy" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_BLOOD_FRENZY">
+    <description>
+      <p>Starting at 2nd level, you can enter a bloody frenzy as a bonus action, shapeshifting you into a bear if you aren't already. While frenzying you have resistance to bludgeo­ning, piercing, and slashing damage.</p>
+      <p class="indent">Your blood frenzy lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end the frenzy on your turn as a bonus action.</p>
+      <p class="indent">You can use this feature twice. Beginning at 7th level, you can use blood frenzy three times between rests, and at 15th level, you can enter a frenzy four times between rests. When you finish a long rest, you regain expended uses.</p>
+    </description>
+    <sheet action="Bonus Action" usage="{{blood frenzy:count}}/Long Rest">
+      <description>You enter a bloody frenzy, shapeshifting you into a bear if you aren't already. While frenzying you have resistance to bludgeo­ning, piercing, and slashing damage. &#13;&#10; Your blood frenzy lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end the frenzy on your turn as a bonus action.</description>
+    </sheet>
+    <rules>
+      <stat name="blood frenzy:count" value="2" level="2" />
+      <stat name="blood frenzy:count" value="1" level="7" />
+      <stat name="blood frenzy:count" value="1" level="15" />
+    </rules>
+  </element>
+
+  <element name="Mark of Ursol" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_MARK_OF_URSOL">
+    <description>
+      <p>At 6th level, you can spend 2 affinity points and use your action whilst shapeshifted into a bear to cast enlarge from the <i>enlarge/reduce</i> spell on yourself without providing any spell components.</p>
+    </description>
+    <sheet action="Action">
+      <description>You can spend 2 affinity points whilst shapeshifted into a bear to cast enlarge from the enlarge/reduce spell on yourself without providing any spell components.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_ENLARGE_REDUCE" spellcasting="WoW-Druid" />
+    </rules>
+  </element>
+
+  <element name="Pulverize" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_PULVERIZE">
+    <description>
+      <p>Beginning at 10th level, the damage of your melee weapon attacks improve. Your bear's bite increases to 2d8 piercing damage, and your claws increases to 3d6 slashing damage.</p>
+      <p class="indent">Additionally, you can add your proficiency bonus to one damage roll of a bear forms attack each round.</p>
+    </description>
+    <sheet>
+      <description>Your bear's bite increases to 2d8 piercing damage, and your claws increases to 3d6 slashing damage. &#13;&#10; Additionally, you can add {{pulverize:count}} to one damage roll of a bear forms attack each round.</description>
+    </sheet>
+    <rules>
+      <stat name="pulverize:count" value="proficiency" />
+    </rules>
+  </element>
+
+  <element name="Guardian of Ursoc" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFGUARDIAN_GUARDIAN_OF_URSOC">
+    <description>
+      <p>At 14th level, your presence is menacing to those around you. Whilst in bear form, any creature within 5 feet of you that's hostile to you have disadvantage on attack rolls against targets other than you or another character with range of this feature. An enemy is immune to this effect if it can't see or hear you, or if it can't be frightened.</p>
+    </description>
+    <sheet>
+      <description>Whilst in bear form, any creature within 5 feet of you that's hostile to you have disadvantage on attack rolls against targets other than you or another character with range of this feature. An enemy is immune to this effect if it can't see or hear you, or if it can't be frightened.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Path of Restoration" type="Archetype" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_DRUID_PATH_OF_RESTORATION">
+		<supports>Druid Path</supports>
+		<description>
+      <p>Druids of the restoration path builds a stronger bond with things that grow than the rest of their kin, gaining inspiration from the flower’s bloom, the seeds sprout, the mushroom’s spores, and the tree’s growth.</p>
+      <h5 class="caption">PATH OF RESTRATION SPELLS</h5>
+      <table>
+        <thead>
+          <tr><td class="col-5">Druid Level</td><td class="left">Spells</td></tr>
+        </thead>
+        <tr><td>3rd</td><td class="left">barkskin, lesser restoration</td></tr>
+        <tr><td>5th</td><td class="left">mass healing word, revivify</td></tr>
+        <tr><td>7th</td><td class="left">aura of life, guardian of nature</td></tr>
+        <tr><td>9th</td><td class="left">greater restoration, raise dead</td></tr>
+      </table>
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_REJUVENATION" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_IRONBARK" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_TRANQUILITY" />
+      <div element="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_TREE_OF_LIFE" />
+    </description>
+    <sheet display="false">
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BARKSKIN" spellcasting="WoW-Druid" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" spellcasting="WoW-Druid" level="3" />
+      <grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" spellcasting="WoW-Druid" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" spellcasting="WoW-Druid" level="5" />
+      <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" spellcasting="WoW-Druid" level="7" />
+      <grant type="Spell" id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE" spellcasting="WoW-Druid" level="7" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" spellcasting="WoW-Druid" level="9" />
+      <grant type="Spell" id="ID_PHB_SPELL_RAISE_DEAD" spellcasting="WoW-Druid" level="9" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_REJUVENATION" level="2" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_IRONBARK" level="6" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_TRANQUILITY" level="10" />
+      <grant type="Archetype Feature" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_TREE_OF_LIFE" level="14" />
+    </rules>
+  </element>
+
+  <element name="Rejuenation" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_REJUVENATION">
+    <description>
+      <p>When you choose this path at 2nd level, you gain the blessings of Elune, making you a font of energy that offers respite from injuries. You have a pool of energy represented by a number of d6s equal to your druid level.</p>
+      <p class="indent">As a bonus action, you can choose one creature that you can see within 120 feet of you and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die.</p>
+      <p class="indent">You regain all expended dice when you finish a long rest.</p>
+    </description>
+    <sheet action="Bonus Action" usage="{{rejuvenation dice:count}}d6/Long Rest">
+      <description>You can choose one creature that you can see within 120 feet of you and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die.</description>
+    </sheet>
+    <rules>
+      <stat name="rejuvenation dice:count" value="level:druid" />
+    </rules>
+  </element>
+
+  <element name="Ironbark" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_IRONBARK">
+    <description>
+      <p>Beginning at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</p>
+    </description>
+    <sheet action="Reaction">
+      <description>When you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</description>
+    </sheet>
+    <rules />
+  </element>
+
+  <element name="Tranquility" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_TRANQUILITY">
+    <description>
+      <p>Starting at 10th level, you can become as calm as spring, soothing your allies. As an action, you evoke a healing energy that can restore a number of hit points equal to five times your druid level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on a construct.</p>
+      <p class="indent">Once you use this feature, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet action="Action" usage="1/Long Rest">
+      <description>You evoke a healing energy that can restore a number of hit points equal to {{tranquility:count}}. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on a construct.</description>
+    </sheet>
+    <rules>
+      <stat name="tranquility:count" value="level:druid" />
+      <stat name="tranquility:count" value="level:druid" />
+      <stat name="tranquility:count" value="level:druid" />
+      <stat name="tranquility:count" value="level:druid" />
+      <stat name="tranquility:count" value="level:druid" />
+    </rules>
+  </element>
+
+  <element name="Tree of Life" type="Archetype Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_ARCHETYPE_FEATURE_PATHOFRESTORATION_TREE_OF_LIFE">
+    <description>
+      <p>At 14th level, you can draw your strength from the world trees of Azeroth. Assuming the shape of a large treant. Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:</p>
+      <ul>
+        <li>Your size doubles, if there isn't enough room you attain the maximum possible size in the space available.</li>
+        <li>When you cast a spell on a target that restores hit points, another creature of your choice within 30 feet of the target is healed for half the hit points regained.</li>
+      </ul>
+      <p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet action="Action" usage="1/Long Rest">
+      <description>Assuming the shape of a large treant. You undergo a transformation. For 1 minute, you gain the following benefits:
+			&#13;&#10; • Your size doubles, if there isn't enough room you attain the maximum possible size in the space available.
+			&#13;&#10; • When you cast a spell on a target that restores hit points, another creature of your choice within 30 feet of the target is healed for half the hit points regained.</description>
+    </sheet>
+    <rules />
+  </element>
+
+	<append id="ID_PHB_SPELL_DANCING_LIGHTS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DRUIDCRAFT">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GUIDANCE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_PRIMAL_SAVAGERY">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RESISTANCE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_POTA_SPELL_SHAPEWATER">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SHILLELAGH">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_SOLAR_WRATH">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_THORN_WHIP">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_POTA_SPELL_BEASTBOND">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CURE_WOUNDS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_MAGIC">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_POTA_SPELL_EARTHTREMOR">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ENTANGLE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FAERIE_FIRE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FOG_CLOUD">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GOODBERRY">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_WOTC_UA20170403_SPELL_GUIDING_HAND">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HEALING_WORD">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_JUMP">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LONGSTRIDER">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SLEEP">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SNARE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_STARFIRE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_WOTC_UA20170403_SPELL_WILD_CUNNING">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ANIMAL_MESSENGER">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BARKSKIN">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BEAST_SENSE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DARKVISION">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_DUST_DEVIL">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ENHANCE_ABILITY">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GUST_OF_WIND">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_PERSON">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LESSER_RESTORATION">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LOCATE_ANIMALS_OR_PLANTS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MOONBEAM">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_POISON">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_SKYWRITE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPIKE_GROWTH">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_WARDING_WIND">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CATNAP">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONJURE_ANIMALS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DAYLIGHT">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DISPEL_MAGIC">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FEIGN_DEATH">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_HEALING_WORD">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PLANT_GROWTH">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REVIVIFY">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SPEAK_WITH_PLANTS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_STARSURGE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BLIGHT">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CHARM_MONSTER">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONFUSION">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONJURE_WOODLAND_BEINGS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DOMINATE_BEAST">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GRASPING_VINE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LOCATE_CREATURE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_WATERY_SPHERE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_AWAKEN">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMMUNE_WITH_NATURE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CONTROL_WINDS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_DAWN">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DREAM">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GEAS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GREATER_RESTORATION">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REINCARNATE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SCRYING">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TREE_STRIDE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_WRATH_OF_NATURE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONJURE_FEY">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_DRUID_GROVE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIND_THE_PATH">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HEAL">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_INVESTITURE_OF_WIND">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_GMBINDER_WOW5E_SPELL_STARFALL">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TRANSPORT_VIA_PLANTS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WALL_OF_THORNS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_WIND_WALK">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_CROWN_OF_STARS">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MIRAGE_ARCANE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REGENERATE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REVERSE_GRAVITY">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_XGTE_SPELL_WHIRLWIND">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ANIMAL_SHAPES">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONTROL_WEATHER">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FEEBLEMIND">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SUNBURST">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FORESIGHT">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_HEAL">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SHAPECHANGE">
+		<supports>WoW-Druid</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TRUE_RESURRECTION">
+		<supports>WoW-Druid</supports>
+	</append>
+
+</elements>

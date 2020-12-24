@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dwarf</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="dwarf.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Dwarf" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_DWARF">
+		<description>
+			<p><i>And here are the why and the how, to again become one with the mountain. For behold, we are the earthen, of the land, and its soul is ours, its pain is ours, its heartbeat is ours. We sing its song and weep for its beauty. For who would not wish to return home? That is the why, O children of the earth.</i></p>
+			<p align="right"><i>— Earthen tablet, as read by King Magni</i></p>
+			<h3>INTRODUCTION</h3>
+			<p>Their kingdom rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and roaring forges, a commitment to clan and tradition, these common threads unite all dwarves. Within the mountains of Khaz Modan, they continue their ancient ways, extending the depth of their halls, and con-structing marvels of architecture.</p>
+			<h3>A RECLAIMED LEGACY</h3>
+			<p>The undiscovered fragments of their past have led the dwarves on an unprecedented exodus of of exploration to seek out their origins. Seeking out their origins, the dwarves have dispatched prospectors across all of Lordaeron in order to seek out signs of the Titans, the supposed creators of the dwarves. The dwarves have embraced the idea that it is their purpose to search the world for more signs of proof of their heritage. Dwarven outposts exist in the most desolate of places on Azeroth.</p>
+			<p class="indent">Here, the dwarves spend their time seeking out the secrets of ancient times, or simply use their outposts as staging grounds for expeditions to clear out their enemies so that they may continue their quest.</p>
+			<h3>SHORT AND STOUT</h3>
+			<p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.</p>
+			<p class="indent">Dwarves skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. With their dark iron kin having notably darker skin of gray to coal-black. Their hair, worn long but in simple styles, is usually black, gray, or brown, though wildhammer dwarves often have red hair. Male dwarves value their beards highly and groom them carefully.</p>
+			<h3>INNOVATIVE</h3>
+			<p>Dwarves are a proud, stern and determined people with streaks of kindness hidden under the gruff exteriors of their sturdy frames. Their love for battle, invention and exploration impels them ever forward to discover and unearth the mysteries of their heritage, educating them further about those who first created the dwarven race.</p>
+			<p class="indent">Only recently have the dwarves discovered the legacy of their ancient progenitors, the Titans. As the dwarves begin to delve deeper into the mysteries of their past, they also begin to uncover deeper enigmas.</p>
+			<p class="indent">Still, they keep to the forges and workshops, ever inno-vating and creating new and more effective ways of warfare. Steam powered technology and firearms originate from dwarven inventiveness and creativity. The stout race is renowned for its skills at battle and also as cunning engineers and crafters.</p>
+			<h3>AFFILIATION</h3>
+			<p>Dwarves are part of the alliance. While the dwarves of Khaz Modan appreciate the fighting skill of the Horde, it is with grim eyes that they look upon the orcs and their allies, the trolls and the Forsaken. Although the dwarves have held dealings of commerce and diplomacy with the blood elves, they keep the people of Quel’Thalas at an arm’s distance. While the darnassian elves may share the same allegiances, the dwarves look upon them with suspicion and some trepidation.</p>
+			<p class="indent">Humans, however, are the staunch and constant allies of the dwarven people and find welcome, favor and kindness when in dwarven lands.</p>
+			<h3>NAMES</h3>
+			<p>Dwarves typically have names reflecting the sturdy nature of their past. Many also have surnames that were earned by a member of the family in service during a quest or in a particular moment of notoriety or infamy that has now become part of a family legacy.</p>
+			<p><strong>Male Names:</strong> Barab, Aradun, Thorin, Magni, Garrim, Wendel, Thurimar, Irmirn, Bhaduk, Gengur</p>
+			<p><strong>Female Names:</strong> Chise, Helge, Ferya, Furga, Krona, Imli, Gwamde, Illia, Somdunn, Thanmu, Eniss, Nanla</p>
+			<p><strong>Clan Names:</strong> Thunderforge, Bronzebeard, Thornsteel, Hammergrim, Chunderstout, Broadmail, Madpride</p>
+			<h3>DWARF TRAITS</h3>
+			<p>Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.</p>
+			<p class="indent"><strong><i>Ability Score Increase.</i></strong> Your Constitution score increases by 2.</p>
+			<p class="indent"><strong><i>Age.</i></strong> Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 40. On average, they live about 320 years.</p>
+			<p class="indent"><strong><i>Alignment.</i></strong> Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that all deserve to share in the benefits of a just order.</p>
+			<p class="indent"><strong><i>Size.</i></strong> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>
+			<p class="indent"><strong><i>Speed.</i></strong> Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</p>
+			<p class="indent"><strong><i>Darkvision.</i></strong> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><i>Stonecunning.</i></strong> Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+			<p class="indent"><strong><i>Subrace.</i></strong> Ancient divides among dwarves have resulted in three main subraces: dark iron, ironforge, and wild-hammer dwarves. Choose one of these subraces.</p>
+			<div element="ID_GMBINDER_WOW5E_SUB_RACE_DARKIRONDWARF" />
+			<div element="ID_GMBINDER_WOW5E_SUB_RACE_IRONFORGEDWARF" />
+			<div element="ID_GMBINDER_WOW5E_SUB_RACE_WILDHAMMERDWARF" />
+		</description>
+		<sheet display="false" />
+    <setters>
+      <set name="names" type="male">Barab, Aradun, Thorin, Magni, Garrim, Wendel, Thurimar, Irmirn, Bhaduk, Gengur</set>
+      <set name="names" type="female">Chise, Helge, Ferya, Furga, Krona, Imli, Gwamde, Illia, Somdunn, Thanmu, Eniss, Nanla</set>
+      <set name="names" type="surname">Thunderforge, Bronzebeard, Thornsteel, Hammergrim, Chunderstout, Broadmail, Madpride</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+      <stat name="innate speed" value="25" bonus="base"/>
+      <grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_DWARVEN"/>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DWARF_STONECUNNING" />
+			<select type="Sub Race" name="Dwarven Subrace" supports="Dwarf" />
+		</rules>
+	</element>
+
+	<element name="Stonecunning" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DWARF_STONECUNNING">
+		<description>
+			<p>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Dark Irorn Dwarf" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_DARKIRONDWARF">
+		<supports>Dwarf</supports>
+		<requirements>ID_GMBINDER_WOW5E_RACE_DWARF</requirements>
+		<description>
+			<p>Dark iron dwarves are cunning and nimble in comparison to the rest of their kin, preferring a less straight on approach to combat, and the use of darker magics. They commonly have dark grey to coal black skin, with red glowing eyes, and fiery red or black hair.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Intelligence increases by 1.</p>
+			<p><strong><i>Fireblood.</i></strong> You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.</p>
+			<p><strong><i>Forged in Flames.</i></strong> You have resistance to fire damage.</p>
+			<p><strong><i>Superior Darkvision.</i></strong> Your darkvision has a radius of 120 feet.</p>
+			<p><strong><i>Sunlight Sensitivity.</i></strong> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="intelligence" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_FIREBLOOD" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_FORGEDINFLAMES" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_SUPERIOR_DARKVISION" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_SUNLIGHT_SENSITIVITY" />
+		</rules>
+	</element>
+
+	<element name="Fireblood" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_FIREBLOOD">
+		<description>
+			<p>You can cast the lesser restoration spell on yourself once with this trait, and you regain the ability to cast it this way when you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the lesser restoration spell on yourself.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" />
+		</rules>
+	</element>
+
+	<element name="Forged in Flames" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_FORGEDINFLAMES">
+		<description>
+			<p>You have resistance to fire damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to fire damage.</description>
+		</sheet>
+		<rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+    </rules>
+	</element>
+
+	<element name="Superior Darkvision" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_SUPERIOR_DARKVISION">
+		<description>
+			<p>Your darkvision has a radius of 120 feet</p>
+		</description>
+		<sheet>
+			<description>Your darkvision has a radius of 120 feet</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Sunlight Sensitivity" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+		</description>
+		<sheet>
+			<description>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Ironforge Dwarf" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_IRONFORGEDWARF">
+		<supports>Dwarf</supports>
+		<requirements>ID_GMBINDER_WOW5E_RACE_DWARF</requirements>
+		<description>
+			<p>Ironforge dwarves are hardy and strong, the most military organized of the dwarven kin, being keen combatants, both in close quarters or from a distance, living in the snowy mountains of Dun Morogh, They tend to have lighter colorations than the rest of their kin.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Strength increases by 1.</p>
+			<p><strong><i>Dwarven Toughness.</i></strong> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+			<p><strong><i>Ironforge Training.</i></strong> You have proficiency with light armor, and the battleaxe, heavy crossbow, and firearm.</p>
+			<p><strong><i>Stoneform.</i></strong> You can use your reaction upon being hit by a melee weapon attack to give yourself resistance towards bludgeoning, piercing, and slashing damage until the start of your next turn. You must then finish a long rest to use this feature again.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="intelligence" value="1" />
+			<stat name="hp" value="level" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_IRONFORGEDWARF_STONEFORM" />
+		</rules>
+	</element>
+
+	<element name="Stoneform" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DARKIRONDWARF_SUNLIGHT_SENSITIVITY">
+		<description>
+			<p>You can use your reaction upon being hit by a melee weapon attack to give yourself resistance towards bludgeoning, piercing, and slashing damage until the start of your next turn. You must then finish a long rest to use this feature again.</p>
+		</description>
+		<sheet usage="1/Long Rest" action="Reaction">
+			<description>Upon being hit by a melee weapon attack to give yourself resistance towards bludgeoning, piercing, and slashing damage until the start of your next turn.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Wildhammer Dwarf" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_WILDHAMMERDWARF">
+		<supports>Dwarf</supports>
+		<requirements>ID_GMBINDER_WOW5E_RACE_DWARF</requirements>
+		<description>
+			<p>Wildhammer dwarves are untamed in comparison, they live further north in the Eastern Kingdoms, minding their own business and shamanistic ways. They are taller and slenderer than other dwarves, with tanned skin, and often wearing tribal tattoos.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Wisdom increases by 1.</p>
+			<p><strong><i>Brave Beyond Reason.</i></strong> You have advantage on saving throws against being frightened.</p>
+			<p><strong><i>Gryphon Rider.</i></strong> You gain proficiency with the Animal Handling skill, and have advantage on Wisdom (animal handling) checks made towards gryphons.</p>
+			<p><strong><i>Dwarven Resilience.</i></strong> You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WILDHAMMERDWARF_BRAVEBEYONDREASON" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WILDHAMMERDWARF_GRYPHON_RIDER" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WILDHAMMERDWARF_DWARVEN_RESILIENCE" />
+		</rules>
+	</element>
+
+	<element name="Brave Beyond Reason" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WILDHAMMERDWARF_BRAVEBEYONDREASON">
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+		<rules />
+	</element>
+
+	<element name="Gryphon Rider" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WILDHAMMERDWARF_GRYPHON_RIDER">
+		<description>
+			<p>You gain proficiency with the Animal Handling skill, and have advantage on Wisdom (animal handling) checks made towards gryphons.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (animal handling) checks made towards gryphons.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+		</rules>
+	</element>
+
+	<element name="Dwarven Resilience" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_WILDHAMMERDWARF_DWARVEN_RESILIENCE">
+		<description>
+			<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against poison, and you have resistance against poison damage.</description>
+		</sheet>
+		<rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+	</element>
+
+</elements>

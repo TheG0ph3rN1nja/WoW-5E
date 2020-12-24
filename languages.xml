@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="languages.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Languages" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_LANGUAGES">
+		<description>
+			<p>Your race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice.</p>
+			<p class="indent">Choose your languages from the Standard Languages table, or choose one that fits in your campaign. With your DM's permission, you can instead choose a language from the opposite factions Language table, an Exotic Languages table, or the language of druids and rogues.</p>
+			<p class="indent">Some languages are actually families of languages with many dialects. For example, the Kalimag language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elementals.</p>
+			<h5>STANDARD LANGUAGES</h5>
+			<table>
+				<thead>
+					<tr style="text-align:left"><td>Language</td><td>Speakers</td><td>Script</td></tr>
+				</thead>
+				<tr style="text-align:left"><td><i>Alliance Races</i></td><td></td><td></td></tr>
+				<tr style="text-align:left"><td>Common</td><td>Humans</td><td>Common</td></tr>
+				<tr style="text-align:left"><td>Dwarven</td><td>Dwarves</td><td>Runic</td></tr>
+				<tr style="text-align:left"><td>Gnomeish</td><td>Gnomes</td><td>Common</td></tr>
+				<tr style="text-align:left"><td>Draenei</td><td>Draeneis</td><td>Eredic</td></tr>
+				<tr style="text-align:left"><td><i>Horde Races</i></td><td></td><td></td></tr>
+				<tr style="text-align:left"><td>Orcish</td><td>Orcs</td><td>Common</td></tr>
+				<tr style="text-align:left"><td>Gutterspeak</td><td>Forsaken</td><td>Common</td></tr>
+				<tr style="text-align:left"><td>Taur-ahe</td><td>Taurens</td><td>Pictoform</td></tr>
+				<tr style="text-align:left"><td>Zandali</td><td>Trolls</td><td>—</td></tr>
+				<tr style="text-align:left"><td>Goblin</td><td>Goblins</td><td>Common</td></tr>
+				<tr style="text-align:left"><td><i>Neutral Races</i></td><td></td><td></td></tr>
+				<tr style="text-align:left"><td>Darnassian</td><tdNight Elves></td><td>Darnassian</td></tr>
+				<tr style="text-align:left"><td>Mogu</td><td>Pandarens</td><td>Logogram</td></tr>
+				<tr style="text-align:left"><td>Shalassian</td><td>Nightborne</td><td>Darnassian</td></tr>
+				<tr style="text-align:left"><td>Thalassian</td><td>High Elves</td><td>Darnassian</td></tr>
+			</table>
+			<h5>EXOTIC LANGUAGES</h5>
+			<table>
+				<thead>
+					<tr style="text-align:left"><td>Language</td><td>Speakers</td><td>Script</td></tr>
+				</thead>
+				<tr style="text-align:left"><td>Celestial</td><td>Celestials</td><td>Celestial</td></tr>
+				<tr style="text-align:left"><td>Draconic</td><td>Dragons</td><td>Runic</td></tr>
+				<tr style="text-align:left"><td>Eredun</td><td>Demons</td><td>Eredic</td></tr>
+				<tr style="text-align:left"><td>Giant</td><td>Ogres</td><td>—</td></tr>
+				<tr style="text-align:left"><td>Kalimag</td><td>Elementals</td><td>Runic</td></tr>
+				<tr style="text-align:left"><td>Low Common</td><td>Lesser Races</td><td>Common</td></tr>
+				<tr style="text-align:left"><td>Pandaren</td><td>—</td><td>Syllabary</td></tr>
+			</table>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Common" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by humans.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Humans</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>
+
+	<element name="Dwarven" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_DWARVEN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by dwarves.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Dwarves</set>
+			<set name="script">Runic</set>
+		</setters>
+	</element>
+
+	<element name="Gnomeish" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_GNOMEISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by gnomes.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Gnomes</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>
+
+	<element name="Draenei" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_DRAENEI">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by draeneis.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Draeneis</set>
+			<set name="script">Eredic</set>
+		</setters>
+	</element>
+
+	<element name="Orcish" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_ORCISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by orcs.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Orcs</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>
+
+	<element name="Gutterspeak" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_GUTTERSPEAK">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by foresaken.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Foresaken</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>
+
+	<element name="Taur-ahe" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_TAURAHE">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by tauren.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Tauren</set>
+			<set name="script">Pictoform</set>
+		</setters>
+	</element>
+
+	<element name="Zandali" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_ZANDALI">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by trolls.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Trolls</set>
+			<set name="script">—</set>
+		</setters>
+	</element>
+
+	<element name="Goblin" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_GOBLIN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by goblins.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Goblins</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>
+
+	<element name="Darnassian" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_DARNASSIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by night elves.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Night Elves</set>
+			<set name="script">Darnassian</set>
+		</setters>
+	</element>
+
+	<element name="Mogu" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_MOGU">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by pandarens.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Pandarens</set>
+			<set name="script">Logogram</set>
+		</setters>
+	</element>
+
+	<element name="Shalassian" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_SHALASSIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by nightborne.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Nightborne</set>
+			<set name="script">Darnassian</set>
+		</setters>
+	</element>
+
+	<element name="Thalassian" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_THALASSIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by high elves.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">High Elves</set>
+			<set name="script">Darnassian</set>
+		</setters>
+	</element>
+
+	<element name="Celestial" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_CELESTIAL">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by celestials.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Celestials</set>
+			<set name="script">Celestial</set>
+		</setters>
+	</element>
+
+	<element name="Draconic" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_DRACONIC">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by dragons.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Dragons</set>
+			<set name="script">Runic</set>
+		</setters>
+	</element>
+
+	<element name="Eredun" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_EREDUN">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by demons.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Demons</set>
+			<set name="script">Eredic</set>
+		</setters>
+	</element>
+
+	<element name="Giant" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_GIANT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by ogres.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Ogres</set>
+			<set name="script">—</set>
+		</setters>
+	</element>
+
+	<element name="Kalimag" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_KALIMAG">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by elementals.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Elementals</set>
+			<set name="script">Runic</set>
+		</setters>
+	</element>
+
+	<element name="Low Common" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_LOW_COMMON">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by lesser races.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Lesser Races</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>
+
+	<element name="Pandaren" type="Language" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_LANGUAGE_PANDAREN">
+		<supports>Exotic</supports>
+		<description>
+			<p>The pandaren language is written only in syllabary.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">—</set>
+			<set name="script">Syllabary</set>
+		</setters>
+	</element>
+
+</elements>

@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>WoW 5e Spells</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="wow5e-spells.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Angelic Feather" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ANGELIC_FEATHER">
+    <description>
+      <p>You create 3 divine feathers in your palm that can be given to other creatures. A creature can crush a feather as a bonus action, and gain the benefit of the Dash, Disengage, or Dodge action until the end of their current turn. The feathers last for 1 hour before dissipating.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 min.</set>
+      <set name="duration">1 hr.</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">A feather worth at least 1 gp</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Arcane Barrage" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ARCANE_BARRAGE">
+    <description>
+      <p>You conjure two swirling intertwined balls of raw force, hurling them at a point you choose within range and then pushing beings away as they make an explosion of force. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 6d8 force damage on a failed save, or half as much damage on a successful one, and are pushed 5 feet away from the point of impact.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8, and the push back by 5 feet for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Arcane Explosion" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ARCANE_EXPLOSION">
+    <description>
+      <p>Arcane forces blast out from you in a 10-foot-radius sphere. Each creature within range must make a Constitution saving throw, taking 12d4 force damage on a failed saving throw, or half as much on a successful one.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 2d4 for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Asphyxiate" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ASPHYXIATE">
+    <description>
+      <p>Shadowy tendrils extends from you and swirls around the throat of a creature within range. The target must make a successful Dexterity saving throw or be restrained for the spells duration. While restrained in this way, the target is also suffocating.</p>
+			<p class="indent">At the end of each of its turns, the target must make a Constitution saving throw. On a failed save, the target loses 1 minute of air until the target is knocked unconscious. On a successful save, the target is freed from the tendrils and the spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Blast Wave" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_BLAST_WAVE">
+    <description>
+      <p>Orange light flashes as a 15-foot tall wall of fire expands outward from your position. Each creature hit by the wall must make a Constitution saving throw. On a failed save, a creature takes takes 12d6 fire damage and is knocked prone. Taking half damage on a successful save.</p>
+			<p class="indent">This spell dispels any darkness in its area that was created by a spell, and makes the area brightly lit until the start of your next turn.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">8</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self(60 ft. cone)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Blizzard" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_BLIZZARD">
+    <description>
+      <p>A cold light flashes from your hand into the sky, as blue shards hurl down at a point you choose within range, slash-ing through flesh with a biting cold. Each creature in a 20-foot-radius, 60-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A target takes 3d6 cold damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">As an action on each of your turns before the spell ends, you can call down another blizzard in the same location.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">up to 1 min.</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">shards of glass</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Cataclysm" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_CATACLSYM">
+    <description>
+      <p>The ground cracks as small fissures reveal molten magma beneath its surface in a 20-foot radius centered on a point within range. The fissures are harmless and too small to deal damage to any creature that moves over them.</p>
+			<p class="indent">While you are concentrating on the spell, you can use your action to rip open the fissured earth, bursting a torrent of flame 10-feet tall through the fissures. Once done, you can do so again and the spell lasts for its duration. When you rip open the ground, each creature in the area must make a Dexterity saving throw. A creature takes 10d8 fire damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.</p>
+			<p class="indent">You can use a bonus action on your turn to end the spell, making the spells area natural difficult terrain.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">8</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 Action</set>
+      <set name="duration">up to 10 mins.</set>
+      <set name="range">150</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of charcoal</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Chain Heal" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_CHAIN_HEAL">
+    <description>
+      <p>Your primary target regains hit points equal to 1d8 + your spellcasting modifier. The spell then jumps to a second creature within 15 feet of the primary target, who regains 1d6 + your spellcasting modifier hit points. Lastly, the spell jumps to a third creature within 15 feet of the second one, and replenishing 1d4 + your spellcasting modifier hit points to it. The spell has no effect on constructs.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the healing each target receives increase by one hit dice size for each slot level above 2nd. To a maximum of 1d12 for each creature affected.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Chains of Ice" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_CHAINS_OF_ICE">
+    <description>
+      <p>Frost ridden chains spew from the ground beneath a target within range. The target must make a successful Dexterity saving throw, or have every foot of movement require two feet for the spell's duration.</p>
+			<p class="indent">At the end of each of its turns, the target can make another Dexterity saving throw. On a success, the spell ends on the target.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for every two slot levels above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Cyclone" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_CYCLONE">
+    <description>
+      <p>A whirl of wind 5-foot wide and 15-foot high rushes up around a target within range. The target must make a successful Dexterity saving throw, or be grappled for the spells duration. A grappled target can use its action to make a Dexterity saving throw. On a successful save, the target forces itself out of the cyclone in an empty space within 5 feet of it.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 4th level or higher, you conjure one additional cyclone beneath a target within range for every two slot levels above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">up to 1 min.</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Dampen Magic" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DAMPEN_MAGIC">
+    <description>
+      <p>You place your hand on a creature within range, and mani-fest an invisible barrier around their body. The target gains resistance to damage dealt by spells for the spells duration.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 Bonus Action</set>
+      <set name="duration">up to 1 min.</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Dark Void" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DARK_VOID">
+    <description>
+      <p>You grasp the fabric around a target within range, pulling necrotic energy from it and creatures within a 5-foot radius of your choice. The creatures must make a Constitution saving throw. On a failed saving throw, the creature takes 1d8 necrotic damage and gains the effect of your Word of Power: Pain. On a successful save, the creature takes half damage, but suffers no effect from the word of power.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a holy symbol</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Death Chain" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DEATH_CHAIN">
+    <description>
+      <p>Ghastly chains erupt from you towards three different creatures within range. Make a ranged spell attack against each target. On a hit, a target takes 4d8 necrotic damage and becomes chained together with you and any other target hit for the spell's duration.</p>
+			<p class="indent">Chained creatures must succeed on a Strength saving throw to move more than 20 feet away from you. On a successful save, the target breaks the chain, ending the spells effect on them. Whenever you or another chained creature takes damage from a weapon attack or spell, each other creature chained together (including you) takes psychic damage equal to half the damage taken.</p>
+			<p class="indent">Damage you take through this spell does not disrupt your concentration or require a check to maintain it.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 6th level or higher, you can attempt to chain one additional creature for each slot level above 5th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Up to 1 min.</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Death Grip" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DEATH_GRIP">
+    <description>
+      <p>Necrotic energy grasps around a Huge or smaller creature within range. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet towards you in a straight line.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Bonus Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Demon Skin" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DEMON_SKIN">
+    <description>
+      <p>You touch a willing creature who are unarmored, making their skin ragged and hard. Until the spell ends, the crea-ture adds your spellcasting ability modifier to their armor class. The spell ends if the target dons armor, or if you dismiss the spell as a bonus action.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 Hour</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">dried skin of a demon or fiend</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Demonfire" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DEMONFIRE">
+    <description>
+      <p>You manifest five bolts of fel above your head, and direct to towards a creature you can see within range. The creature must make a Dexterity saving throw. On a failed save, the target takes 3d6 fire damage, or half as much on a success-ful one. The bolts all strike simultaneously, and you can direct them to hit one creature or several. A creature makes only one saving throw for all bolts striking it.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 5th level or higher, the spell creates one more bolt for each spell level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Divine Shield" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DIVINE_SHIELD">
+    <description>
+      <p>You ward yourself against attacks. Until the spell ends, you gain immunity to all damage dealt by weapon attacks and spells. The spell doesn't protect you against natural sources of damage, such as molten lava.</p>
+			<p class="indent">If you make an attack or cast a spell that affects an enemy creature, this spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small silver mirror</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Divine Star" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_DIVINE_STAR">
+    <description>
+      <p>A star of divine energy streaks forward in a 30 feet long and 5 feet wide line from you in a direction you choose, and returns to you at the end of your turn in a similar fashion. Each allied creature in the stars path regains 1d6 hit points, and each enemy creature must make a Dexterity saving throw. Taking 1d6 radiant damage on a failed save, or half as much on a successful one.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the spells healing and damage increases by 1d6 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Earthen Shake" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_EARTHEN_SHAKE">
+    <description>
+      <p>A place your hand to the ground, and erupt a large stalag-mite beneath a creature within range. The creature must make a Dexterity saving throw. On a failed save, the target takes 6d8 bludgeoning damage and is knocked 20 feet into the air as a 15-foot in diameter and 20 feet high spike rises beneath it. On a successful saving throw, the target takes half damage.</p>
+			<p class="indent">Each creature within 5 feet of the chosen target must also make a Dexterity saving throw. On a failed save, the target takes half damage, and no damage on a success. The creature is then pushed back 5 feet. The stalag-mite remains until your concentration is broken, at which point it crumbles, making its area difficult terrain.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Up to 1 hr.</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a granite pebble</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Elemental Shock" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ELEMENTAL_SHOCK">
+    <description>
+      <p>You manifest a swift burst of elemental force, and launch it at creature of within range. Make a ranged spell attack against the target. On a hit, the target takes 3d8 bludgeo­ning, cold, fire, or lightning damage (your choice).</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of brimstone, granite, glass, and a feather</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Fel Flame" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FEL_FLAME">
+    <description>
+      <p>A green flame skitters across the ground towards a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 fire damage. Fel flame ignores fire resistant, and creatures immune to fire damage are considered to be resistant.</p>
+			<p class="indent">This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Flurry" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FLURRY">
+    <description>
+      <p>A shard of ice streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 cold damage.</p>
+			<p class="indent">The spell creates more than one shard when you reach higher levels: two shards at 5th level, three shards at 11th level, and four shards at 17th level. You can direct the shards at the same target or at different ones. Make a separate attack roll for each shard.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Freezing Touch" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FREEZING_TOUCH">
+    <description>
+      <p>Ice forms on your finger tips. Make a melee spell attack against a creature within range. On a hit, the creature is encapsulated as ice rapidly forms around it. The creature is stunned for the duration of the spell.</p>
+			<p class="indent">On the end of each of the creatures turns, it must make a Strength saving throw. On a successful save it breaks itself out of the ice, ending the spell.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a shard of glass or ice</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Frost Strike" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FROST_STRIKE">
+    <description>
+      <p>The next time you hit a creature with a weapon attack during the spell's duration, your weapon gleams with frigid ice, and the attack deals an extra 2d6 cold damage to the target. The target must make a Dexterity saving throw or have its speed halved until the beginning of your next turn.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Bonus Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Frostfire Bolt" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FROSTFIRE_BOLT">
+    <description>
+      <p>You hurl a blue flamed firebolt at a creature within range. Make a ranged spell attack against the creature. On a hit, the target takes 2d6 fire damage and 2d6 frost damage.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 2nd level or higher, the fire and cold damage increases by 1d6 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of glass and sulfur</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Glacial Strike" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_FROSTFIRE_BOLT">
+    <description>
+      <p>You form a large spike of ice above your head, and launch it at a creature that you can see within range, causing it to shatter across their body. The target must make a Constitution saving throw. It takes 7d8 cold damage plus 30 bludgeoning damage on a failed save, or half as much damage on a successful one. If this damage reduces the target to 0 hit points, it and everything it is wearing and carrying, except magic items, are transformed into shards of ice that shatters in its space. The creature can be restored to life only by means of a true resurrection or a wish spell.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 8th level or higher, the cold damage increases by 2d8 for each slot level above 7th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">7</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Guardian of the Forgotten Queen" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_GUARDIAN_OF_THE_FORGOTTEN_QUEEN">
+    <description>
+      <p>A divine barrier of the holy light appears and protects a creature within range. Until the start of your next turn, the creature gain immunity to all damage dealt by weapon attack and spells, including against the triggering attack.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 Reaction</set>
+      <set name="duration">1 Round</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Healing Rain" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_HEALING_RAIN">
+    <description>
+      <p>You summon a cloud at a point within range, blanketing a 15-foot radius area around it in rain. Each friendly creature enters the rain for the first time on their turn, or starts their turn within the rain regains 2d6 hit points. The healing rain extinguishes nonmagical fires within its area of effect.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d6 for every two slot levels above 5th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a vial of rain water</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Holy Water" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_HOLY_WATER">
+    <description>
+      <p>You release a burst of radiant energy in a blast centered around you. Each enemy creature in a 15-foot-radius centered on you must make a Wisdom saving throw. A target takes 6d6 radiant damage on a failed save, or half as much damage on a successful one. The blast spreads around corners.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Ice Block" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ICE_BLOCK">
+    <description>
+      <p>Solid ice rapidly encases your body, protecting you from harm. You immediately gain 40 temporary hit points, and resistance against all damage except fire and psychic, and immunity to cold damage. Ice block continues until your concentration is broken, your temporary hit points vanish, or you end it prematurely.</p>
+			<p class="indent">While encased, you are under the effects of being incapacitated, with the exception of your concentration being broken.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 Reaction</set>
+      <set name="duration">10 mins.</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Ice Nova" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ICE_NOVA">
+    <description>
+      <p>Frigid cold rapid expands in a 15-foot-radius centered on a point you choose within range. Each creature in the cold must succeed on a Dexterity saving throw. On a failed save, a creature takes 10d6 cold damage and is grappled for 1 hour as ice encases the lower part of their legs. On a successful save, it takes half as much damage and isn't grappled by this spell.</p>
+			<p class="indent">A creature can break the grapple by using their action to make a Strength saving throw, or deal a total of 40 hit points worth of damage to the ice.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">8</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">glass dust and water</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Icy Touch" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ICY_TOUCH">
+    <description>
+      <p>You touch a creature, transferring part of the necrotic energy within you. Make a melee spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 2d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the targets skin grows pale as ice.</p>
+			<p class="indent">If you hit a celestial target, it also has disadvantage on attack rolls against you until the end of your next turn.</p>
+			<p class="indent"><strong><i>At Higher Levels</i></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 Round</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Invoke Elements" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_INVOKE_ELEMENTS">
+    <description>
+      <p>You invoke a minor portion of the elements, within range. You create one of the following magical effects within range:</p>
+			<ul>
+				<li>You create a harmless sensory effect that predicts what the weather will be for the next 24 hours. This effect persists for 1 round.</li>
+				<li>You light or put out a small flame.</li>
+				<li>You cause flames to flicker, brighten, drim, or change color for 1 minute.</li>
+				<li>You cause harmless tremors in the ground for 1 minute.</li>
+				<li>You cool or heat up a small amount of liquid.</li>
+			</ul>
+			<p class="indent">If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Jaina's Flying Ship" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_JAINAS_FLYING_SHIP">
+    <description>
+      <p>You channel your powers into a nonmagical ship within range, the ship can be no larger than 100 feet long, and 30 feet wide. For the spells duration, the ship gains a flying speed of 60 feet, the ship changes direction and altitude at your command, continuing its course until a new command is given or the spells duration ends.</p>
+			<p class="indent">The flying ship has an Armor Class of 15, and 300 hit points; immunity to poison and psychic damage, and immunity to all conditions.</p>
+			<p class="indent">It has a maximum carrying capacity of 50 tons (limited by the size of the ship itself). It is not slowed by any weight until its maximum capacity is reached, at which point the ship loses its flying property and falls at a rate of 60 feet per round until it hits the ground. Taking no falling damage from the fall, and leaving its passengers unharmed.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">9</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Minute</set>
+      <set name="duration">24 Hours</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Lava Burst" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_LAVA_BURST">
+    <description>
+      <p>You manifest molten stone and magma into a ferocious ball, and hurl it at a target within range. The target must make a Dexterity saving throw. On a failed save, it takes 3d6 fire damage and 3d6 bludgeoning damage, or half as much on a successful one.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 fire and bludgeoning damage for each slot above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Lightning Blast" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_LIGHTNING_BLAST">
+    <description>
+      <p>An arc of lightning blasts from your palms towards a creature within range. Make a ranged spell attack. On a hit, the target takes 1d8 lightning damage.</p>
+			<p class="indent">This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Mind Blast" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_MIND_BLAST">
+    <description>
+      <p>You pierce through the mental defenses of a creature within range. It must succeed on a Wisdom saving throw. On a failed save, the target takes 2d6 psychic damage and is frightened of you for a minute, or half of the damage on a successful one and isn't frightened of you.</p>
+			<p class="indent">The creature makes a new saving throw at the end of its turns to end the frightened condition.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Mind Flay" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_MIND_FLAY">
+    <description>
+      <p>You attempt to pierce the mind of a creature within range. The creature must make a Wisdom saving throw. On a failed save, the creature takes 2d6 psychic damage and has disadvantage on all attack rolls and ability checks for the spells duration.</p>
+			<p class="indent">On a successful save, the creature takes half damage, but suffers no other effect. At the end of each of its turns, the target can make a Wisdom saving throw. On a success, the spell ends.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Mind Freeze" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_MIND_FREZZE">
+    <description>
+      <p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcast-ing ability, if you counter the spell, the creature takes 2d8 cold damage. The DC equals 10 + the spell’s level. On a success, the creature’s spell fails and has no effect.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Pyroblast" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_PYROBLAST">
+    <description>
+      <p>You clasp your hands together, conjuring a ball of dripping magma, launching it at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 10d10 fire damage, and an additional 1d10 fire damage at the start of each of its turn, until someone takes an action to make a Dexterity check again your spell DC to douse the fire.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 8th level or higher, the initial damage increases by 1d10 for each slot level above 7th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">7</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of brimstone</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Repentance" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_REPENTANCE">
+    <description>
+      <p>A sense of remorse rushes over a creature within range. The creature must make a Wisdom saving throw. On a failed save, the creature becomes incapacitated until the start of your next turn, losing it's weapon or spell attack it made against you.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 Reaction</set>
+      <set name="duration">1 Round</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Ritual of Summoning" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_RITUAL_OF_SUMMONING">
+    <description>
+      <p>You call forth a summoning portal in an empty space within range. Appearing as a shadowy statue of a cloaked figure, holding open the cloak to reveal a gapping swirl into the twisting nether.</p>
+			<p class="indent">Using 1 minute, you can channel energy into the statue, and call forth the true name of a creature. If the creature is on your plane of existence, a shimmering mirror appears in front of it that only it can see, through the mirror the creature is able to perceive you and your surroundings, but you can not see it.</p>
+			<p class="indent">A creature can choose to ignore the mirror, in which case it vanishes after 1 minute and a new mirror can't appear in front of that creature again for another 24 hours, or pass through it, in which case it is teleported to the space in front of the summoning stone.</p>
+			<p class="indent">The ritual of summoning is only able to call creatures too it, a creature can't use the summoning stone to traverse back to their previous location.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Cojuration</set>
+      <set name="time">10 Minutes</set>
+      <set name="duration">1 Hour</set>
+      <set name="range">10</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a blood sapphire worth 100 gp</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+
+	<element name="Shadow Bolt" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_SHADOW_BOLT">
+    <description>
+      <p>A shoot a blast of necrotic energy at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 necrotic damage.</p>
+			<p class="indent">This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Shadowfury" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_SHADOWFURY">
+    <description>
+      <p>You extend your arm and draw crush energy down upon creatures within a 10-foot radius of a point within range. Each creature must succeed on a Wisdom saving throw, or be stunned for the duration of the spell.</p>
+			<p class="indent">A stunned creature must make a Constitution saving throw at the end of each of its turns. On a successful save, this stunning effect ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Shining Force" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_SHINING_FORCE">
+    <description>
+      <p>Bright light bursts out from a target of your choice within range, attempting to disrupt nearby enemies. Each creature you choose within a 10-foot radius of the target must make a Dexterity saving throw. On a failed save, a creature is pushed 10 feet away from the target and is knocked prone. On each of your turns for the duration, you can use your action to burst light from the same target again.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">30</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Solar Wrath" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_SOLAR_WRATH">
+    <description>
+      <p>You release a blast of suns wrath against a creature within range. Make a ranged spell attack against the creature. On a hit, the target takes 1d10 radiant damage.</p>
+			<p class="indent">This spell's damage increases by 1d10 when you reach 5th level (2d10, 11th level 3d10, and 17th level (4d10).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Soulwell" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_SOULWELL">
+    <description>
+      <p>You manifest a pedestal of stone with a bowl on top, filled with a sickly green liquid. As an action, a creature can reach into the liquid and pull out a healthstone. The health-stone keeps it's potency for 24 hours before turning to glass. As an action, a creature can crush a healthstone, and regain 2d4 + 2 hit points.</p>
+			<p class="indent">Once a creature have reached into the liquid, doing so again yields no additional healthstones until a new soulwell is summoned using a spell slot.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, each healthstone regains an additional 1d4 + 1 hit points for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 Minute</set>
+      <set name="duration">10 min.</set>
+      <set name="range">10</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of fur from a demon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+
+	<element name="Spellsteal" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_SPELLSTEAL">
+    <description>
+      <p>You attempt to steal the effect of a spell from a creature for a brief time. If the spell affecting the creature was cast at 3rd level or lower, the spell effect transfers to you for this spells duration. Once this spell ends, the stolen spells effect returns to the original caster. The time you had the spell counts against the spells original duration. If the spell is of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the spells effect transfers to you.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 4th level or higher, a spell can be stolen without a saving throw if its level is less than or equal to the level of the spell slot you used.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 min.</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Starfall" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_STARFALL">
+    <description>
+      <p>Countless flashes of pure moonlight fall to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 10d6 radiant damage on a failed save, or half as much damage on a successful one. A creature who failed the saving throw is also blinded until the end of your next turn.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">1 Round</set>
+      <set name="range">300</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a pinch of powdered glass</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Starfire" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_STARFIRE">
+    <description>
+      <p>A flash of light streaks down upon a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 2d12 radiant damage, and is blinded until the end of your next turn. The blindness ends early if the target takes damage from a weapon attack or spell, as the stardust blocking its eyes are swept away.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d12 for every two slot levels above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Starsurge" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_STARSURGE">
+    <description>
+      <p>A flash of light streaks down upon a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 2d12 radiant damage, and is blinded until the end of your next turn. The blindness ends early if the target takes damage from a weapon attack or spell, as the stardust blocking its eyes are swept away.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d12 for every two slot levels above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Starsurge" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_STARSURGE">
+    <description>
+      <p>A blast of moonlight bursts forward in a line 100 feet long and 5 feet wide out from you in a direction you choose. Each creature in the bursts path must make a Dexterity saving throw. A creature takes 8d6 radiant damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self(100-Foot line)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a rod of glass and a vial of water from a moonwell</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Void Shift" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_VOID_SHIFT">
+    <description>
+      <p>You call upon the void to shift the health of you and another creature. Choose a willing creature within range, you and the chosen creature exchange your current hit points, to a maximum of 40 hit points from each creature.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 5th level or higher, the maximum hit points you can exchange increases by 10 for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Void Strike" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_VOID_STRIKE">
+    <description>
+      <p>You open a crack into the void, as a shimmering black knife strikes out from the void at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 6d6 necrotic damage.</p>
+			<p class="indent"><strong><i>At Higher Levels.</i></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+</elements>

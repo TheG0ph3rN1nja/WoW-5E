@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Draenei</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="draenei.xml" url="" />
+		</update>
+	</info>
+
+  <element name="Draenei" type="Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACE_DRAENEI">
+		<description>
+			<p><i>In moments of great strife, I gaze into the heavens and see just how far we have already come.</i></p>
+			<p align="right"><i>— Prophet Velen </i></p>
+			<h3>INTRODUCTION</h3>
+			<p class="indent">Thousands of years ago, the titan Sargeras shattered the tranquility of Argus by offering the eredar immeasurable knowledge and power. The eredar were a knowledge-seeking race and accepted his offer. He bathed them in his fel might, turning them into demonic beings of the burning legion called Man'ari. The prophet Velen got a troubling vision of what his race would become, and fled Argus with his followers by the help of the divine Naaru, who renamed them draenei, or "Exiled Ones" in the common tongue.</p>
+			<p class="indent">The draenei refer to their corrupted brethren as man'ari, meaning "Unnatural Being". Although both originate from the eredar race, neither the draenei or man'ari consider themselves eredars anymore.</p>
+			<h3>ALIEN APPEARANCE</h3>
+			<p>While they stand tall and proud, they resemble no other race on Azeroth. Their skin ranges from rose white, to dark violet colors. They stand slightly taller than humans on average, ranging from well over 6 feet tall to just over 8 feet. They are generally more muscular than other races, with double jointed legs ending in hooves, weighing 250 pounds or more. Males and females are about the same height, and male are only marginally heavier than females.</p>
+			<p class="indent">Both genders have tendrils in their head as part of their hair or beard, and both have horns, it is common though for females to have drastically larger horns than males. They also have slender tails, males being considerably longer and thicker than females.</p>
+			<p class="indent">Broken draenei, although having many of their pure kins features have noticeable differences, their faces are less structured, and appear more flat than their kins beautiful features. They stand shorter than exodar draenei, their skin hard and cracked like stone, appearing more human than exodar draenei with single jointed legs.</p>
+			<h3>THE DIVINE NARU</h3>
+			<p>During the draenei's journey, the enigmatic naaru race taught them the ways of the light, though they already had a certain experience with it through Velen and T'uure. The naaru explained that there were other forces in the cosmos that would stand against the Burning Legion.</p>
+			<p class="indent">The naaru bestowed a blessing, the Gift of the Naaru, upon the draenei to signify their new connection the light. Deeply affected by the naaru's words, the draenei vowed to honor the it and uphold the naaru's ideals.</p>
+			<h3>AFFILIATION</h3>
+			<p>Due to the draenei's friendly and honorable attitude, they tend to get along well with other races, especially those who belong to the Alliance who welcomed them into their allegiance, even though not all races return their kindness. Draenei have very strong ties with the night elves, who were the first of the Alliance to greet the draenei and welcome them.</p>
+			<p class="indent">Draenei hate orcs for the kins actions on Draenor, leading to a large distrust from the draenei side of the horde and its allied races.</p>
+			<h3>NAMES</h3>
+			<p>Draenei, unlike most races, do not have last names. Their parents give them a name at their birth. Upon a draenei reaching adulthood they choose a name for themselves that they keep for the rest of their life.</p>
+			<p><strong>Male Names:</strong> Meolphi, Bimerd, Hiktin, Ocdam, Nosmas, Ondut, Broruk, Oter, Lacasik, Midirgerd, Drocran</p>
+      <p><strong>Female Names:</strong> Eshaatt, Ize, Ruka, Nalre, Hahse, Efae, Nerii, Asara, Velbus, Fuma, Oren, Suhe, Vumo</p>
+			<h3>DRAENEI TRAITS</h3>
+			<p>Draenei share certain racial traits given to them upon their renewal by the naaru.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Wisdom increases by 2.</p>
+			<p><strong><i>Age.</i></strong> Draenei mature slightly slower than humans, reaching adulthood in their early 20's, and can live to extraordinary age, become thousands of years old, often exceeding the ancient ages of night elves.</p>
+			<p><strong><i>Alignment.</i></strong> Draenei are mostly good. Those who strive towards law are sages, priests, paladins, vindicators, or scholars. Those who tend toward chaos are warriors, rangers, or in other ways people more fond of pure fighting.</p>
+			<p><strong><i>Size.</i></strong> Draenei are between 7 and 8 feet tall and somewhat muscular. Your size is Medium.</p>
+			<p><strong><i>Speed.</i></strong> Your base walking speed is 30 feet.</p>
+			<p><strong><i>Shadow Resistance.</i></strong> You have resistance against necrotic damage.</p>
+			<p><strong><i>Languages.</i></strong> You can speak, read, and write Common and Draenei. The Draenei language, is a strange and complicated language for other races to learn. Seemingly having no resemblance with any Azerothian languages.</p>
+			<p><strong><i>Subrace.</i></strong> Three subraces of draenei exist: broken draenei, exodar draenei, and lightforged draenei. Choose one of them for your character.</p>
+			<div element="ID_GMBINDER_WOW5E_SUB_RACE_BROKENDRAENEI" />
+			<div element="ID_GMBINDER_WOW5E_SUB_RACE_EXODARDRAENEI" />
+			<div element="ID_GMBINDER_WOW5E_SUB_RACE_LIGHTFORGEDDRAENEI" />
+		</description>
+		<setters>
+			<set name="names" type="male">Meolphi, Bimerd, Hiktin, Ocdam, Nosmas, Ondut, Broruk, Oter, Lacasik, Midirgerd, Drocran</set>
+			<set name="names" type="female">Eshaatt, Ize, Ruka, Nalre, Hahse, Efae, Nerii, Asara, Velbus, Fuma, Oren, Suhe, Vumo</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_COMMON"/>
+			<grant type="Language" id="ID_GMBINDER_WOW5E_LANGUAGE_DRAENEI"/>
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DRAENEI_SHADOW_RESISTANCE" />
+			<select type="Sub Race" name="Draenei Subrace" supports="Draenei" />
+		</rules>
+	</element>
+
+	<element name="Shadow Resistance" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_DRAENEI_SHADOW_RESISTANCE">
+		<description>
+			<p>You have resistance against necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance against necrotic damage.</description>
+		</sheet>
+		<rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+    </rules>
+	</element>
+
+	<element name="Broken Draenei" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_BROKENDRAENEI">
+		<supports>Draenei</supports>
+		<description>
+			<p>As a broken draenei, you were left on Draenor as the legion invaded, your connection to the Naaru have been severed, leaving you an empty shell of your kin. The severance has disfigured your form, leaving you an outcast amongst the Exodar Draenei.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Constitution increases by 1.</p>
+			<p><strong><i>Darkvision.</i></strong> Accustomed to the unlit sky of Outland, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p><strong><i>Elemental Bond.</i></strong> You know the <i>frostbite cantrip.</i> When you reach 3rd level, you can cast the <i>earth tremor</i> spell once per long rest. When you reach 5th level, you can also cast the <i>gust of wind</i> spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="constitution" value="1" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_BROKENDRAENEI_ELEMENTALBOND" />
+		</rules>
+	</element>
+
+	<element name="Elemental Bond" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_BROKENDRAENEI_ELEMENTALBOND">
+		<description>
+			<p>You know the frostbite cantrip. When you reach 3rd level, you can cast the earth tremor spell once per long rest. When you reach 5th level, you can also cast the gust of wind spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description level="1">You know the frostbite cantrip. Wisdom is your spellcasting ability for this spell.</description>
+			<description level="3">You know the frostbite cantrip and you can cast the earth tremor spell once per long rest. Wisdom is your spellcasting ability for these spells.</description>
+			<description level="5">You know the frostbite cantrip, can cast the earth tremor spell once per long rest, and you can cast the gust of wind spell once per long rest. Wisdom is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_POTA_SPELL_FROSTBITE" level="1" />
+			<grant type="Spell" id="ID_POTA_SPELL_EARTHTREMOR" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="5" />
+		</rules>
+	</element>
+
+	<element name="Exodar Draenei" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_EXODARDRAENEI">
+		<supports>Draenei</supports>
+		<description>
+			<p>As an exodar draenei, you have a natural connection with the Naaru, strengthening your bond to the light. You've fled your planet of Argus from the Burning Legions crusade, forced into exile, for centuries you fled its legions before crash landing on the planet of Azeroth in the Exodar.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Strength increases by 1.</p>
+			<p><strong><i>Gemcutting.</i></strong> You are proficient with the jeweler's tools.</p>
+			<p><strong><i>Gift of the Naaru.</i></strong> As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can’t use it again until you finish a long rest.</p>
+			<p><strong><i>Heroic Presence.</i></strong> You can cast <i>heroism</i> and <i>divine favor</i> with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can’t cast it again with this trait until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_EXODARDRAENEI_GIFTOFTHENAARU" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_EXODARDRAENEI_HEROIC_PRESENCE" />
+		</rules>
+	</element>
+
+	<element name="Gift of the Naaru" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_EXODARDRAENEI_GIFTOFTHENAARU">
+		<description>
+			<p>As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>As an action, you can touch a creature and cause it to regain a number of hit points equal to {{gift-of-the-naaru:count}}.</description>
+		</sheet>
+		<rules>
+			<stat name="gift-of-the-naaru:count" value="level" />
+		</rules>
+	</element>
+
+	<element name="Heroic Presence" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_EXODARDRAENEI_HEROIC_PRESENCE">
+		<description>
+			<p>You can cast heroism and divine favor with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can’t cast it again with this trait until you finish a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>You can cast heroism and divine favor spell, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can’t cast it again with this trait until you finish a short or long rest.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HEROISM" />
+			<grant type="Spell" id="ID_PHB_SPELL_DIVINE_FAVOR" />
+		</rules>
+	</element>
+
+	<element name="Lightforged Draenei" type="Sub Race" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SUB_RACE_LIGHTFORGEDDRAENEI">
+		<supports>Draenei</supports>
+		<description>
+			<p>As a lightforged draenei, you've commited yourself to a crusade against the burning legion, infusing your body with the holy light. After the legions defeat on Outland, you've traveled to the planet of Azeroth to lend your aid to its residents against the eternal Burning Legion.</p>
+			<p><strong><i>Ability Score Increase.</i></strong> Your Charisma increases by 1.</p>
+			<p><strong><i>Forged of Light.</i></strong> The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor.</p>
+			<p><strong><i>Holy Resistance.</i></strong> You have resistance to radiant damage.</p>
+			<p><strong><i>Light's Judgement.</i></strong> You know the <i>light cantrip</i>. When you reach 3rd level, you can cast the <i>guiding bolt</i> spell once per long rest. When you reach 5th level, you can cast the <i>branding smite</i> spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="false" />
+		<setters />
+		<rules>
+			<stat name="charisma" value="1" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_LIGHTFORGEDDRAENEI_FORGEDOFLIGHT" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_LIGHTFORGEDDRAENEI_HOLY_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_LIGHTFORGEDDRAENEI_LIGHTS_JUDGEMENT" />
+		</rules>
+	</element>
+
+	<element name="Forged of Light" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_LIGHTFORGEDDRAENEI_FORGEDOFLIGHT">
+		<description>
+			<p>The holy light's warmth envelopes you. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use natural armor.</p>
+		</description>
+		<sheet>
+			<description>The holy light's warmth envelopes you. When you aren't wearing armor, your AC is {{ac:natural armor lightforged draenei}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:natural armor lightforged draenei:base" value="12" />
+			<stat name="ac:natural armor lightforged draenei:dexterity" value="dexterity:modifier" />
+			<stat name="ac:natural armor lightforged draenei" value="ac:natural armor lightforged draenei:base" />
+			<stat name="ac:natural armor lightforged draenei" value="ac:natural armor lightforged draenei:dexterity" />
+			<stat name="ac:calculation" value="ac:natural armor lightforged draenei" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Lightforged Draenei)" />
+		</rules>
+	</element>
+
+	<element name="Holy Resistance" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_LIGHTFORGEDDRAENEI_HOLY_RESISTANCE">
+		<description>
+			<p>You have resistance to radiant damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to radiant damage.</description>
+		</sheet>
+		<rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+    </rules>
+	</element>
+
+	<element name="Light's Judgement" type="Racial Trait" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_RACIAL_TRAIT_LIGHTFORGEDDRAENEI_LIGHTS_JUDGEMENT">
+		<description>
+			<p>You know the light cantrip. When you reach 3rd level, you can cast the guiding bolt spell once per long rest. When you reach 5th level, you can cast the branding smite spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description level="1">You know the light cantrip. Wisdom is your spellcasting ability for this spell.</description>
+			<description level="3">You know the light cantrip and you can cast the guiding bolt spell once per long rest. Wisdom is your spellcasting ability for these spells.</description>
+			<description level="5">You know the light cantrip, you can cast the guiding bolt spell once per long rest, and you can cast the branding smite spell once per long rest. Wisdom is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_BRANDING_SMITE" level="5" />
+		</rules>
+	</element>
+
+</elements>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Double Agent</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="double-agent.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Double Agent" type="Background" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_BACKGROUND_DOUBLE_AGENT">
+		<description>
+			<p>You are an informant for an opposing faction or organi-zation, secretly providing them with false information on behalf of another organization in which your loyalty lies. You may be an informant for the Scarlet Crusade, providing them with false intel on behalf of the forsakens. Perhaps you are a member of the Bilgewater Cartel, providing the goblin trade partners with false information to give the cartel the richest scores whilst staying out of their reach.</p>
+			<p class="indent">Discuss with your DM the factions/organizations you are working with and against.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Deception, Insight</li>
+				<li><strong>Tool Proficiencies:</strong> Forgery kit</li>
+				<li><strong>Languages:</strong> One of your choice from the opposite faction</li>
+				<li><strong>Equipment:</strong> Forgery kit, dagger, two pieces of chalk, 4 sheets of parchment, one bottle of ink, one quill, a set of traveler's clothes, and a belt pouch containing 15 gp</li>
+			</ul>
+			<div element="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_TWO_SIDES_OF_ONE_COIN" />
+			<h4>SUGGESTED CHARACTERISTICS</h4>
+			<p>Having to work for two sides, hearing each sides story and delivering crucial information false or not. This is not a life for all, often shaping carries to leave personal connections behind, distance themselves from 'close' allies.</p>
+		</description>
+		<setters>
+			<set name="short">Deception, Insight, Forgery Kit, 1 Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />
+			<select type="Language" name="Language (Double Agent)" number="1" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_TWO_SIDES_OF_ONE_COIN" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">People are only as valuable as the information they have.</item>
+				<item id="2">I act sophisticated and proper.</item>
+				<item id="3">Being simple keeps me unnoticed and underestimated.</item>
+				<item id="4">I always share with those in need.</item>
+				<item id="5">I am paranoid and a nervous wreck.</item>
+				<item id="6">I try to gather as much information as I can before I act.</item>
+				<item id="7">I hide behind a facade, only showing my true self to trusted friends.</item>
+				<item id="8">I am always calm, no matter what the situation. I never raise my voice or let emotions control me.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Selfless. I use my position to help good people avoid prosecution or victimization. (Good)</item>
+				<item id="2">Manipulative. I use secrets to manipulate and blackmail others. (Evil)</item>
+				<item id="3">Just Means. I get my hands dirt for the greater good. (Lawful)</item>
+				<item id="4">Freedom. I support mine and others right to do as we wish. (Chaotic)</item>
+				<item id="5">Everyone has something to hide, so I trust no one. (Neutral)</item>
+				<item id="6">Secretive. Everyone has secrets, no one will ever know mine. (Any)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I got involved in a web of lies to protect the ones I love</item>
+				<item id="2">I work to undermine an oppressive organization that harms my home.</item>
+				<item id="3">I was forced into providing information because I was framed, so I found a way to get back a little of my freedom.</item>
+				<item id="4">My family relies on my support.</item>
+				<item id="5">I am stuck in dangerous games because of a loved one's poor decisions.</item>
+				<item id="6">I need to advance in my position within my organization.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I always think i'm one step ahead.</item>
+				<item id="2">I see double agents everywhere.</item>
+				<item id="3">I indulge in illegal behaviors whenever possible.</item>
+				<item id="4">I am pessimistic about everything.</item>
+				<item id="5">I am vindictive and impulsive.</item>
+				<item id="6">I am reckless and seek dangerous thrills.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Two Sides of One Coin" type="Background Feature" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_BACKGROUND_FEATURE_TWO_SIDES_OF_ONE_COIN">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You have contacts within both organizations that you provide information to and/or for. Official organizations will often allow you to commit minor crimes without fear of punishment, or run a business without paying all the taxes or fees typically required. Additionally, you can gain an audience with functionaries from both organizations.</p>
+		</description>
+		<sheet alt="Two Sides of One Coin" />
+	</element>
+
+</elements>

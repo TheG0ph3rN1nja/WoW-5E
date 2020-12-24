@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Independent Class Suggestions</name>
+		<description></description>
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.0.1">
+			<file name="independent-class-suggestions.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Independent Class Suggestions" type="Information" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_INFORMATION_INDEPENDENT_CLASS_SUGGESTIONS">
+		<description>
+			<p>The following are a set of class suggestions, pulled from World of Wacraft, as the classes the independent races will more than likely be. It is suggested that you pick from among your race's suggested classes to keep with the thematic elements of the setting. That said, heroes are meant to break molds and be the exception to rules, so feel free to pick a class that is not typically used by your race. If you do pick outside your racial classes though, work with your Dungeon Master to create a backstory for why you are a member of this class.</p>
+			<h3>POST-CATACLYSM</h3>
+			<table>
+				<thead>
+					<tr style="text-align:center"><td>Races</td><td>Driud</td><td>Hunter</td><td>Monk</td><td>Mage</td><td>Paladin</td><td>Priest</td><td>Rogue</td><td>Shaman</td><td>Warlock</td><td>Warrior</td><td>Death Knight</td><td>Demon Hunter</td></tr>
+				</thead>
+				<tr style="text-align:center"><td><i>Pandaren</i></td><td></td><td>✦</td><td>✦</td><td>✦</td><td></td><td>✦</td><td>✦</td><td>✦</td><td></td><td>✦</td><td></td><td></td></tr>
+			</table>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+</elements>
