@@ -4,7 +4,7 @@
 		<name>Death Knight</name>
 		<description></description>
 		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="death-knight.xml" url="https://raw.githubusercontent.com/TheG0ph3rN1nja/WoW-5E/master/Classes/death-knight.xml" />
 		</update>
 	</info>
@@ -1149,5 +1149,82 @@
 	<append id="ID_PHB_SPELL_SCRYING">
 		<supports>Death Knight</supports>
 	</append>
+
+	<element name="Appendix D: Special Tasks (Death Knight)" type="Information" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_INFORMATION_SPECIAL_TASK_DEATH_KNIGHT">
+		<description>
+			<p><strong>Complete a Special Task.</strong> To become a death knight you must find the dark simulacrum and perform the ritual presented in it. At which point you will be reawaken as a weak death knight.</p>
+			<h4>FINDING THE DARK SIMULACRUM</h4>
+			<p>Finding the dark simulacrum may prove an easy task, or an exceptionally hard one. It all depends on the DM and when they decide to make the item available for you. You might have it from level 1, an heirloom passed down through generations in your family, you may stumble upon it in a warlocks lair, or you might find it in a book store tucked away and gathering dust.</p>
+			<p class="indent">The exact location of the book is a mystery to all but the DM, giving them the ability to implement it in whichever way they see fit.</p>
+			<h4>USING THE BOOK</h4>
+			<p>There is not stages to becoming a death knight as there are with demon hunters, the transformation is much quicker and without as much preparation required. Any character able to read Common is able to read the interior of the book, and gain its benefits if they study it for 48 hours over a period of 6 days or fewer. This is true even if you are not a spellcaster and don't have any innate magic, you will still be granted the secrets of the book.</p>
+			<h4>PLACE OF POWER</h4>
+			<p>A place of power can be many things, there are not set list of specifics an area has to have to be a place a power, it could easily be a witches workshop, a necromancers demonic alter, or a mages study. These are simple places of power able to be found across Azeroth, but they might not always be available to the player, locked away or hidden. A place of power can be more than a spellcasters workshop. For a night elf it might be the world trees, for an orc the clans communion with the elements, for a human it might be a church to the Holy Light.</p>
+			<p class="indent">A place of power can be more than something magically imbued, or something that has traces of past magic. It can be something icnoic, or with an emotional connection to a race or the player.</p>
+			<h4>A GUARDIAN ANGEL</h4>
+			<p>To complete the ritual the player must call forth a val'kyr from the realm of shadows, these ascended vrykuls are remarkable and extraordinarily powerful creatures, most of whom serve either the titan keeper Odyn or the banshee queen Sylvanas. The called val'kul serves no master, and exists only through the book, should it be destroyed she is bound to the shadow realm for eternity.</p>
+			<p class="indent">The val'kyr's alignment is neutral, and it uses the <strong>deva</strong> statblock, attacking only in self defense.</p>
+		</description>
+		<sheet />
+		<rules />
+	</element>
+
+	<element name="Dark Simulacrum" type="Magic Item" source="GM Binder WoW5E" id="ID_GMBINDER_WOW5E_MAGIC_ITEM_DARK_SIMULACRUM">
+		<description>
+			<p>This dark brown tome clad with a silver edge and a runic engraving on its front cover. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, you learn the spells <i>Runeblade</i>, <i>Altar of Power</i>, and <i>Summon Val'kyr</i> as well as how to perform a ritual with them to gain death knights power, these spells do not take up spell slots but can only be cast once per long rest each. Once the ritual has been done, you lose all memories of these spells. Then the tome loses its magic, but regains it in a year.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_ALTER_OF_POWER" />
+			<grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_RUNEBLADE" />
+			<grant type="Spell" id="ID_GMBINDER_WOW5E_SPELL_SUMMON_VALKYR" />
+		</rules>
+	</element>
+
+	<element name="Alter of Power" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_ALTER_OF_POWER">
+    <description>
+      <p>You touch a place of power, filling it with necrotic energy. Until the spells ends, the place of power is desecrated and able to function as an alter able to be used in the sacrificial ritual to gain the powers of the death knights.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Necromancy</set>
+      <set name="time">10 Minutes</set>
+      <set name="duration">1 hr.</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Runeblade" type="Spell" source="GM Binder WOW5E" id="ID_GMBINDER_WOW5E_SPELL_RUNEBLADE">
+    <description>
+      <p>You touch a nonmagical weapon, imbuing it with runes that runs along its edge. Until the spell ends, that weapon be-comes a magical weapon able to be used in the sacrificial ritual to gain the powers of the death knights.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 hr.</set>
+      <set name="duration">10 hr.</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
 
 </elements>
