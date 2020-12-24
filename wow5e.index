@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>WoW 5e</name>
+		<description />
+		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
+		<update version="0.2" revised="">
+			<file name="wow5e.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="death-knight.xml" url="https://raw.githubusercontent.com/TheG0ph3rN1nja/WoW-5E/master/Classes/death-knight.xml" />
+    <file name="wow5e-spells.xml" url="https://raw.githubusercontent.com/TheG0ph3rN1nja/WoW-5E/master/wow5e-spells.xml" />
+  </files>
+</index>
