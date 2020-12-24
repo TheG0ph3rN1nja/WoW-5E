@@ -5,7 +5,7 @@
 		<description />
 		<author url="https://www.gmbinder.com/share/-LFhhtssjN-teWCOregn">World of Warcraft 5e</author>
 		<update version="0.2" revised="">
-			<file name="wow5e.index" url="" />
+			<file name="wow5e.index" url="https://raw.githubusercontent.com/TheG0ph3rN1nja/WoW-5E/master/wow5e.index" />
 		</update>
 	</info>
 	<files>
